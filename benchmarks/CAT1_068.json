@@ -1,0 +1,10 @@
+{
+  "id": "CAT1_068",
+  "category": "constant_expressions",
+  "size": "small",
+  "source": "x27 = (26 + 16) * 6; y27 = x27 - 6; print(y27);",
+  "expected_output": "246\n",
+  "inputs": [
+    {}
+  ]
+}

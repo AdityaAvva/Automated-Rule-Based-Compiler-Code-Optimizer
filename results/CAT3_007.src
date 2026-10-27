@@ -1,0 +1,1 @@
+unused6 = 17; also_unused6 = 26 * 3; answer = 13; print(answer);

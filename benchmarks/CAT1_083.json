@@ -1,0 +1,10 @@
+{
+  "id": "CAT1_083",
+  "category": "constant_expressions",
+  "size": "small",
+  "source": "x42 = (43 + 7) * 13; y42 = x42 - 7; print(y42);",
+  "expected_output": "643\n",
+  "inputs": [
+    {}
+  ]
+}

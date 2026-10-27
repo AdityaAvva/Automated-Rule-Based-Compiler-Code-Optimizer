@@ -1,0 +1,1 @@
+x = 5 * 2; print(x); y = x + 3; print(y); z = y - 1; print(z);

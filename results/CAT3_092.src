@@ -1,0 +1,1 @@
+drop51 = 9 * 14; gone51 = drop51 + 14; live51 = 9 + 3; print(live51);

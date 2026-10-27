@@ -1,0 +1,10 @@
+{
+  "id": "CAT4_047",
+  "category": "repeated_expressions",
+  "size": "small",
+  "source": "a06 = 35; b06 = 16; x06 = a06 + b06; y06 = a06 + b06; print(x06); print(y06);",
+  "expected_output": "51\n51\n",
+  "inputs": [
+    {}
+  ]
+}

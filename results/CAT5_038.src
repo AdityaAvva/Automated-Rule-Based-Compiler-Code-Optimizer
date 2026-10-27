@@ -1,0 +1,1 @@
+sum17 = 27; for(index17=0;index17<2;index17=index17+1){ sum17 = sum17 + index17 * 3; } print(sum17);

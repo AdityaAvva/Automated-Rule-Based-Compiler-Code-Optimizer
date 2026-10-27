@@ -1,0 +1,13 @@
+{
+  "test_program_count": 100,
+  "recommended_correct_outputs": 100,
+  "all_passes_correct_outputs": 100,
+  "failures": [],
+  "ml_recommended_average_instruction_reduction_pct": 27.61904761904762,
+  "all_passes_average_instruction_reduction_pct": 66.95238095238095,
+  "ml_recommended_average_code_size_reduction_pct": 36.912535899202965,
+  "all_passes_average_code_size_reduction_pct": 71.47324568058526,
+  "ml_recommended_mean_optimization_cycles": 2.8,
+  "all_passes_mean_optimization_cycles": 3.4,
+  "interpretation": "ML-recommended execution and the all-six-pass baseline are independent compiler runs. All-pass results do not measure ML quality."
+}

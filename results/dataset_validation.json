@@ -1,0 +1,27 @@
+{
+  "valid": true,
+  "programs": 200,
+  "small_programs": 100,
+  "large_programs": 100,
+  "category_size_counts": {
+    "algebraic_redundancy/large": 20,
+    "algebraic_redundancy/small": 20,
+    "constant_expressions/large": 20,
+    "constant_expressions/small": 20,
+    "dead_code/large": 20,
+    "dead_code/small": 20,
+    "loop_based/large": 20,
+    "loop_based/small": 20,
+    "repeated_expressions/large": 20,
+    "repeated_expressions/small": 20
+  },
+  "optimizer_output_match_pass": 200,
+  "expected_output_match_pass": 200,
+  "failures": 0,
+  "limitations": [
+    "The current source language has no runtime input statement; most benchmark values are compile-time constants.",
+    "Counted loops are expanded into straight-line statements before optimization, so these tests do not measure optimization of a retained loop control-flow graph.",
+    "Consequently, 100% operation/temporary reduction is specific to this static benchmark suite and must not be presented as a general performance claim.",
+    "Interpreter timings for tiny programs are noisy."
+  ]
+}

@@ -1,0 +1,1 @@
+base8 = 18; x8 = base8 + 0; y8 = x8 * 1; print(y8);

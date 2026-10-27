@@ -1,0 +1,302 @@
+[
+  {
+    "source": "x40 = (41 + 14) * 3; y40 = x40 - 9; print(y40);"
+  },
+  {
+    "source": "x41 = (38 + 19) * 9; y41 = x41 - 8; print(y41);"
+  },
+  {
+    "source": "x42 = (43 + 7) * 13; y42 = x42 - 7; print(y42);"
+  },
+  {
+    "source": "x43 = (36 + 9) * 14; y43 = x43 - 8; print(y43);"
+  },
+  {
+    "source": "x44 = (43 + 21) * 15; y44 = x44 - 7; print(y44);"
+  },
+  {
+    "source": "x45 = (27 + 13) * 12; y45 = x45 - 4; print(y45);"
+  },
+  {
+    "source": "x46 = (35 + 20) * 11; y46 = x46 - 6; print(y46);"
+  },
+  {
+    "source": "x47 = (35 + 15) * 13; y47 = x47 - 5; print(y47);"
+  },
+  {
+    "source": "x48 = (40 + 12) * 10; y48 = x48 - 1; print(y48);"
+  },
+  {
+    "source": "x49 = (50 + 20) * 14; y49 = x49 - 2; print(y49);"
+  },
+  {
+    "source": "x50 = (40 + 20) * 11; y50 = x50 - 7; print(y50);"
+  },
+  {
+    "source": "x51 = (23 + 18) * 12; y51 = x51 - 10; print(y51);"
+  },
+  {
+    "source": "x52 = (19 + 7) * 12; y52 = x52 - 9; print(y52);"
+  },
+  {
+    "source": "x53 = (25 + 12) * 15; y53 = x53 - 9; print(y53);"
+  },
+  {
+    "source": "x54 = (44 + 9) * 17; y54 = x54 - 10; print(y54);"
+  },
+  {
+    "source": "x55 = (43 + 15) * 13; y55 = x55 - 10; print(y55);"
+  },
+  {
+    "source": "x56 = (23 + 21) * 11; y56 = x56 - 3; print(y56);"
+  },
+  {
+    "source": "x57 = (17 + 17) * 5; y57 = x57 - 2; print(y57);"
+  },
+  {
+    "source": "x58 = (14 + 11) * 9; y58 = x58 - 10; print(y58);"
+  },
+  {
+    "source": "x59 = (27 + 11) * 15; y59 = x59 - 3; print(y59);"
+  },
+  {
+    "source": "v40 = 40; x40 = 1 * 40; y40 = x40 * 2; print(y40);"
+  },
+  {
+    "source": "v41 = 15; x41 = 1 * 15; y41 = x41 * 2; print(y41);"
+  },
+  {
+    "source": "v42 = 38; x42 = 1 * 38; y42 = x42 * 2; print(y42);"
+  },
+  {
+    "source": "v43 = 39; x43 = 1 * 39; y43 = x43 * 2; print(y43);"
+  },
+  {
+    "source": "v44 = 12; x44 = 1 * 12; y44 = x44 * 2; print(y44);"
+  },
+  {
+    "source": "v45 = 23; x45 = 1 * 23; y45 = x45 * 2; print(y45);"
+  },
+  {
+    "source": "v46 = 38; x46 = 1 * 38; y46 = x46 * 2; print(y46);"
+  },
+  {
+    "source": "v47 = 39; x47 = 1 * 39; y47 = x47 * 2; print(y47);"
+  },
+  {
+    "source": "v48 = 25; x48 = 1 * 25; y48 = x48 * 2; print(y48);"
+  },
+  {
+    "source": "v49 = 44; x49 = 1 * 44; y49 = x49 * 2; print(y49);"
+  },
+  {
+    "source": "v50 = 39; x50 = 39 / 1; y50 = x50 * 2; print(y50);"
+  },
+  {
+    "source": "v51 = 19; x51 = 19 / 1; y51 = x51 * 2; print(y51);"
+  },
+  {
+    "source": "v52 = 25; x52 = 25 / 1; y52 = x52 * 2; print(y52);"
+  },
+  {
+    "source": "v53 = 10; x53 = 10 / 1; y53 = x53 * 2; print(y53);"
+  },
+  {
+    "source": "v54 = 9; x54 = 9 / 1; y54 = x54 * 2; print(y54);"
+  },
+  {
+    "source": "v55 = 37; x55 = 37 / 1; y55 = x55 * 2; print(y55);"
+  },
+  {
+    "source": "v56 = 43; x56 = 43 / 1; y56 = x56 * 2; print(y56);"
+  },
+  {
+    "source": "v57 = 32; x57 = 32 / 1; y57 = x57 * 2; print(y57);"
+  },
+  {
+    "source": "v58 = 41; x58 = 41 / 1; y58 = x58 * 2; print(y58);"
+  },
+  {
+    "source": "v59 = 49; x59 = 49 / 1; y59 = x59 * 2; print(y59);"
+  },
+  {
+    "source": "drop40 = 25 * 12; gone40 = drop40 + 8; live40 = 25 + 7; print(live40);"
+  },
+  {
+    "source": "drop41 = 27 * 13; gone41 = drop41 + 6; live41 = 27 + 8; print(live41);"
+  },
+  {
+    "source": "drop42 = 40 * 8; gone42 = drop42 + 11; live42 = 40 + 9; print(live42);"
+  },
+  {
+    "source": "drop43 = 41 * 19; gone43 = drop43 + 8; live43 = 41 + 9; print(live43);"
+  },
+  {
+    "source": "drop44 = 25 * 17; gone44 = drop44 + 10; live44 = 25 + 4; print(live44);"
+  },
+  {
+    "source": "drop45 = 43 * 6; gone45 = drop45 + 8; live45 = 43 + 9; print(live45);"
+  },
+  {
+    "source": "drop46 = 31 * 16; gone46 = drop46 + 11; live46 = 31 + 1; print(live46);"
+  },
+  {
+    "source": "drop47 = 25 * 7; gone47 = drop47 + 8; live47 = 25 + 4; print(live47);"
+  },
+  {
+    "source": "drop48 = 12 * 16; gone48 = drop48 + 14; live48 = 12 + 4; print(live48);"
+  },
+  {
+    "source": "drop49 = 29 * 11; gone49 = drop49 + 8; live49 = 29 + 3; print(live49);"
+  },
+  {
+    "source": "drop50 = 23 * 22; gone50 = drop50 + 11; live50 = 23 + 10; print(live50);"
+  },
+  {
+    "source": "drop51 = 9 * 14; gone51 = drop51 + 14; live51 = 9 + 3; print(live51);"
+  },
+  {
+    "source": "drop52 = 18 * 17; gone52 = drop52 + 6; live52 = 18 + 9; print(live52);"
+  },
+  {
+    "source": "drop53 = 42 * 21; gone53 = drop53 + 14; live53 = 42 + 4; print(live53);"
+  },
+  {
+    "source": "drop54 = 43 * 16; gone54 = drop54 + 11; live54 = 43 + 7; print(live54);"
+  },
+  {
+    "source": "drop55 = 13 * 20; gone55 = drop55 + 3; live55 = 13 + 7; print(live55);"
+  },
+  {
+    "source": "drop56 = 41 * 19; gone56 = drop56 + 12; live56 = 41 + 8; print(live56);"
+  },
+  {
+    "source": "drop57 = 24 * 22; gone57 = drop57 + 12; live57 = 24 + 10; print(live57);"
+  },
+  {
+    "source": "drop58 = 28 * 17; gone58 = drop58 + 14; live58 = 28 + 7; print(live58);"
+  },
+  {
+    "source": "drop59 = 25 * 17; gone59 = drop59 + 15; live59 = 25 + 7; print(live59);"
+  },
+  {
+    "source": "a40 = 7; b40 = 17; x40 = a40 + b40; y40 = a40 + b40; print(x40); print(y40);"
+  },
+  {
+    "source": "a41 = 30; b41 = 9; x41 = a41 + b41; y41 = a41 + b41; print(x41); print(y41);"
+  },
+  {
+    "source": "a42 = 14; b42 = 19; x42 = a42 + b42; y42 = a42 + b42; print(x42); print(y42);"
+  },
+  {
+    "source": "a43 = 18; b43 = 9; x43 = a43 + b43; y43 = a43 + b43; print(x43); print(y43);"
+  },
+  {
+    "source": "a44 = 40; b44 = 17; x44 = a44 + b44; y44 = a44 + b44; print(x44); print(y44);"
+  },
+  {
+    "source": "a45 = 11; b45 = 13; x45 = a45 + b45; y45 = a45 + b45; print(x45); print(y45);"
+  },
+  {
+    "source": "a46 = 36; b46 = 17; x46 = a46 + b46; y46 = a46 + b46; print(x46); print(y46);"
+  },
+  {
+    "source": "a47 = 21; b47 = 20; x47 = a47 + b47; y47 = a47 + b47; print(x47); print(y47);"
+  },
+  {
+    "source": "a48 = 42; b48 = 15; x48 = a48 + b48; y48 = a48 + b48; print(x48); print(y48);"
+  },
+  {
+    "source": "a49 = 30; b49 = 15; x49 = a49 + b49; y49 = a49 + b49; print(x49); print(y49);"
+  },
+  {
+    "source": "a50 = 33; b50 = 18; x50 = a50 * b50; y50 = a50 * b50; print(x50); print(y50);"
+  },
+  {
+    "source": "a51 = 11; b51 = 18; x51 = a51 * b51; y51 = a51 * b51; print(x51); print(y51);"
+  },
+  {
+    "source": "a52 = 39; b52 = 7; x52 = a52 * b52; y52 = a52 * b52; print(x52); print(y52);"
+  },
+  {
+    "source": "a53 = 32; b53 = 8; x53 = a53 * b53; y53 = a53 * b53; print(x53); print(y53);"
+  },
+  {
+    "source": "a54 = 36; b54 = 13; x54 = a54 * b54; y54 = a54 * b54; print(x54); print(y54);"
+  },
+  {
+    "source": "a55 = 10; b55 = 18; x55 = a55 * b55; y55 = a55 * b55; print(x55); print(y55);"
+  },
+  {
+    "source": "a56 = 17; b56 = 20; x56 = a56 * b56; y56 = a56 * b56; print(x56); print(y56);"
+  },
+  {
+    "source": "a57 = 43; b57 = 9; x57 = a57 * b57; y57 = a57 * b57; print(x57); print(y57);"
+  },
+  {
+    "source": "a58 = 36; b58 = 21; x58 = a58 * b58; y58 = a58 * b58; print(x58); print(y58);"
+  },
+  {
+    "source": "a59 = 15; b59 = 8; x59 = a59 * b59; y59 = a59 * b59; print(x59); print(y59);"
+  },
+  {
+    "source": "s40 = 1; for(i40=0;i40<2;i40=i40+1){ s40 = s40 + i40 * 6; } print(s40);"
+  },
+  {
+    "source": "s41 = 2; for(i41=0;i41<2;i41=i41+1){ s41 = s41 + i41 * 6; } print(s41);"
+  },
+  {
+    "source": "s42 = 3; for(i42=0;i42<2;i42=i42+1){ s42 = s42 + i42 * 6; } print(s42);"
+  },
+  {
+    "source": "s43 = 4; for(i43=0;i43<2;i43=i43+1){ s43 = s43 + i43 * 6; } print(s43);"
+  },
+  {
+    "source": "s44 = 5; for(i44=0;i44<2;i44=i44+1){ s44 = s44 + i44 * 6; } print(s44);"
+  },
+  {
+    "source": "s45 = 6; for(i45=0;i45<2;i45=i45+1){ s45 = s45 + i45 * 6; } print(s45);"
+  },
+  {
+    "source": "s46 = 7; for(i46=0;i46<2;i46=i46+1){ s46 = s46 + i46 * 6; } print(s46);"
+  },
+  {
+    "source": "s47 = 8; for(i47=0;i47<2;i47=i47+1){ s47 = s47 + i47 * 6; } print(s47);"
+  },
+  {
+    "source": "s48 = 9; for(i48=0;i48<2;i48=i48+1){ s48 = s48 + i48 * 6; } print(s48);"
+  },
+  {
+    "source": "s49 = 10; for(i49=0;i49<2;i49=i49+1){ s49 = s49 + i49 * 6; } print(s49);"
+  },
+  {
+    "source": "s50 = 1; for(i50=0;i50<2;i50=i50+1){ s50 = s50 + i50 * 2; } print(s50);"
+  },
+  {
+    "source": "s51 = 2; for(i51=0;i51<2;i51=i51+1){ s51 = s51 + i51 * 2; } print(s51);"
+  },
+  {
+    "source": "s52 = 3; for(i52=0;i52<2;i52=i52+1){ s52 = s52 + i52 * 2; } print(s52);"
+  },
+  {
+    "source": "s53 = 4; for(i53=0;i53<2;i53=i53+1){ s53 = s53 + i53 * 2; } print(s53);"
+  },
+  {
+    "source": "s54 = 5; for(i54=0;i54<2;i54=i54+1){ s54 = s54 + i54 * 2; } print(s54);"
+  },
+  {
+    "source": "s55 = 6; for(i55=0;i55<2;i55=i55+1){ s55 = s55 + i55 * 2; } print(s55);"
+  },
+  {
+    "source": "s56 = 7; for(i56=0;i56<2;i56=i56+1){ s56 = s56 + i56 * 2; } print(s56);"
+  },
+  {
+    "source": "s57 = 8; for(i57=0;i57<2;i57=i57+1){ s57 = s57 + i57 * 2; } print(s57);"
+  },
+  {
+    "source": "s58 = 9; for(i58=0;i58<2;i58=i58+1){ s58 = s58 + i58 * 2; } print(s58);"
+  },
+  {
+    "source": "s59 = 10; for(i59=0;i59<2;i59=i59+1){ s59 = s59 + i59 * 2; } print(s59);"
+  }
+]

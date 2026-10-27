@@ -1,0 +1,103 @@
+{
+  "programs": 500,
+  "small_programs": 500,
+  "large_programs": 0,
+  "category_size_counts": {
+    "algebraic_redundancy/small": 100,
+    "constant_expressions/small": 100,
+    "dead_code/small": 100,
+    "loop_based/small": 100,
+    "repeated_expressions/small": 100
+  },
+  "optimizer_output_match_pass": 500,
+  "expected_output_match_pass": 500,
+  "failures": 0,
+  "average_percentage_changes": {
+    "instruction_reduction_pct": 64.97,
+    "operation_reduction_pct": 100.0,
+    "temporary_reduction_pct": 100.0,
+    "code_size_reduction_pct": 70.0,
+    "interpreter_time_change_pct": 39.23
+  },
+  "per_optimizer_isolated_effectiveness": {
+    "constant_folding": {
+      "programs_with_transformations": 260,
+      "transformation_coverage_pct": 52.0,
+      "total_transformations_in_isolated_test": 320,
+      "mean_transformations_per_program": 0.64,
+      "programs_with_instruction_reduction": 0,
+      "total_instructions_removed_in_isolated_test": 0,
+      "total_operations_removed_in_isolated_test": 320,
+      "total_temporaries_removed_in_isolated_test": 0,
+      "total_code_characters_removed_in_isolated_test": 1298,
+      "output_match_count_in_isolated_test": 500
+    },
+    "constant_propagation": {
+      "programs_with_transformations": 500,
+      "transformation_coverage_pct": 100.0,
+      "total_transformations_in_isolated_test": 1780,
+      "mean_transformations_per_program": 3.56,
+      "programs_with_instruction_reduction": 0,
+      "total_instructions_removed_in_isolated_test": 0,
+      "total_operations_removed_in_isolated_test": 0,
+      "total_temporaries_removed_in_isolated_test": 0,
+      "total_code_characters_removed_in_isolated_test": 3103,
+      "output_match_count_in_isolated_test": 500
+    },
+    "algebraic_simplification": {
+      "programs_with_transformations": 101,
+      "transformation_coverage_pct": 20.2,
+      "total_transformations_in_isolated_test": 121,
+      "mean_transformations_per_program": 0.242,
+      "programs_with_instruction_reduction": 0,
+      "total_instructions_removed_in_isolated_test": 0,
+      "total_operations_removed_in_isolated_test": 121,
+      "total_temporaries_removed_in_isolated_test": 0,
+      "total_code_characters_removed_in_isolated_test": 484,
+      "output_match_count_in_isolated_test": 500
+    },
+    "common_subexpression_elimination": {
+      "programs_with_transformations": 100,
+      "transformation_coverage_pct": 20.0,
+      "total_transformations_in_isolated_test": 100,
+      "mean_transformations_per_program": 0.2,
+      "programs_with_instruction_reduction": 0,
+      "total_instructions_removed_in_isolated_test": 0,
+      "total_operations_removed_in_isolated_test": 100,
+      "total_temporaries_removed_in_isolated_test": 0,
+      "total_code_characters_removed_in_isolated_test": 800,
+      "output_match_count_in_isolated_test": 500
+    },
+    "dead_code_elimination": {
+      "programs_with_transformations": 160,
+      "transformation_coverage_pct": 32.0,
+      "total_transformations_in_isolated_test": 440,
+      "mean_transformations_per_program": 0.88,
+      "programs_with_instruction_reduction": 160,
+      "total_instructions_removed_in_isolated_test": 440,
+      "total_operations_removed_in_isolated_test": 180,
+      "total_temporaries_removed_in_isolated_test": 180,
+      "total_code_characters_removed_in_isolated_test": 5754,
+      "output_match_count_in_isolated_test": 500
+    },
+    "strength_reduction": {
+      "programs_with_transformations": 123,
+      "transformation_coverage_pct": 24.6,
+      "total_transformations_in_isolated_test": 167,
+      "mean_transformations_per_program": 0.334,
+      "programs_with_instruction_reduction": 0,
+      "total_instructions_removed_in_isolated_test": 0,
+      "total_operations_removed_in_isolated_test": 0,
+      "total_temporaries_removed_in_isolated_test": 0,
+      "total_code_characters_removed_in_isolated_test": -268,
+      "output_match_count_in_isolated_test": 500
+    }
+  },
+  "benchmark_limitations": [
+    "The current source language has no runtime input statement; most benchmark values are compile-time constants.",
+    "Counted loops are expanded into straight-line statements before optimization, so these tests do not measure optimization of a retained loop control-flow graph.",
+    "Consequently, 100% operation/temporary reduction is specific to this static benchmark suite and must not be presented as a general performance claim.",
+    "Interpreter timings for tiny programs are noisy."
+  ],
+  "note": "Headline before/after measurements run all six implemented passes. Per-optimizer effectiveness is measured by applying one pass once to original TAC. Transformation counts are rewrite/substitution events, not the same as instructions removed. Category/size counts reflect the generated records. Percentage changes are descriptive, not a performance guarantee."
+}

@@ -1,0 +1,1 @@
+left5 = 12; right5 = 9; first5 = left5 * right5; again5 = left5 * right5; print(first5); print(again5);

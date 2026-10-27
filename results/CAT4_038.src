@@ -1,0 +1,1 @@
+left17 = 24; right17 = 9; first17 = left17 * right17; again17 = left17 * right17; print(first17); print(again17);

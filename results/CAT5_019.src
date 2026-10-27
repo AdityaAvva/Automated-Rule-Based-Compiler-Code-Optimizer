@@ -1,0 +1,1 @@
+sum18 = 18; for(i18=0;i18<2;i18=i18+1){ sum18 = sum18 + i18 * 2; } print(sum18);

@@ -1,0 +1,1 @@
+drop16 = 33 * 18; gone16 = drop16 + 12; live16 = 33 + 5; print(live16);

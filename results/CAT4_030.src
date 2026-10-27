@@ -1,0 +1,1 @@
+left9 = 16; right9 = 9; first9 = left9 * right9; again9 = left9 * right9; print(first9); print(again9);

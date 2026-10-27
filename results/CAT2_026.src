@@ -1,0 +1,1 @@
+base5 = 15; x5 = base5 + 0; y5 = x5 * 1; print(y5);

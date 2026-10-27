@@ -1,0 +1,1 @@
+drop09 = 39 * 16; gone09 = drop09 + 12; live09 = 39 + 2; print(live09);

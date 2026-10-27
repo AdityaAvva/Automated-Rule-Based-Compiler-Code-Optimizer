@@ -1,0 +1,62 @@
+[
+  {
+    "source": "left7 = 13; right7 = 18; third7 = 2; expr7 = left7 * right7; reuse0 = left7 * right7; print(reuse0); reuse1 = left7 * right7; print(reuse1); other7 = expr7 + third7; print(other7);"
+  },
+  {
+    "source": "left7 = 5; right7 = 11; third7 = 5; expr7 = left7 * right7; reuse0 = left7 * right7; print(reuse0); reuse1 = left7 * right7; print(reuse1); reuse2 = left7 * right7; print(reuse2); reuse3 = left7 * right7; print(reuse3); other7 = expr7 + third7; print(other7);"
+  },
+  {
+    "source": "left7 = 6; right7 = 3; third7 = 6; expr7 = left7 * right7; reuse0 = left7 * right7; print(reuse0); reuse1 = left7 * right7; print(reuse1); reuse2 = left7 * right7; print(reuse2); reuse3 = left7 * right7; print(reuse3); other7 = expr7 + third7; print(other7);"
+  },
+  {
+    "source": "left7 = 4; right7 = 13; third7 = 6; expr7 = left7 * right7; reuse0 = left7 * right7; print(reuse0); reuse1 = left7 * right7; print(reuse1); reuse2 = left7 * right7; print(reuse2); reuse3 = left7 * right7; print(reuse3); other7 = expr7 + third7; print(other7);"
+  },
+  {
+    "source": "left7 = 20; right7 = 25; third7 = 7; expr7 = left7 * right7; reuse0 = left7 * right7; print(reuse0); reuse1 = left7 * right7; print(reuse1); reuse2 = left7 * right7; print(reuse2); reuse3 = left7 * right7; print(reuse3); other7 = expr7 + third7; print(other7);"
+  },
+  {
+    "source": "left7 = 22; right7 = 20; third7 = 3; expr7 = left7 * right7; reuse0 = left7 * right7; print(reuse0); reuse1 = left7 * right7; print(reuse1); reuse2 = left7 * right7; print(reuse2); reuse3 = left7 * right7; print(reuse3); reuse4 = left7 * right7; print(reuse4); reuse5 = left7 * right7; print(reuse5); reuse6 = left7 * right7; print(reuse6); other7 = expr7 + third7; print(other7);"
+  },
+  {
+    "source": "left7 = 17; right7 = 14; third7 = 5; expr7 = left7 * right7; reuse0 = left7 * right7; print(reuse0); reuse1 = left7 * right7; print(reuse1); reuse2 = left7 * right7; print(reuse2); reuse3 = left7 * right7; print(reuse3); reuse4 = left7 * right7; print(reuse4); reuse5 = left7 * right7; print(reuse5); reuse6 = left7 * right7; print(reuse6); other7 = expr7 + third7; print(other7);"
+  },
+  {
+    "source": "left7 = 7; right7 = 19; third7 = 6; expr7 = left7 * right7; reuse0 = left7 * right7; print(reuse0); reuse1 = left7 * right7; print(reuse1); reuse2 = left7 * right7; print(reuse2); reuse3 = left7 * right7; print(reuse3); reuse4 = left7 * right7; print(reuse4); reuse5 = left7 * right7; print(reuse5); reuse6 = left7 * right7; print(reuse6); other7 = expr7 + third7; print(other7);"
+  },
+  {
+    "source": "left7 = 16; right7 = 16; third7 = 2; expr7 = left7 * right7; reuse0 = left7 * right7; print(reuse0); reuse1 = left7 * right7; print(reuse1); reuse2 = left7 * right7; print(reuse2); reuse3 = left7 * right7; print(reuse3); reuse4 = left7 * right7; print(reuse4); reuse5 = left7 * right7; print(reuse5); reuse6 = left7 * right7; print(reuse6); other7 = expr7 + third7; print(other7);"
+  },
+  {
+    "source": "left7 = 10; right7 = 29; third7 = 10; expr7 = left7 * right7; reuse0 = left7 * right7; print(reuse0); reuse1 = left7 * right7; print(reuse1); other7 = expr7 + third7; print(other7);"
+  },
+  {
+    "source": "left9 = 7; right9 = 5; third9 = 2; expr9 = left9 * right9; reuse0 = left9 * right9; print(reuse0); reuse1 = left9 * right9; print(reuse1); reuse2 = left9 * right9; print(reuse2); reuse3 = left9 * right9; print(reuse3); reuse4 = left9 * right9; print(reuse4); reuse5 = left9 * right9; print(reuse5); reuse6 = left9 * right9; print(reuse6); other9 = expr9 + third9; print(other9);"
+  },
+  {
+    "source": "left9 = 21; right9 = 17; third9 = 7; expr9 = left9 * right9; reuse0 = left9 * right9; print(reuse0); reuse1 = left9 * right9; print(reuse1); reuse2 = left9 * right9; print(reuse2); reuse3 = left9 * right9; print(reuse3); reuse4 = left9 * right9; print(reuse4); reuse5 = left9 * right9; print(reuse5); reuse6 = left9 * right9; print(reuse6); other9 = expr9 + third9; print(other9);"
+  },
+  {
+    "source": "left9 = 2; right9 = 26; third9 = 9; expr9 = left9 * right9; reuse0 = left9 * right9; print(reuse0); reuse1 = left9 * right9; print(reuse1); reuse2 = left9 * right9; print(reuse2); reuse3 = left9 * right9; print(reuse3); reuse4 = left9 * right9; print(reuse4); reuse5 = left9 * right9; print(reuse5); reuse6 = left9 * right9; print(reuse6); other9 = expr9 + third9; print(other9);"
+  },
+  {
+    "source": "left9 = 8; right9 = 15; third9 = 7; expr9 = left9 * right9; reuse0 = left9 * right9; print(reuse0); reuse1 = left9 * right9; print(reuse1); other9 = expr9 + third9; print(other9);"
+  },
+  {
+    "source": "left9 = 23; right9 = 16; third9 = 4; expr9 = left9 * right9; reuse0 = left9 * right9; print(reuse0); reuse1 = left9 * right9; print(reuse1); other9 = expr9 + third9; print(other9);"
+  },
+  {
+    "source": "left9 = 2; right9 = 21; third9 = 10; expr9 = left9 * right9; reuse0 = left9 * right9; print(reuse0); reuse1 = left9 * right9; print(reuse1); reuse2 = left9 * right9; print(reuse2); reuse3 = left9 * right9; print(reuse3); other9 = expr9 + third9; print(other9);"
+  },
+  {
+    "source": "left9 = 9; right9 = 7; third9 = 2; expr9 = left9 * right9; reuse0 = left9 * right9; print(reuse0); reuse1 = left9 * right9; print(reuse1); reuse2 = left9 * right9; print(reuse2); reuse3 = left9 * right9; print(reuse3); other9 = expr9 + third9; print(other9);"
+  },
+  {
+    "source": "left9 = 17; right9 = 20; third9 = 8; expr9 = left9 * right9; reuse0 = left9 * right9; print(reuse0); reuse1 = left9 * right9; print(reuse1); reuse2 = left9 * right9; print(reuse2); reuse3 = left9 * right9; print(reuse3); other9 = expr9 + third9; print(other9);"
+  },
+  {
+    "source": "left9 = 9; right9 = 5; third9 = 9; expr9 = left9 * right9; reuse0 = left9 * right9; print(reuse0); reuse1 = left9 * right9; print(reuse1); reuse2 = left9 * right9; print(reuse2); reuse3 = left9 * right9; print(reuse3); other9 = expr9 + third9; print(other9);"
+  },
+  {
+    "source": "left9 = 5; right9 = 23; third9 = 2; expr9 = left9 * right9; reuse0 = left9 * right9; print(reuse0); reuse1 = left9 * right9; print(reuse1); reuse2 = left9 * right9; print(reuse2); reuse3 = left9 * right9; print(reuse3); reuse4 = left9 * right9; print(reuse4); reuse5 = left9 * right9; print(reuse5); reuse6 = left9 * right9; print(reuse6); other9 = expr9 + third9; print(other9);"
+  }
+]

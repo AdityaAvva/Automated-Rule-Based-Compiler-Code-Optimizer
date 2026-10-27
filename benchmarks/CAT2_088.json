@@ -1,0 +1,10 @@
+{
+  "id": "CAT2_088",
+  "category": "algebraic_redundancy",
+  "size": "small",
+  "source": "v47 = 39; x47 = 1 * 39; y47 = x47 * 2; print(y47);",
+  "expected_output": "78\n",
+  "inputs": [
+    {}
+  ]
+}

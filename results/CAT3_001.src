@@ -1,0 +1,1 @@
+unused0 = 11; also_unused0 = 20 * 3; answer = 7; print(answer);

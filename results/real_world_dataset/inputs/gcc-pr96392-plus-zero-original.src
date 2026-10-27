@@ -1,0 +1,1 @@
+double plus0(int x) { return x + 0.0; }

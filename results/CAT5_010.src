@@ -1,0 +1,1 @@
+sum9 = 9; for(i9=0;i9<2;i9=i9+1){ sum9 = sum9 + i9 * 2; } print(sum9);

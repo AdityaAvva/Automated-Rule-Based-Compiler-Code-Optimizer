@@ -1,0 +1,1 @@
+left0 = 7; right0 = 9; first0 = left0 * right0; again0 = left0 * right0; print(first0); print(again0);

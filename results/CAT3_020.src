@@ -1,0 +1,1 @@
+unused19 = 30; also_unused19 = 39 * 3; answer = 26; print(answer);

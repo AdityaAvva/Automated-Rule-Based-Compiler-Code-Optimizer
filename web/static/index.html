@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131b">
+  <title>Compiler Lab — Optimizer Studio</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#overview" aria-label="Compiler Lab home">
+        <span class="brand-mark">C<span>+</span></span>
+        <span><strong>Compiler Lab</strong><small>OPTIMIZER STUDIO</small></span>
+      </a>
+      <div class="nav-label">WORKSPACE</div>
+      <nav class="navigation" aria-label="Main navigation">
+        <button class="nav-item active" data-page="overview"><span class="nav-icon">◫</span>Overview</button>
+        <button class="nav-item" data-page="playground"><span class="nav-icon">⌘</span>Playground</button>
+        <button class="nav-item" data-page="dataset"><span class="nav-icon">▤</span>Dataset explorer</button>
+        <button class="nav-item" data-page="training"><span class="nav-icon">↑</span>Training Dataset</button>
+        <button class="nav-item" data-page="testing"><span class="nav-icon">✓</span>Testing Dataset</button>
+        <button class="nav-item" data-page="benchmarks"><span class="nav-icon">⌁</span>Benchmarks</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="local-badge"><span class="pulse-dot"></span><span><b>Local workspace</b><small>Source stays on this machine</small></span></div>
+        <div class="sidebar-foot">Compiler Design Lab<br>Educational subset · C++17</div>
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <div class="breadcrumb"><span>WORKSPACE</span><span class="crumb-slash">/</span><b id="page-crumb">Overview</b></div>
+        <div class="topbar-right"><span class="api-indicator" id="api-indicator"><i></i><span>Checking API</span></span><span class="topbar-divider"></span><span class="avatar">CL</span><span class="topbar-user">Compiler Lab</span></div>
+      </header>
+
+      <section class="page active" id="page-overview">
+        <div class="page-heading heading-row">
+          <div><div class="eyebrow"><span class="eyebrow-line"></span>OPTIMIZATION WORKSPACE</div><h1>Compiler <span class="gradient-text">Optimizer</span></h1><p class="subtitle">Explore, execute, and understand rule-based optimization in a safe local environment.</p></div>
+          <button class="button button-primary" data-go="playground"><span>Open playground</span><span class="button-arrow">↗</span></button>
+        </div>
+        <div class="status-strip" id="health-strip"><span class="pulse-dot"></span><span>Checking local compiler and models…</span></div>
+        <div class="metric-grid" id="overview-metrics">
+          <article class="metric-card"><div class="metric-top"><span>BENCHMARK PROGRAMS</span><span class="metric-icon">▦</span></div><div class="metric-value" id="metric-benchmarks">—</div><div class="metric-note">actual CAT1–CAT5 benchmark files</div></article>
+          <article class="metric-card"><div class="metric-top"><span>VERIFIED OUTPUTS</span><span class="metric-icon green">✓</span></div><div class="metric-value" id="metric-validation">—</div><div class="metric-note">compiler + expected output checks</div></article>
+          <article class="metric-card"><div class="metric-top"><span>DATASET PROGRAMS</span><span class="metric-icon violet">◇</span></div><div class="metric-value" id="metric-dataset">—</div><div class="metric-note">separate provenance-aware set</div></article>
+          <article class="metric-card"><div class="metric-top"><span>OPTIMIZATION PASSES</span><span class="metric-icon cyan">⌁</span></div><div class="metric-value">06</div><div class="metric-note">implemented rule-based passes</div></article>
+        </div>
+        <div class="content-grid overview-grid">
+          <article class="panel welcome-panel">
+            <div class="panel-heading"><div><div class="eyebrow">GET STARTED</div><h2>From source to optimized TAC</h2></div><span class="panel-icon">⌘</span></div>
+            <p>Enter a program in the supported educational language. The real C++ optimizer parses and executes it, applies the selected pass set, and checks output equivalence.</p>
+            <div class="step-list">
+              <div><span class="step-number">01</span><span><b>Write a program</b><small>Assignments, arithmetic, print, and simple counted loops.</small></span></div>
+              <div><span class="step-number">02</span><span><b>Choose a strategy</b><small>ML-recommended passes or all six implemented rules.</small></span></div>
+              <div><span class="step-number">03</span><span><b>Inspect verified results</b><small>Compare TAC, outputs, transformations, and metrics.</small></span></div>
+            </div>
+            <button class="text-button" data-go="playground">Start optimizing <span>→</span></button>
+          </article>
+          <article class="panel pass-panel">
+            <div class="panel-heading"><div><div class="eyebrow">RULE LIBRARY</div><h2>Six optimization passes</h2></div><span class="small-count">06 ACTIVE</span></div>
+            <div class="pass-list">
+              <div><span class="pass-symbol symbol-blue">ƒ</span><span>Constant folding</span><span class="pass-code">CF</span></div>
+              <div><span class="pass-symbol symbol-violet">⇢</span><span>Constant propagation</span><span class="pass-code">CP</span></div>
+              <div><span class="pass-symbol symbol-green">↔</span><span>Algebraic simplification</span><span class="pass-code">AS</span></div>
+              <div><span class="pass-symbol symbol-cyan">⧉</span><span>Common subexpression elimination</span><span class="pass-code">CSE</span></div>
+              <div><span class="pass-symbol symbol-orange">⌫</span><span>Dead code elimination</span><span class="pass-code">DCE</span></div>
+              <div><span class="pass-symbol symbol-pink">↗</span><span>Strength reduction</span><span class="pass-code">SR</span></div>
+            </div>
+          </article>
+        </div>
+        <div class="section-title"><div><div class="eyebrow">PROJECT REPORTS</div><h2>Benchmark suite visualizations</h2></div><button class="text-button" data-go="benchmarks">Explore benchmark results <span>→</span></button></div>
+        <div class="chart-grid" id="overview-charts"></div>
+        <p class="footnote">Charts report the current 500-program synthetic benchmark. It is separate from the smaller provenance-aware dataset.</p>
+      </section>
+
+      <section class="page" id="page-playground">
+        <div class="page-heading"><div class="eyebrow"><span class="eyebrow-line"></span>INTERACTIVE COMPILER</div><h1>Optimization <span class="gradient-text">playground</span></h1><p class="subtitle">Run the project compiler locally and inspect its actual pass decisions and output checks.</p></div>
+        <div class="playground-layout">
+          <div class="panel editor-panel">
+            <div class="editor-toolbar"><div class="panel-heading editor-heading"><div><div class="eyebrow">SOURCE PROGRAM</div><h2>Input</h2></div><span class="language-badge"><i></i>OPT-LANG</span></div>
+            <div class="editor-wrap"><div class="line-numbers" id="line-numbers">1<br>2<br>3</div><textarea id="source-code" spellcheck="false" aria-label="Source program editor">x = 10 * 20;
+print(x);
+y = x + 0;
+print(y);</textarea></div>
+            <div class="editor-footer"><span><span class="live-dot"></span> Local compiler</span><span id="source-count">4 lines</span></div>
+          </div>
+          <div class="control-column">
+            <article class="panel control-panel">
+              <div class="panel-heading"><div><div class="eyebrow">RUN CONFIGURATION</div><h2>Optimization mode</h2></div></div>
+              <label class="field-label" for="mode-select">PASS STRATEGY</label>
+              <select id="mode-select"><option value="recommended">ML-recommended passes</option><option value="all">ML-Based Passes</option></select>
+              <label class="field-label" for="model-select">RECOMMENDER MODEL</label>
+              <select id="model-select"><option value="separated_training">Separated Training Dataset model</option><option value="grouped_benchmark">Grouped 500-program model</option><option value="real_world">Real-world dataset model</option><option value="legacy">Legacy synthetic model</option></select>
+              <div class="model-note" id="model-note">Predictions come from the small, provenance-aware training set; treat them as experimental.</div>
+              <button class="button button-primary run-button" id="run-optimizer"><span class="run-icon">▶</span><span>Run optimization</span><span class="button-arrow">↗</span></button>
+              <div class="run-message" id="run-message" role="status"></div>
+            </article>
+            <article class="panel language-panel"><div class="panel-heading"><div><div class="eyebrow">LANGUAGE REFERENCE</div><h2>Supported syntax</h2></div><span class="panel-icon">⌘</span></div><ul><li>Assignments: <code>total = 10;</code></li><li>Arithmetic: <code>+ - * / %</code>, parentheses, unary minus</li><li>Print: <code>print(total);</code></li><li>Simple counted loops are expanded before TAC generation</li></ul><div class="language-warning">This is a small educational language—not a full C/C++ compiler.</div></article>
+          </div>
+        </div>
+        <div class="panel results-panel" id="optimizer-results" hidden>
+          <div class="result-heading"><div><div class="eyebrow">COMPILER RESULT</div><h2 id="result-title">Optimization report</h2></div><span class="result-status" id="result-status"></span></div>
+          <div class="result-callout" id="result-callout"></div>
+          <div class="result-metrics" id="result-metrics"></div>
+          <div class="result-grid">
+            <article class="result-block"><div class="result-block-title">OPTIMIZER PASS STATUS <small>Recommendation, selection, and actual rewrites are distinct.</small></div><div class="table-wrap"><table><thead><tr><th>PASS</th><th>RECOMMENDED</th><th>SELECTED</th><th>APPLIED</th><th>REWRITES</th></tr></thead><tbody id="pass-results"></tbody></table></div></article>
+            <article class="result-block"><div class="result-block-title">PROGRAM OUTPUT <small>Verified against the compiler's original execution.</small></div><div class="output-compare"><div><span>ORIGINAL</span><pre id="original-output"></pre></div><div><span>OPTIMIZED</span><pre id="optimized-output"></pre></div></div></article>
+            <article class="result-block"><div class="result-block-title">ORIGINAL TAC</div><pre class="code-output" id="original-tac"></pre></article>
+            <article class="result-block"><div class="result-block-title">OPTIMIZED TAC</div><pre class="code-output" id="optimized-tac"></pre></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="page" id="page-dataset">
+        <div class="page-heading heading-row"><div><div class="eyebrow"><span class="eyebrow-line"></span>TRAINING DATA & SOURCE TRANSPARENCY</div><h1>Dataset <span class="gradient-text">explorer</span></h1><p class="subtitle">Inspect the simplified 500-program train/test files and the separate provenance-aware source records.</p></div><span class="dataset-tag"><span class="pulse-dot"></span>Strict schemas + provenance</span></div>
+        <div id="dataset-warning" class="notice" hidden></div>
+        <div id="grouped-dataset-warning" class="notice" hidden></div>
+        <div class="metric-grid" id="grouped-dataset-metrics"></div>
+        <div class="panel benchmark-table-panel">
+          <div class="dataset-toolbar"><div><div class="eyebrow">GROUPED BENCHMARK BALANCE</div><h2>Training and held-out testing by category</h2></div><span class="small-count" id="grouped-dataset-seed"></span></div>
+          <div class="table-wrap"><table><thead><tr><th>CATEGORY</th><th>TOTAL</th><th>TRAINING</th><th>TESTING</th><th>STORED RECORD SCHEMA</th></tr></thead><tbody id="grouped-category-rows"></tbody></table></div>
+        </div>
+        <div class="panel dataset-panel grouped-record-panel">
+          <div class="dataset-toolbar"><div><div class="eyebrow">COMPILER-DERIVED ANALYSIS</div><h2>Program applicability and execution results</h2><p class="filter-caption">Training features and labels are derived during fitting and are not stored in training program records. Pass filtering uses held-out test labels.</p></div></div>
+          <div class="filter-bar">
+            <label>Category<select id="dataset-v2-category"><option value="">All categories</option></select></label>
+            <label>Split<select id="dataset-v2-split"><option value="">Training + testing</option><option value="training">Training</option><option value="testing">Testing</option></select></label>
+            <label>Applicable pass<select id="dataset-v2-pass"><option value="">All passes</option></select></label>
+            <label>Program size<select id="dataset-v2-size"><option value="">All sizes</option><option value="small">Small</option><option value="medium">Medium</option><option value="large">Large</option></select></label>
+          </div>
+          <div class="table-wrap"><table><thead><tr><th>PROGRAM ID</th><th>CATEGORY</th><th>SPLIT</th><th>SIZE</th><th>APPLICABLE PASSES</th><th>ML RECOMMENDATION</th><th>COMPILER RUN</th></tr></thead><tbody id="dataset-v2-rows"><tr><td colspan="7" class="empty-cell">Loading grouped benchmark records…</td></tr></tbody></table></div>
+          <div class="pagination"><span class="small-count" id="dataset-v2-pagination"></span><button class="button button-quiet" id="dataset-v2-prev">← Previous</button><button class="button button-quiet" id="dataset-v2-next">Next →</button></div>
+        </div>
+        <div class="section-title"><div><div class="eyebrow">SEPARATE PROVENANCE-AWARE DATASET</div><h2>Verified source records</h2><p class="subtitle">These 15 records are not part of the new 500-program generated benchmark.</p></div></div>
+        <div class="metric-grid dataset-metrics" id="dataset-metrics"></div>
+        <div class="notice notice-subtle" id="dataset-provenance-note">Source records distinguish compiler-test excerpts from generated programs. Conceptual references are not claimed as dataset origins.</div>
+        <div class="panel dataset-panel"><div class="dataset-toolbar"><div><div class="eyebrow">PROGRAM PROVENANCE</div><h2>Dataset records</h2></div><label class="search-box"><span>⌕</span><input id="dataset-search" type="search" placeholder="Search source, category, or ID" aria-label="Search dataset"></label></div>
+          <div class="table-wrap"><table><thead><tr><th>DATASET ID</th><th>SOURCE TYPE</th><th>OPTIMIZATION</th><th>ATTRIBUTION</th><th>EXECUTED</th><th></th></tr></thead><tbody id="dataset-rows"><tr><td colspan="6" class="empty-cell">Loading verified dataset records…</td></tr></tbody></table></div>
+        </div>
+        <div class="section-title"><div><div class="eyebrow">REFERENCE MATERIAL</div><h2>Conceptual references</h2><p class="subtitle">Checked for optimization concepts; not asserted as program origins.</p></div></div>
+        <div class="reference-grid" id="conceptual-references"></div>
+      </section>
+
+      <section class="page" id="page-training">
+        <div class="page-heading heading-row"><div><div class="eyebrow"><span class="eyebrow-line"></span>MODEL INPUT · TRAINING ONLY</div><h1>Training <span class="gradient-text">Dataset</span></h1><p class="subtitle">These records are the sole source used to derive targets, extract features, and fit the separated pass recommender.</p></div><button class="button button-secondary" id="train-separated-model">Train model on training.json</button></div>
+        <div class="status-strip" id="training-dataset-status">Loading training file and model status…</div>
+        <div class="metric-grid" id="training-dataset-metrics"></div>
+        <div class="panel dataset-panel"><div class="dataset-toolbar"><div><div class="eyebrow">TRAINING SPLIT CATEGORY DISTRIBUTION</div><h2>Training coverage</h2></div></div><div class="table-wrap"><table><thead><tr><th>CATEGORY</th><th>TRAINING PROGRAMS</th></tr></thead><tbody id="training-category-rows"></tbody></table></div></div>
+        <div class="panel dataset-panel">
+          <div class="dataset-toolbar"><div><div class="eyebrow">SIX-FIELD TRAINING RECORDS</div><h2>Select a training program</h2></div><label>Training program<select id="training-program-select"></select></label></div>
+          <div class="filter-caption" id="training-program-meta"></div>
+          <div class="output-compare"><div><span>TRAINING SOURCE</span><pre class="code-output" id="training-program-source"></pre></div><div><span>EXPECTED OUTPUT</span><pre class="code-output" id="training-program-output"></pre></div></div>
+          <div class="result-block-title">ACTUAL JSON RECORD · SIX FIELDS</div><pre class="code-output" id="training-program-record"></pre>
+          <div class="filter-caption">Record schema is exactly: id, category, size, source, expected_output, inputs.</div>
+        </div>
+      </section>
+
+      <section class="page" id="page-testing">
+        <div class="page-heading heading-row"><div><div class="eyebrow"><span class="eyebrow-line"></span>UNSEEN SOURCE · MODEL EVALUATION</div><h1>Testing <span class="gradient-text">Dataset</span></h1><p class="subtitle">Source-only records are run through the model trained from Training Dataset. No expected outputs, labels, or training metadata are stored here.</p></div><button class="button button-secondary" id="run-selected-testing">Run selected testing program</button></div>
+        <div class="status-strip" id="testing-dataset-status">Loading source-only testing file and evaluation status…</div>
+        <div class="metric-grid" id="testing-dataset-metrics"></div>
+        <div class="panel dataset-panel">
+          <div class="dataset-toolbar"><div><div class="eyebrow">SOURCE-ONLY TEST RECORDS</div><h2>Select a testing program</h2></div><label>Testing program<select id="testing-program-select"></select></label></div>
+          <div class="filter-caption" id="testing-program-meta"></div>
+          <div class="result-block-title">ACTUAL JSON RECORD · SOURCE ONLY</div><pre class="code-output" id="testing-program-record"></pre>
+          <div class="result-block-title">TESTING SOURCE</div><pre class="code-output" id="testing-program-source"></pre>
+        </div>
+        <div class="panel dataset-panel" id="testing-run-result" hidden>
+          <div class="dataset-toolbar"><div><div class="eyebrow">ACTUAL C++ OPTIMIZER RUN</div><h2 id="testing-run-title">Testing result</h2></div><span class="result-status" id="testing-run-status"></span></div>
+          <div class="filter-caption" id="testing-run-passes"></div>
+          <div class="result-metrics" id="testing-run-metrics"></div>
+          <div class="output-compare"><div><span>ORIGINAL OUTPUT</span><pre id="testing-original-output"></pre></div><div><span>OPTIMIZED OUTPUT</span><pre id="testing-optimized-output"></pre></div></div>
+          <div class="result-grid"><article class="result-block"><div class="result-block-title">ORIGINAL TAC</div><pre class="code-output" id="testing-original-tac"></pre></article><article class="result-block"><div class="result-block-title">OPTIMIZED TAC</div><pre class="code-output" id="testing-optimized-tac"></pre></article></div>
+        </div>
+      </section>
+
+      <section class="page" id="page-benchmarks">
+        <div class="page-heading heading-row"><div><div class="eyebrow"><span class="eyebrow-line"></span>HELD-OUT ML EVALUATION & COMPILER RESULTS</div><h1>Benchmark <span class="gradient-text">results</span></h1><p class="subtitle">Separate pass-applicability recommendation metrics from actual compiler optimization outcomes.</p></div><button class="button button-secondary" id="run-benchmarks"><span>↻</span><span>Run 500-program pipeline</span></button></div>
+        <div id="benchmark-v2-warning" class="notice" hidden></div>
+        <div class="metric-grid benchmark-v2-metrics" id="benchmark-v2-metrics"></div>
+        <div class="content-grid benchmark-analysis-grid">
+          <article class="panel evaluation-panel"><div class="panel-heading"><div><div class="eyebrow">ML MODEL · HELD-OUT TEST ONLY</div><h2>Applicability recommendation metrics</h2></div><span class="small-count" id="ml-evaluation-count"></span></div><div class="table-wrap"><table><thead><tr><th>PASS</th><th>ACCURACY</th><th>PRECISION</th><th>RECALL</th><th>F1</th><th>TN / FP / FN / TP</th></tr></thead><tbody id="ml-pass-metrics"></tbody></table></div><div class="category-metrics-table"><div class="result-block-title">TEST METRICS BY CATEGORY</div><div class="table-wrap"><table><thead><tr><th>CATEGORY</th><th>PROGRAMS</th><th>EXACT-LABEL ACCURACY</th><th>MICRO F1</th></tr></thead><tbody id="ml-category-metrics"></tbody></table></div></div><p class="filter-caption" id="ml-evaluation-note"></p></article>
+          <article class="panel compiler-comparison-panel"><div class="panel-heading"><div><div class="eyebrow">ACTUAL C++ OPTIMIZER · SEPARATE RUNS</div><h2>Recommended vs all-pass baseline</h2></div></div><div id="compiler-comparison"></div><p class="filter-caption">The all-six-pass baseline is a separate compiler execution; it is not an ML recommendation score.</p></article>
+        </div>
+        <div class="section-title"><div><div class="eyebrow">GROUPED BENCHMARK REPORTS</div><h2>Held-out metrics and dataset balance</h2></div></div>
+        <div class="chart-grid" id="benchmark-v2-charts"></div>
+        <div class="section-title"><div><div class="eyebrow">HELD-OUT COMPILER RESULTS</div><h2>Testing programs: ML vs all six passes</h2></div><span class="small-count" id="benchmark-v2-pagination"></span></div>
+        <div class="panel benchmark-table-panel">
+          <div class="filter-bar">
+            <label>Category<select id="benchmark-v2-category"><option value="">All categories</option></select></label>
+            <label>Split<select id="benchmark-v2-split"><option value="testing">Testing</option><option value="">Training + testing</option><option value="training">Training</option></select></label>
+            <label>Applicable pass<select id="benchmark-v2-pass"><option value="">All passes</option></select></label>
+            <label>Program size<select id="benchmark-v2-size"><option value="">All sizes</option><option value="small">Small</option><option value="medium">Medium</option><option value="large">Large</option></select></label>
+            <button class="button button-secondary" id="benchmark-v2-filter">Apply filters</button>
+          </div>
+          <div class="table-wrap"><table><thead><tr><th>PROGRAM / FAMILY</th><th>CATEGORY / SPLIT</th><th>APPLICABLE PASSES</th><th>ML-RECOMMENDED RUN</th><th>ALL-PASS BASELINE</th></tr></thead><tbody id="benchmark-v2-rows"><tr><td colspan="5" class="empty-cell">Loading grouped benchmark results…</td></tr></tbody></table></div>
+          <div class="pagination"><button class="button button-quiet" id="benchmark-v2-prev">← Previous</button><button class="button button-quiet" id="benchmark-v2-next">Next →</button></div>
+        </div>
+        <div class="section-title"><div><div class="eyebrow">CANONICAL 500-PROGRAM SUITE</div><h2>All actual benchmark files</h2></div></div>
+        <div class="notice notice-warning"><strong>Explicit action only.</strong> Running the full pipeline recompiles the optimizer, regenerates the 500 canonical benchmark files, retrains on training data, refreshes held-out evaluation, results, and plots. It is not run automatically when this website starts.</div>
+        <div id="benchmark-warning" class="notice" hidden></div>
+        <div class="metric-grid" id="benchmark-metrics"></div>
+        <div class="benchmark-grid"><article class="panel"><div class="panel-heading"><div><div class="eyebrow">CATEGORY COVERAGE</div><h2>Programs per category</h2></div></div><div id="category-breakdown" class="category-list"></div></article><article class="panel"><div class="panel-heading"><div><div class="eyebrow">CONVERGENCE</div><h2>Fixed-point behavior</h2></div></div><div id="convergence-summary" class="convergence-summary"></div></article></div>
+        <div class="section-title"><div><div class="eyebrow">ACTUAL GENERATED REPORTS</div><h2>Benchmark visualizations</h2></div></div><div class="chart-grid" id="benchmark-charts"></div>
+        <div class="panel benchmark-table-panel"><div class="dataset-toolbar"><div><div class="eyebrow">VALIDATION DETAIL</div><h2>Program results</h2></div><span class="small-count" id="benchmark-pagination"></span></div><div class="table-wrap"><table><thead><tr><th>PROGRAM ID</th><th>CATEGORY</th><th>SIZE</th><th>OPTIMIZER</th><th>EXPECTED OUTPUT</th></tr></thead><tbody id="benchmark-rows"><tr><td colspan="5" class="empty-cell">Loading saved benchmark data…</td></tr></tbody></table></div><div class="pagination"><button class="button button-quiet" id="previous-page">← Previous</button><button class="button button-quiet" id="next-page">Next →</button></div></div>
+        <div class="notice notice-subtle">The 500-program benchmark suite is generated and synthetic. Its results are descriptive for this project, not a general performance guarantee. Interpreter timings on tiny programs are noisy.</div>
+        <div id="benchmark-run-state" class="run-state" hidden></div>
+      </section>
+
+      <footer class="app-footer"><span>Compiler Lab · Local educational demo</span><span>Optimizer execution and source data remain on this machine.</span></footer>
+    </main>
+  </div>
+  <dialog id="program-detail" class="detail-dialog"><form method="dialog"><button class="dialog-close" aria-label="Close">×</button></form><div id="program-detail-content"></div></dialog>
+</body>
+</html>

@@ -1,0 +1,1 @@
+sum2 = 2; for(i2=0;i2<2;i2=i2+1){ sum2 = sum2 + i2 * 2; } print(sum2);

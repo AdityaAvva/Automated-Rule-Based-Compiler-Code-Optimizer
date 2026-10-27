@@ -1,0 +1,1 @@
+index = 3; prior = index + 2; index = 10; current = index + 1; print(prior); print(current);

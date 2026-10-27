@@ -1,0 +1,1 @@
+drop32 = 6 * 13; gone32 = drop32 + 8; live32 = 6 + 4; print(live32);

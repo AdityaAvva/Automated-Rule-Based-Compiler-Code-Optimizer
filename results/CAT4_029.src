@@ -1,0 +1,1 @@
+left8 = 15; right8 = 9; first8 = left8 * right8; again8 = left8 * right8; print(first8); print(again8);

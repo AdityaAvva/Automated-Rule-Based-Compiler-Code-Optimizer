@@ -1,0 +1,1 @@
+left15 = 22; right15 = 9; first15 = left15 * right15; again15 = left15 * right15; print(first15); print(again15);

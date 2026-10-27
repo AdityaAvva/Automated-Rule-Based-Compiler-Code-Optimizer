@@ -1,0 +1,1 @@
+left12 = 19; right12 = 9; first12 = left12 * right12; again12 = left12 * right12; print(first12); print(again12);

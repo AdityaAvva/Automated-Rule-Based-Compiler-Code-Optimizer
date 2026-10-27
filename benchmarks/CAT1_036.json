@@ -1,0 +1,10 @@
+{
+  "id": "CAT1_036",
+  "category": "constant_expressions",
+  "size": "small",
+  "source": "a15 = (35 + 3) * 3; b15 = a15 + 3; print(b15);",
+  "expected_output": "117\n",
+  "inputs": [
+    {}
+  ]
+}

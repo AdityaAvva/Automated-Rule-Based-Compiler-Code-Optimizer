@@ -1,0 +1,10 @@
+{
+  "id": "CAT3_027",
+  "category": "dead_code",
+  "size": "small",
+  "source": "unused6 = 8 * 3; discard6 = unused6 + 1; answer6 = 105; print(answer6);",
+  "expected_output": "105\n",
+  "inputs": [
+    {}
+  ]
+}

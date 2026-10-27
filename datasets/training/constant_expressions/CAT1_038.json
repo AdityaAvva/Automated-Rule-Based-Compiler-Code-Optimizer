@@ -1,0 +1,10 @@
+{
+  "id": "CAT1_038",
+  "category": "constant_expressions",
+  "size": "small",
+  "source": "a17 = (37 + 5) * 5; b17 = a17 + 1; print(b17);",
+  "expected_output": "211\n",
+  "inputs": [
+    {}
+  ]
+}

@@ -1,0 +1,1 @@
+base9 = 19; x9 = base9 + 0; y9 = x9 * 1; print(y9);

@@ -1,0 +1,121 @@
+{
+  "source_description": "C:\\Users\\adity\\OneDrive\\Desktop\\RuleBased\\ML_Assisted_Compiler_Optimizer\\sample.src",
+  "input_file": "C:\\Users\\adity\\OneDrive\\Desktop\\RuleBased\\ML_Assisted_Compiler_Optimizer\\results\\single_test\\single_test_20261026_140310_190839.src",
+  "pass_mode": "recommended",
+  "ml_recommendations": [
+    {
+      "name": "constant_folding",
+      "recommended": false,
+      "score": 0.1,
+      "threshold": 0.5,
+      "selected": false
+    },
+    {
+      "name": "constant_propagation",
+      "recommended": false,
+      "score": 0.48333333333333334,
+      "threshold": 0.5,
+      "selected": false
+    },
+    {
+      "name": "algebraic_simplification",
+      "recommended": false,
+      "score": 0.06666666666666667,
+      "threshold": 0.5,
+      "selected": false
+    },
+    {
+      "name": "common_subexpression_elimination",
+      "recommended": false,
+      "score": 0.0,
+      "threshold": 0.5,
+      "selected": false
+    },
+    {
+      "name": "dead_code_elimination",
+      "recommended": false,
+      "score": 0.0,
+      "threshold": 0.5,
+      "selected": false
+    },
+    {
+      "name": "strength_reduction",
+      "recommended": false,
+      "score": 0.0,
+      "threshold": 0.5,
+      "selected": false
+    }
+  ],
+  "passes_enabled": [],
+  "original_source": "x = 10 * 20;\ny = x + 5;\nprint(y);\n",
+  "original_tac": "t1 = 10 * 20\nx = t1\nt2 = x + 5\ny = t2\nprint y",
+  "optimized_tac": "t1 = 10 * 20\nx = t1\nt2 = x + 5\ny = t2\nprint y\nconvergence_iteration=0,instructions=5,stable=0\nconvergence_iteration=1,instructions=5,stable=1",
+  "original_output": "205",
+  "optimized_output": "205",
+  "verdict": "PASS",
+  "metrics": {
+    "instructions_before": 5,
+    "instructions_after": 5,
+    "operations_before": 2,
+    "operations_after": 2,
+    "temporaries_before": 2,
+    "temporaries_after": 2,
+    "code_size_before": 46,
+    "code_size_after": 46,
+    "optimization_time_microseconds": 5,
+    "interpreter_time_before_microseconds": 2,
+    "interpreter_time_after_microseconds": 3,
+    "constant_folding_transformations": 1,
+    "constant_folding_instructions_removed": 0,
+    "constant_folding_operations_removed": 1,
+    "constant_folding_temporaries_removed": 0,
+    "constant_folding_code_characters_removed": 4,
+    "constant_folding_output_match": 1,
+    "constant_propagation_transformations": 0,
+    "constant_propagation_instructions_removed": 0,
+    "constant_propagation_operations_removed": 0,
+    "constant_propagation_temporaries_removed": 0,
+    "constant_propagation_code_characters_removed": 0,
+    "constant_propagation_output_match": 1,
+    "algebraic_simplification_transformations": 0,
+    "algebraic_simplification_instructions_removed": 0,
+    "algebraic_simplification_operations_removed": 0,
+    "algebraic_simplification_temporaries_removed": 0,
+    "algebraic_simplification_code_characters_removed": 0,
+    "algebraic_simplification_output_match": 1,
+    "common_subexpression_elimination_transformations": 0,
+    "common_subexpression_elimination_instructions_removed": 0,
+    "common_subexpression_elimination_operations_removed": 0,
+    "common_subexpression_elimination_temporaries_removed": 0,
+    "common_subexpression_elimination_code_characters_removed": 0,
+    "common_subexpression_elimination_output_match": 1,
+    "dead_code_elimination_transformations": 0,
+    "dead_code_elimination_instructions_removed": 0,
+    "dead_code_elimination_operations_removed": 0,
+    "dead_code_elimination_temporaries_removed": 0,
+    "dead_code_elimination_code_characters_removed": 0,
+    "dead_code_elimination_output_match": 1,
+    "strength_reduction_transformations": 0,
+    "strength_reduction_instructions_removed": 0,
+    "strength_reduction_operations_removed": 0,
+    "strength_reduction_temporaries_removed": 0,
+    "strength_reduction_code_characters_removed": 0,
+    "strength_reduction_output_match": 1
+  },
+  "optimization_cycles": 1,
+  "convergence_trace": [
+    {
+      "iteration": 0,
+      "instructions": 5,
+      "stable": false
+    },
+    {
+      "iteration": 1,
+      "instructions": 5,
+      "stable": true
+    }
+  ],
+  "compiler_return_code": 0,
+  "compiler_stderr": "",
+  "compiler_output": "=== SOURCE ===\nx = 10 * 20;\ny = x + 5;\nprint(y);\n\n=== ORIGINAL TAC ===\nt1 = 10 * 20\nx = t1\nt2 = x + 5\ny = t2\nprint y\n=== OPTIMIZED TAC ===\nt1 = 10 * 20\nx = t1\nt2 = x + 5\ny = t2\nprint y\nconvergence_iteration=0,instructions=5,stable=0\nconvergence_iteration=1,instructions=5,stable=1\n=== OUTPUT CHECK ===\nOriginal output:\n205\nOptimized output:\n205\nVerdict: PASS\n=== METRICS ===\ninstructions_before=5\ninstructions_after=5\noperations_before=2\noperations_after=2\ntemporaries_before=2\ntemporaries_after=2\ncode_size_before=46\ncode_size_after=46\noptimization_time_microseconds=5\ninterpreter_time_before_microseconds=2\ninterpreter_time_after_microseconds=3\n=== OPTIMIZER COUNTS ===\n=== PER-OPTIMIZER EFFECTIVENESS (ISOLATED SINGLE PASS) ===\nconstant_folding_transformations=1\nconstant_folding_instructions_removed=0\nconstant_folding_operations_removed=1\nconstant_folding_temporaries_removed=0\nconstant_folding_code_characters_removed=4\nconstant_folding_output_match=1\nconstant_propagation_transformations=0\nconstant_propagation_instructions_removed=0\nconstant_propagation_operations_removed=0\nconstant_propagation_temporaries_removed=0\nconstant_propagation_code_characters_removed=0\nconstant_propagation_output_match=1\nalgebraic_simplification_transformations=0\nalgebraic_simplification_instructions_removed=0\nalgebraic_simplification_operations_removed=0\nalgebraic_simplification_temporaries_removed=0\nalgebraic_simplification_code_characters_removed=0\nalgebraic_simplification_output_match=1\ncommon_subexpression_elimination_transformations=0\ncommon_subexpression_elimination_instructions_removed=0\ncommon_subexpression_elimination_operations_removed=0\ncommon_subexpression_elimination_temporaries_removed=0\ncommon_subexpression_elimination_code_characters_removed=0\ncommon_subexpression_elimination_output_match=1\ndead_code_elimination_transformations=0\ndead_code_elimination_instructions_removed=0\ndead_code_elimination_operations_removed=0\ndead_code_elimination_temporaries_removed=0\ndead_code_elimination_code_characters_removed=0\ndead_code_elimination_output_match=1\nstrength_reduction_transformations=0\nstrength_reduction_instructions_removed=0\nstrength_reduction_operations_removed=0\nstrength_reduction_temporaries_removed=0\nstrength_reduction_code_characters_removed=0\nstrength_reduction_output_match=1\n"
+}

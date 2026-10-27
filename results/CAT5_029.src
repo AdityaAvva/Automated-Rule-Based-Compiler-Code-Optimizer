@@ -1,0 +1,1 @@
+sum8 = 18; for(index8=0;index8<2;index8=index8+1){ sum8 = sum8 + index8 * 3; } print(sum8);

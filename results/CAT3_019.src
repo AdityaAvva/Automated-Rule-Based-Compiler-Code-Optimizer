@@ -1,0 +1,1 @@
+unused18 = 29; also_unused18 = 38 * 3; answer = 25; print(answer);

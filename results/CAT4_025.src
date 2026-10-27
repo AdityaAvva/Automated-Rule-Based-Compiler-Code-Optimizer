@@ -1,0 +1,1 @@
+left4 = 11; right4 = 9; first4 = left4 * right4; again4 = left4 * right4; print(first4); print(again4);

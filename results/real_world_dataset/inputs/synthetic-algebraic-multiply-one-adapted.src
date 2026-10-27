@@ -1,0 +1,1 @@
+initial = 6; unchanged = initial * 1; print(unchanged);

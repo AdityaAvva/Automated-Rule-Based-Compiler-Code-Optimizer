@@ -1,0 +1,1 @@
+left3 = 10; right3 = 9; first3 = left3 * right3; again3 = left3 * right3; print(first3); print(again3);

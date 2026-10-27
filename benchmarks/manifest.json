@@ -1,0 +1,4164 @@
+{
+  "schema_version": "4.0",
+  "dataset": "500-program rule-based compiler benchmark",
+  "seed": 307,
+  "program_count": 500,
+  "training_count": 400,
+  "testing_count": 100,
+  "category_counts": {
+    "constant_expressions": {
+      "total": 100,
+      "training": 80,
+      "testing": 20
+    },
+    "algebraic_redundancy": {
+      "total": 100,
+      "training": 80,
+      "testing": 20
+    },
+    "dead_code": {
+      "total": 100,
+      "training": 80,
+      "testing": 20
+    },
+    "repeated_expressions": {
+      "total": 100,
+      "training": 80,
+      "testing": 20
+    },
+    "loop_based": {
+      "total": 100,
+      "training": 80,
+      "testing": 20
+    }
+  },
+  "size_counts": {
+    "training": {
+      "small": 400,
+      "medium": 0,
+      "large": 0
+    },
+    "testing": {
+      "small": 100,
+      "medium": 0,
+      "large": 0
+    }
+  },
+  "families_per_category": {
+    "constant_expressions": 7,
+    "algebraic_redundancy": 7,
+    "dead_code": 7,
+    "repeated_expressions": 7,
+    "loop_based": 7
+  },
+  "family_assignments": {
+    "constant_expressions": {
+      "training": [
+        "constant_expressions:legacy",
+        "constant_expressions:family-00",
+        "constant_expressions:family-01",
+        "constant_expressions:family-02",
+        "constant_expressions:family-03"
+      ],
+      "testing": [
+        "constant_expressions:family-04",
+        "constant_expressions:family-05"
+      ]
+    },
+    "algebraic_redundancy": {
+      "training": [
+        "algebraic_redundancy:legacy",
+        "algebraic_redundancy:family-00",
+        "algebraic_redundancy:family-01",
+        "algebraic_redundancy:family-02",
+        "algebraic_redundancy:family-03"
+      ],
+      "testing": [
+        "algebraic_redundancy:family-04",
+        "algebraic_redundancy:family-05"
+      ]
+    },
+    "dead_code": {
+      "training": [
+        "dead_code:legacy",
+        "dead_code:family-00",
+        "dead_code:family-01",
+        "dead_code:family-02",
+        "dead_code:family-03"
+      ],
+      "testing": [
+        "dead_code:family-04",
+        "dead_code:family-05"
+      ]
+    },
+    "repeated_expressions": {
+      "training": [
+        "repeated_expressions:legacy",
+        "repeated_expressions:family-00",
+        "repeated_expressions:family-01",
+        "repeated_expressions:family-02",
+        "repeated_expressions:family-03"
+      ],
+      "testing": [
+        "repeated_expressions:family-04",
+        "repeated_expressions:family-05"
+      ]
+    },
+    "loop_based": {
+      "training": [
+        "loop_based:legacy",
+        "loop_based:family-00",
+        "loop_based:family-01",
+        "loop_based:family-02",
+        "loop_based:family-03"
+      ],
+      "testing": [
+        "loop_based:family-04",
+        "loop_based:family-05"
+      ]
+    }
+  },
+  "program_metadata": [
+    {
+      "id": "CAT1_001",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "a446ce2f546cceca31c6bbca0a245447aede6ea31ef2f4b6bab0b74065165727"
+    },
+    {
+      "id": "CAT1_002",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "ae822c9e3afe6df36078f496bb0dc1299b1ae9c81a5b1d50e2cfcae3b657df59"
+    },
+    {
+      "id": "CAT1_003",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "e37a6d112c9b10527e77b7168942aaa548bdd064caa1faab557dd827dbdbd7ac"
+    },
+    {
+      "id": "CAT1_004",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "3cae1b8313d7bedab7e954b2560a45df15962b3c3a941e370869a78e6bd58a24"
+    },
+    {
+      "id": "CAT1_005",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "d1ee99bdaaa13af7e9c5eb8296e99a75852f811ddee7a6f27dddf02f6983d908"
+    },
+    {
+      "id": "CAT1_006",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "24248759ca128abfdc012707456d529071e7489703f6a6483cdc97928e38c631"
+    },
+    {
+      "id": "CAT1_007",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "73d898d4b833061d66f012b1a9798edd9d852ff309b1fe3d214b5a33298d12bf"
+    },
+    {
+      "id": "CAT1_008",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "22ccf8eeab4c86df05ef96394f6b19c9e16f0dc1588a7162b6f640d4d6ddb050"
+    },
+    {
+      "id": "CAT1_009",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "9a31abfaf84d5419b51acb12dc55fe6c7a72434b7db563bca368a3dc6737c103"
+    },
+    {
+      "id": "CAT1_010",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "01c69c22b28ff5c02ee9bb8722904915bd00ff4665bf926c28c600f7026b20d6"
+    },
+    {
+      "id": "CAT1_011",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "9540b46665ef4d97a6bd4a581602d90ce93f87181c9ddea398ae9b8395129200"
+    },
+    {
+      "id": "CAT1_012",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "55c59545d54c94ef43fe4457ac5441304b2f89c281e3490b16aa45899871a6c0"
+    },
+    {
+      "id": "CAT1_013",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "1c7ef177d8934be090217e80f3cf3602447b9fa7564948e2036e4fe72a8594ea"
+    },
+    {
+      "id": "CAT1_014",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "88cb2b3ce031d30ea995cf4369e2255722e39702dcb8bc13e95cf6c2ef340018"
+    },
+    {
+      "id": "CAT1_015",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "590053970a6e6b1252b9b1d4daefea9a8adcdf63cbfda5b865c13bcfa604dd08"
+    },
+    {
+      "id": "CAT1_016",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "674f763f75e31596e41ecb5444ccc25b473886714adb31f521cda29d583ebb6c"
+    },
+    {
+      "id": "CAT1_017",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "c39ec8c67bbc0879b6f90eebf918c03e332c54c4af3474eac421df53251e85e5"
+    },
+    {
+      "id": "CAT1_018",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "39348a018aa1b383a050e54e68c11f9d264320a3f750658027523b350d372711"
+    },
+    {
+      "id": "CAT1_019",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "bb5f7de3a30a2c54096fe731069c3dcd0ea429a90d00480274b2bfdbffffc7b1"
+    },
+    {
+      "id": "CAT1_020",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "bf4b77b1dcb4ecb99a8a8ad5999b1f378be533808ff2f7fa31d53cd69cc0ed07"
+    },
+    {
+      "id": "CAT1_021",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "4b3b76cf47073acd4b5acd5da5cdef5cee2d16b4f97f6ca63c54500c74a9d462"
+    },
+    {
+      "id": "CAT1_022",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "0d499bf0cb55072dcb9427a8c41a1b5ea9ee51d620bfea8384dea8fdf09f1b20"
+    },
+    {
+      "id": "CAT1_023",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "ed58e0d8704c07853dfde51027a585bda9d220c18cb1f8ea0d743306f992e404"
+    },
+    {
+      "id": "CAT1_024",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "69926b50860042e4118b7241a41a3f04f4941b2276251ace50b3756d76cadeab"
+    },
+    {
+      "id": "CAT1_025",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "b9c32fd3e43aa8b153b2c0fde00e8950e10163eda82c7262af6ccd7062dfe9aa"
+    },
+    {
+      "id": "CAT1_026",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "457fbb8da5f13bd27ccab781bb961cf41f95896f8b3f36d8ccb5f0aeeaf5d67c"
+    },
+    {
+      "id": "CAT1_027",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "76bf47f12209a709fa061088f76d2823208f5d00218d77414e217b52dac41fd4"
+    },
+    {
+      "id": "CAT1_028",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "cc6be08a1a5634cc1e9ed507ebd6689af5bb02d1ec8e5c38801b785610afe298"
+    },
+    {
+      "id": "CAT1_029",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "ff7a7b83b012b01be7abf22ac4b59f7f42e15736da8d5893d1cdc8a0de85c2f3"
+    },
+    {
+      "id": "CAT1_030",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "4fd243bbf25a1d9117e15a20bf5ef35907f1f386e8178ecd2ecb3ba7ae4557fa"
+    },
+    {
+      "id": "CAT1_031",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "51260bac28946936c990084928363e5d5c9810fef0b23ff1b8c9379e784baaaa"
+    },
+    {
+      "id": "CAT1_032",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "279ecea09100d8f8eeb8e9ea2272847bc4e47ae154a2a92a16411e2de1aebb58"
+    },
+    {
+      "id": "CAT1_033",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "63023216120b21b21b4c3f7258d3855a54f2d5525dfcdfcfea01af6bd0b1e00e"
+    },
+    {
+      "id": "CAT1_034",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "1b631043eb6a15ded085a13cd5be076af92818063fb358d16ff5bcbdcbef61dc"
+    },
+    {
+      "id": "CAT1_035",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "cb36141f1c980a55b1558fb5f8eaa290285b4878b6964c6e27cbbce9c517a2be"
+    },
+    {
+      "id": "CAT1_036",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "ec390d8b45f0ae9879b930746c10f201e9b44a73d9e1b2fa02b2aa15f2c67528"
+    },
+    {
+      "id": "CAT1_037",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "1d174b216337089a074a668936bb42d347af7270276a967b3c89035896868bfe"
+    },
+    {
+      "id": "CAT1_038",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "d10a7a255fb4d8a7edbadefa43f2aea51b3169dda6e44a339274a01aa2ece7bd"
+    },
+    {
+      "id": "CAT1_039",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "93c35e08dd4c9cc1344c6bf841248ae79827cc9c97220b26e0e3acd1a1533840"
+    },
+    {
+      "id": "CAT1_040",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:legacy",
+      "split": "training",
+      "source_sha256": "ef2b88377b10fa0e2c90166f9d1110946259495b6146fdcc96677593db2b1335"
+    },
+    {
+      "id": "CAT2_001",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "da64ea923529f9e52537f8756f792333da64fd79a0843a2eb377cbcd9e4ebead"
+    },
+    {
+      "id": "CAT2_002",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "3b01febd6f01c76ffb38466f6914c10755d6c74db940b63b81c59433b38f97d8"
+    },
+    {
+      "id": "CAT2_003",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "cf4d33b961362ae25242fc8c497e1deea10a1ce6a98d791f2bafae1483719261"
+    },
+    {
+      "id": "CAT2_004",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "bd16a1abdeb154294349cbf05513e1952c49bb01159794834d1e4f9975998e04"
+    },
+    {
+      "id": "CAT2_005",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "bfdafa90f4c0c882de168aff1ed878c9de1da2652e12a7751fdc4e59201f63d9"
+    },
+    {
+      "id": "CAT2_006",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "50640ba8caf5eacf50901d8c587c93750fd897fbb6b67a666e51dccb451c8d81"
+    },
+    {
+      "id": "CAT2_007",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "88ef57f4862c995ea8d59e060e73bdbdb2f203cab690b9297f2c8c449903e353"
+    },
+    {
+      "id": "CAT2_008",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "277566c833e25c754127dbd0039823f1a202fc467e3d355390d40219435ee689"
+    },
+    {
+      "id": "CAT2_009",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "ded5d62257e526fa3c47f73f656c97cf525488db007aab717917405f9f18175c"
+    },
+    {
+      "id": "CAT2_010",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "fac34bb094247168ec390ca2a6c02169f1917d692edad96be99e9fe53a5c64d3"
+    },
+    {
+      "id": "CAT2_011",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "c43877c0371f688de7f34de2e32d6e5c6ebb3425d45611e9b2b247dd0450e33d"
+    },
+    {
+      "id": "CAT2_012",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "e7b50014c996dec78b7eae6fbbeb8a24a61a2fffd63984b5da9f559d38602b7f"
+    },
+    {
+      "id": "CAT2_013",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "39befd8ef26f71933763b152659977bc8b67a926d2769644761c7b375383df8e"
+    },
+    {
+      "id": "CAT2_014",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "bc87ffc4f695a81a3f3745bdb0603d93f47e00e9536146d55f89e37a82ea0de8"
+    },
+    {
+      "id": "CAT2_015",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "300471e25f1417375e8cad241fe88a28b3a21f7bd8fd1f5106a28c18d011fe44"
+    },
+    {
+      "id": "CAT2_016",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "d504ef894371c08b228c60c611015f9052ca29624969d3bef4f3a1b35d3efa11"
+    },
+    {
+      "id": "CAT2_017",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "8967eaef314f66e1291ac6c6e2c6e64ce4736927aee083a2aad52b4fa77c71c3"
+    },
+    {
+      "id": "CAT2_018",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "0daeb9f4398634d59a0bd2f54422273b15389f474fae84fe47b01bcce764cf44"
+    },
+    {
+      "id": "CAT2_019",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "ac08e9809b823308baef745f8f277aec7ed37a327b05aeaf566a05480403ded5"
+    },
+    {
+      "id": "CAT2_020",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "11ec6c3c4f24d8e944d696336cabf36f17f2ea3a091607cbd2698e80a4c8841d"
+    },
+    {
+      "id": "CAT2_021",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "523840b3d239ecdf4c5f7c678da30b7bc4515423dfcb1989ca12034d2d645d21"
+    },
+    {
+      "id": "CAT2_022",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "4caf05d54dc9cee962105b1f54f24efd51d7ec07e336bdd8656e336b5451fdc8"
+    },
+    {
+      "id": "CAT2_023",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "030475d20f1bdaaf0da88f54768f4be9dd220af022036da78f6e01270b072a10"
+    },
+    {
+      "id": "CAT2_024",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "bae788570593bc7a8c984fa94bb1d6235a0a8f058ed454235b0305bfc4310ef0"
+    },
+    {
+      "id": "CAT2_025",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "6b4770c91fe6a3a24d189d54e8bb33bedb32df65de5f1d8ebc82e5828c856c81"
+    },
+    {
+      "id": "CAT2_026",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "a7b68860b4ade0706f695873fa61349485dcb2c46882cc1a991f521c3156e914"
+    },
+    {
+      "id": "CAT2_027",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "592f726bffd002928c42712d0bc0855e9fe98c8597e5768fa8377428aaa148ad"
+    },
+    {
+      "id": "CAT2_028",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "ef77c2d31c939bb7128db8c89bd2d510518ee79023e55d69b311e0ec4a0fb7fd"
+    },
+    {
+      "id": "CAT2_029",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "269460510bce04d48070c3ed7498b1d7f42a3732daf36914e098a6e65658a076"
+    },
+    {
+      "id": "CAT2_030",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "a8614ac47af18f79473580d7c92663358fb38658e29304070a5284d2209bee34"
+    },
+    {
+      "id": "CAT2_031",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "a976baa835adee2d3e8bc670876eba16e82655a2679eeee57b7c109a2c31543b"
+    },
+    {
+      "id": "CAT2_032",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "641d5a76f696cb2d72042d618c85a11626edea14dcf36bbea6c3011b908dee80"
+    },
+    {
+      "id": "CAT2_033",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "795bd2e3b467a1d9599228e90fb03a74e0d42202ddc1cc7af9b040bc6a7ed818"
+    },
+    {
+      "id": "CAT2_034",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "6f19112b5a1048178a7c14b1567ef5ee44ae18d208a670cee8c4b2d121880790"
+    },
+    {
+      "id": "CAT2_035",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "a08a35d163ba535a73e262a383becf8603c37167994695522b91527d244b573f"
+    },
+    {
+      "id": "CAT2_036",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "b72e25e5e819149bf94d29bad10b7217652aafa892bcd224a5450d0ac83e5342"
+    },
+    {
+      "id": "CAT2_037",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "6c9dc7058cc87a3dafb9de6cbcb454213de75be10c68f6ce30a4db922338e829"
+    },
+    {
+      "id": "CAT2_038",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "411f1c0212d0e48cd29e2abca72b99af89da6d297efb799a7c3f8ca0d98faadd"
+    },
+    {
+      "id": "CAT2_039",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "e43c4c8fa3d35a855d28ec337c8804a691b2460b45cc6d6ee7a14bec05d447f7"
+    },
+    {
+      "id": "CAT2_040",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:legacy",
+      "split": "training",
+      "source_sha256": "6a32334ee48751d87626d6ee388b264269529c9109ca0bff7136f73bad032059"
+    },
+    {
+      "id": "CAT3_001",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "690c21cf698ef94788a214bbcf11b32c097d8fa6c5e0a0f7e0e9963b50bdee8d"
+    },
+    {
+      "id": "CAT3_002",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "984a76c8ebbac194a760fff151ea4c8a035cfb178e4eda98e2bd8d1515160869"
+    },
+    {
+      "id": "CAT3_003",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "696647468d02c5b0cf9ad0e837e199993d3d763e10f15673726e587fee525380"
+    },
+    {
+      "id": "CAT3_004",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "81abd843feb4330497e0c91748c416528185efe878bdd00e7261925252b1f28a"
+    },
+    {
+      "id": "CAT3_005",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "c0f635c6e3fb0f58726efd166e5524bd0831bcee46f45b1d5c7ac3ebc4b9136b"
+    },
+    {
+      "id": "CAT3_006",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "333dbba25e019d7e83a9205b7297d690e5b758ebca75a7840e961eafbd6e0a6e"
+    },
+    {
+      "id": "CAT3_007",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "deb9d32c7aa4e6838f23b073947bbe2d2552708898c215750755ede0b8547eb1"
+    },
+    {
+      "id": "CAT3_008",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "6c28fa8f386cb4373d83ae820d56bedce21356add38b6282fabb3fe67bec513a"
+    },
+    {
+      "id": "CAT3_009",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "b79869cb7301a375fbd404daef2a7988e358f9dd2148287ee732024419b1f315"
+    },
+    {
+      "id": "CAT3_010",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "2b963b3f6fa60151eb00e3a259ecd8154b7773142ab3dab67cc1a04d2af30d22"
+    },
+    {
+      "id": "CAT3_011",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "4ad2505c2353df70063245677231e3a33317cc9e618a070a67da4399f6ada071"
+    },
+    {
+      "id": "CAT3_012",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "cd543f6d754026b3de0eccae84570c0d5935809f01f587d42fffb8b769e2e021"
+    },
+    {
+      "id": "CAT3_013",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "6e33da5335f5072127ab1f15fadedbb571a13fa33902f1e6ee4f2859dda39942"
+    },
+    {
+      "id": "CAT3_014",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "3688bf1abc36e01f05dfc5935615065058d35df2a6db545489fe87731fe47fc9"
+    },
+    {
+      "id": "CAT3_015",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "1437e8b204fd87398171392f5876bf40cbec6d30d957c6a78d7a6db965b124a0"
+    },
+    {
+      "id": "CAT3_016",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "fdc0e86859415be06187fa1bf3f5d65678941d870d9e3852ea8a8777a2145855"
+    },
+    {
+      "id": "CAT3_017",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "41940af00318103363ffe82730a0718da66789dc88a7e7da40a57966830e61e6"
+    },
+    {
+      "id": "CAT3_018",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "15e340a793c497d865b130ac93bedd74391e63f0bdfb086e7ad67994bb0edfd3"
+    },
+    {
+      "id": "CAT3_019",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "02296f54dfc15934934922c9ea7b97a0fedf986e6c4f2e611a07dd3c4e4e0b20"
+    },
+    {
+      "id": "CAT3_020",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "954dbd8ddaed990320e1659730e4f755c284e80ca11be7c793ea4ca517d96811"
+    },
+    {
+      "id": "CAT3_021",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "80688ef81f0aa4f23268f43722e10025aaed920a69dcfd589c99422156d7b598"
+    },
+    {
+      "id": "CAT3_022",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "f2a282eb9399307a652b699f072e7f69e753c4e5da818bf18a743586a5aa0b82"
+    },
+    {
+      "id": "CAT3_023",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "b9ad5301bc0a1834099df3ebcd724db904299db930a44ad599f9c5426d4ebe0a"
+    },
+    {
+      "id": "CAT3_024",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "2a068975d4192bafe9e1b7181d48ef35a4f64b9c5887b33979545f0ebde8cdda"
+    },
+    {
+      "id": "CAT3_025",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "f1783e7b1a7d0b45a56536db1a5ffe33af552c05bdb82fe16ba2035f2b5e1378"
+    },
+    {
+      "id": "CAT3_026",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "5e63be51300a59edf0aa3fce1044282c9b13cf9678877b721f0b5f7a583597fa"
+    },
+    {
+      "id": "CAT3_027",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "f1bf8e5f0ef5345ab03bb7edf666807c1772ef6a6b2e4a5bd4025db75bd0a2aa"
+    },
+    {
+      "id": "CAT3_028",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "0cbcd59265d272958a8f80d522d10ba3e7858c98a0c91277bfae3920b584a60b"
+    },
+    {
+      "id": "CAT3_029",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "fe34373de11052cb16b1a132cac4f18d004d03420b777957cbdc14b830b9722e"
+    },
+    {
+      "id": "CAT3_030",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "7d396dd50727c0f42e90ba85d66b436ba7edf436c811097391e2732878d9b7ac"
+    },
+    {
+      "id": "CAT3_031",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "577b24d51ab80553042a2098911d6c78bc8dd4cc24672226d10d4d75711e7ac1"
+    },
+    {
+      "id": "CAT3_032",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "eddd3687e50c9228838c6fe571c1a838716b415b457ed31e3230bddccdfc5f62"
+    },
+    {
+      "id": "CAT3_033",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "af29cd17d3db825736688ac6b943814b018ae8646eb2f73bfa5ed1d0704250af"
+    },
+    {
+      "id": "CAT3_034",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "6488c52339a0ac195afb4b584a60a72e5efd78b1d5ac373179879be25c9938db"
+    },
+    {
+      "id": "CAT3_035",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "29aefcb926010f0209a6e30546f2dbf40e8c0009e8acf0030a23b7e7089101d9"
+    },
+    {
+      "id": "CAT3_036",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "d9232ebbc90c4d7c3a080812d0b64dc6eca5f8d19c79ada8c3c427072307ae35"
+    },
+    {
+      "id": "CAT3_037",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "bcd9906084e5251eb6a3e9333447287c6d5a07672c0b107f8f72d21c0571c24e"
+    },
+    {
+      "id": "CAT3_038",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "17b29859b4c2b703902d9091f79743bade9f1e8dbc93d259b397332ad7d15903"
+    },
+    {
+      "id": "CAT3_039",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "b150f9cf7787404fd8bd911c63d9cff476b0d47f01d71cc4b32ef90a00007821"
+    },
+    {
+      "id": "CAT3_040",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:legacy",
+      "split": "training",
+      "source_sha256": "dfe1f0edbd704558f5a9f96566aab109dc0b7a9838e90794b421c1e77aface2c"
+    },
+    {
+      "id": "CAT4_001",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "086d3eb760b4fd3e69d8dcaa75ff304d176ba9d42e923bc3a179f33172a5f987"
+    },
+    {
+      "id": "CAT4_002",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "8d8be80dd756d0543e38413162009eefca329cd4840576a82219eed2951fc43d"
+    },
+    {
+      "id": "CAT4_003",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "cb2ab98da82dc13dab3d198bc0d0b0c50c2e92e71d8fb3c73ee0294aa82f94a5"
+    },
+    {
+      "id": "CAT4_004",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "555ccba250ca7b1db2599c90aaac4514db3c44875036bf148632b80a2ec334e8"
+    },
+    {
+      "id": "CAT4_005",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "8874502068ac86d81d9a686a7544dc0c8249f1a9a9b2c3b0ac9fa33ee6173efb"
+    },
+    {
+      "id": "CAT4_006",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "25afd5dd0b99d6186f82320a97cb3a5683bf977810546694e859310f4df151f2"
+    },
+    {
+      "id": "CAT4_007",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "aa27254005c7482a4ac0dca306436c17dc199cc879dda1fdccea6e171441c90f"
+    },
+    {
+      "id": "CAT4_008",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "8328c50acfb0f44c3a88f764f6f77e82558042d6cb4f1cd45276a057a961325b"
+    },
+    {
+      "id": "CAT4_009",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "d3c72fdc5b296cbe0abad2a0f5c4c0423cc30a1ac0122d177d2c6db267c0dc4e"
+    },
+    {
+      "id": "CAT4_010",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "fe9e5661001e1057264fca49ee6d40025d4272742ae34d2db5fab806442d3d42"
+    },
+    {
+      "id": "CAT4_011",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "ff6d7377602a38acee05d3d3f0ca34325432ec81b0c686cd035a76166173d65c"
+    },
+    {
+      "id": "CAT4_012",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "a5391ad4a5b3b4a59259aecb6a76755250aa3a6dc82fd8ce330f6881381753e2"
+    },
+    {
+      "id": "CAT4_013",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "106fd399bdef4fb8d4937ceabd9ded81f0695a6ce432ce48548780962e391aac"
+    },
+    {
+      "id": "CAT4_014",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "15c43576f332c4c860b8d0d42a13b835f5881c2a2996f5abbfa901945d44fa3f"
+    },
+    {
+      "id": "CAT4_015",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "b619ec2ef95dd7a0bcefbb226c9be5d00061c770ccc5215143b5683d75184f3c"
+    },
+    {
+      "id": "CAT4_016",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "a343cc250a49d0084ffa6ac98298f38149c5aa92671933d7461645e3e49bf74f"
+    },
+    {
+      "id": "CAT4_017",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "c567a9354caab5f660e3d820059f295ecc892ecf27c12cdd8642b2f51023631c"
+    },
+    {
+      "id": "CAT4_018",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "971103a48e0faa7b09bb4afb65b44952d8e561a8cc7ce3c6d517950f8284bdd5"
+    },
+    {
+      "id": "CAT4_019",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "10b177de214ecfcd3fc8045093c6d4adb12bf348b401fa7d68a188b011a53a4c"
+    },
+    {
+      "id": "CAT4_020",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "f1f15dc38e2cbf80d6f049c81c0cd5391cc7f9427b088a94604e094c42a21e75"
+    },
+    {
+      "id": "CAT4_021",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "70330a8bd6d03c7be24ebc473997c4ca8819f4672ff755a42518c64084cbe3cd"
+    },
+    {
+      "id": "CAT4_022",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "4ec0ef65b8a0177196b194be64d2c76276502e4ece5dbe523d972e82edcdd8b8"
+    },
+    {
+      "id": "CAT4_023",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "54b254b2dcb6a47c1b84884649dd672c9ddf7d1e7d8cf86179622d256c833255"
+    },
+    {
+      "id": "CAT4_024",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "e929bf90986f2ed414ff8336b855cc44d57c7fa20e030d0b14e98819b62e115b"
+    },
+    {
+      "id": "CAT4_025",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "10b188afbfde37863db32228f2a6e6d88bb53eafa6cab857699226a350603eba"
+    },
+    {
+      "id": "CAT4_026",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "06f48cd694c2566a3121ed7f2237f233387c0206ab87afbd1641b041bf159659"
+    },
+    {
+      "id": "CAT4_027",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "2d860dd35fec4f93562545355a20b4fd1502c531c6405d3fbf850372babc7488"
+    },
+    {
+      "id": "CAT4_028",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "aebd83ba4503da93d4fa004d207ab32e27391a20f8c6dd4c7416132e8f22de3d"
+    },
+    {
+      "id": "CAT4_029",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "87910f7c8f48a526f8f9e3440c788746251ceeaaae0e4edd09cf39e273439f0f"
+    },
+    {
+      "id": "CAT4_030",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "6bcac654b388eae2a39c0c82ee6f55fbd63d698d44bff0a7f68123824b266622"
+    },
+    {
+      "id": "CAT4_031",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "250536fb5db0cbbff99be8a71afacf4d64d764b9a6672f6d1fce83678c113225"
+    },
+    {
+      "id": "CAT4_032",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "47ddea748fd02c675493032e262334d22947e426217fbd0695734f23b6a21f57"
+    },
+    {
+      "id": "CAT4_033",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "339e3b138b115c23ef978567cc6bbda17372346806219f086ad3f2354eca715a"
+    },
+    {
+      "id": "CAT4_034",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "77e7134fb2e7b7d941d281cbb072a43cc0979dceab2764601f84b44d1d85f6a3"
+    },
+    {
+      "id": "CAT4_035",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "94af10bed86b1877668569debe86fb82e81d0ea40fb94cef775310d7454f3612"
+    },
+    {
+      "id": "CAT4_036",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "5695222881464a771690e6ebefa89411a992243569e166c8c0c63e53cd6cbe88"
+    },
+    {
+      "id": "CAT4_037",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "bff8cb0b80d28d0d1f28c9799bfb1522eb6c7a5e8f92cb51d0aba375472f327f"
+    },
+    {
+      "id": "CAT4_038",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "9c9ae6e91ca2d258576df5c21026d8fa811aeb3ab31368e017eaf6f903adcc5e"
+    },
+    {
+      "id": "CAT4_039",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "d1ca12e0a714458802501711c004c0bbe75785ac3709f1b32687979317086fb4"
+    },
+    {
+      "id": "CAT4_040",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:legacy",
+      "split": "training",
+      "source_sha256": "217ef155d1f99feab1153267ec7964157cbd6c24299d43d90c62cae2dccfc6a6"
+    },
+    {
+      "id": "CAT5_001",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "5c7ef592974d3fe410e9ebb786a75e50dc6ddb18e2d6ddf80cbabdd853336bef"
+    },
+    {
+      "id": "CAT5_002",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "2befcf1748d2997145baecec783406b52588bfa7b040c32b43681c07935cae7d"
+    },
+    {
+      "id": "CAT5_003",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "33e2522c36ded0b50501f917c196b04e3a2ec1155ae618fe25ef6b19bd593d55"
+    },
+    {
+      "id": "CAT5_004",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "e7d8c3e9ec5a7cc13fc60c2efb1831780fcfd305c840f5cf7ffacc57246c4038"
+    },
+    {
+      "id": "CAT5_005",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "3736cd6bf31a685d554e85152b89d508ef6b0f45b19b4bfeb96e28769033d467"
+    },
+    {
+      "id": "CAT5_006",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "635aacb385f53ae468784f73bd9e440dbff2e6df9b8523febe59c19c1def5d2c"
+    },
+    {
+      "id": "CAT5_007",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "1bbacf2fa4c6b8675549935dd59272a629bc244e94ffc1bf2eb3a466a45b8ae7"
+    },
+    {
+      "id": "CAT5_008",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "607a37e215130609379c938e1dd8c0f3329e9fb78eda6c9dc9959b2abac8f89a"
+    },
+    {
+      "id": "CAT5_009",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "6a64b92ec42ea9ec7aa596860510b28bbe8bbe79725d5848ada1b3be553febc0"
+    },
+    {
+      "id": "CAT5_010",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "b68717f69334b67d8abcdb370f1fdab1f19033bfec6f3173dd09511ba9317110"
+    },
+    {
+      "id": "CAT5_011",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "3da2f0e0caaeddeddc1371a416da1b9a29a9741ac63889b0304223866b598f03"
+    },
+    {
+      "id": "CAT5_012",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "0e7ff173b3f86e9c35565217e301637512dd048caae7a8433f06de0d22fa957e"
+    },
+    {
+      "id": "CAT5_013",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "e8b7f42544d70be73905bff13702d0ffeb993442bd28ff611388558a7c026a14"
+    },
+    {
+      "id": "CAT5_014",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "beff75a0e2696b8c5d756a9d66e9790df2ab7585b1b416c53e047df6d7b1123a"
+    },
+    {
+      "id": "CAT5_015",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "d0ff76267c6c531ba0a7410cec1a54faa108f198bd5a7680631e603eb49e650f"
+    },
+    {
+      "id": "CAT5_016",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "a62478010bbc2f6b9fbfad123d74b7ec82ccbcae2f6285919da6b5037ede0eea"
+    },
+    {
+      "id": "CAT5_017",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "d87075b6c39d35176791bf1d80961492ccc696a7ddae080157e0cc1371b0db38"
+    },
+    {
+      "id": "CAT5_018",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "9febc6f52bb75ad21406b588d5dfbe90e462c6e9ab22241ee84642d218aa3543"
+    },
+    {
+      "id": "CAT5_019",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "023c1a65b23875f950a586b191addb7831064224f94663db28babdce77bffafa"
+    },
+    {
+      "id": "CAT5_020",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "44da927c19a5f2734633121f026232929cc0d02c48c81e40b34d62bb62db9679"
+    },
+    {
+      "id": "CAT5_021",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "a2fb24732c1c7b9361168e73eaef304229f2010caf88e101e395a9fef173b721"
+    },
+    {
+      "id": "CAT5_022",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "9e1232564670f96ba1e6f7c99c562ff06551ded5b4df35c8df5ae8427904fb7f"
+    },
+    {
+      "id": "CAT5_023",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "79e125d8b5b0538f602952e4242d5bd89ac362741053490117510ace1d13dff0"
+    },
+    {
+      "id": "CAT5_024",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "49e2d35a3884beb911a8381d0295d7a045d05bc4333a9cb960b8fb5cfb14f998"
+    },
+    {
+      "id": "CAT5_025",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "f6fb07cebb7522fe81485fca0a1e5db037f1fd6fd8e4227ca3597dab8b9d31f0"
+    },
+    {
+      "id": "CAT5_026",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "b9eab16fd0160ba451050ffd1fa63a1b1675ad7eee2d33807e9699c76cf8f09f"
+    },
+    {
+      "id": "CAT5_027",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "6915f311a07dba8709bd1142c4fbdc02f7a38bef2da7e045410b4c1f2635a94d"
+    },
+    {
+      "id": "CAT5_028",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "4c766d83c18eaae7238f6a7ad31b0cdbd7111be8046aef6dc8d857e7b5256ad7"
+    },
+    {
+      "id": "CAT5_029",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "c6c5344fe9d314e3646cc81f62f766622cd832ac115fdf61026a5a2dbbea3ca1"
+    },
+    {
+      "id": "CAT5_030",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "7b54f71b54346293dcb61e73e8394f864e76ab91aeae681c2689001c6e50b1f4"
+    },
+    {
+      "id": "CAT5_031",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "2b1e3e110a76f0a1b9e97f15314f58c53eea216cb666857a996b754a47c8c329"
+    },
+    {
+      "id": "CAT5_032",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "3e580a0b1405e6831e598f69c4a69ae70b667b23429b531764892973820168fe"
+    },
+    {
+      "id": "CAT5_033",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "734389d6cc6ddc13440481e699eb587e62acbcd1b917022a91bb4d146ef058cd"
+    },
+    {
+      "id": "CAT5_034",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "21f19f944044bd251000a879ac4e959b60ac6981cb44fd6f7fa26aae3388c175"
+    },
+    {
+      "id": "CAT5_035",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "bac3c6c7f35f3d72145df92f27ace033685df5690092ddfe2f4df8e6dfb613e0"
+    },
+    {
+      "id": "CAT5_036",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "76c9ad31814dc852b7fa54cd9fe5013f913ab2e4a3103b6ffe421dcab9d06e4e"
+    },
+    {
+      "id": "CAT5_037",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "c105bee143e6fccb26be0abf9245bd1532ce9886167a1755bb499ec7c7c75afe"
+    },
+    {
+      "id": "CAT5_038",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "e84d2881354e50a2e50ae85a3930914bc58f1bd3b0f6ddcd0b426635526cd271"
+    },
+    {
+      "id": "CAT5_039",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "5ff41746456c2bd8e61a4f964e8871779b90703a784d2a53e41a3ddd8a67be7e"
+    },
+    {
+      "id": "CAT5_040",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:legacy",
+      "split": "training",
+      "source_sha256": "5c9535112bda90af0cba27af7a48f894125958724fe3f118fc0f1a1b6fe65c23"
+    },
+    {
+      "id": "CAT1_041",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-00",
+      "split": "training",
+      "source_sha256": "1f6cbbe16613cfc1069841d729c5b1b99072f5aa566e05dad1e355a260dc7d7b"
+    },
+    {
+      "id": "CAT1_042",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-00",
+      "split": "training",
+      "source_sha256": "6eeb055b122333d676a950d47267bdec29850e8759cfa8b260e5ab2da963bd6d"
+    },
+    {
+      "id": "CAT1_043",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-00",
+      "split": "training",
+      "source_sha256": "4bc59cf4c642a4c70c37723e943e0f0f1107c7802504b0a7ba48a7ea08522133"
+    },
+    {
+      "id": "CAT1_044",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-00",
+      "split": "training",
+      "source_sha256": "98e2a20838fe53c88843f37d877d447195391558c27f162b74c7dd4c54f29c57"
+    },
+    {
+      "id": "CAT1_045",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-00",
+      "split": "training",
+      "source_sha256": "10b83c33192ad4d7344dafcaff5062279e9303dae87eed0a9f5c9cf4d1026444"
+    },
+    {
+      "id": "CAT1_046",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-00",
+      "split": "training",
+      "source_sha256": "5d17a7841e741172561cb5a23e55c61d8e6857d53fe372d260f9bb3f17d8e0e0"
+    },
+    {
+      "id": "CAT1_047",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-00",
+      "split": "training",
+      "source_sha256": "8cc59ab5558f3bfb21b708353ea4b41cfc9e1b8ff7e6fa55084d0eab24a90796"
+    },
+    {
+      "id": "CAT1_048",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-00",
+      "split": "training",
+      "source_sha256": "9ca17d283f87ce32b4355cec18cf531a5ede5a988c3b2668332c59e852d8b2e7"
+    },
+    {
+      "id": "CAT1_049",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-00",
+      "split": "training",
+      "source_sha256": "0ae35d675501b407720a51cbf384f0227f46899fde0dde94b2a5fdf6cada22af"
+    },
+    {
+      "id": "CAT1_050",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-00",
+      "split": "training",
+      "source_sha256": "82c76d3fd44260e3248b20d1d08100c01900a924b6d19bdd8bbcf06833198993"
+    },
+    {
+      "id": "CAT1_051",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-01",
+      "split": "training",
+      "source_sha256": "4f11f8b0e2f63213a5e20babdea26e516566be2801275bfbde4d29e1ca4ac5da"
+    },
+    {
+      "id": "CAT1_052",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-01",
+      "split": "training",
+      "source_sha256": "25d61e2c7358f188d86ab0c56d09e2a28778c951cdbc22e9b921b75a633f7306"
+    },
+    {
+      "id": "CAT1_053",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-01",
+      "split": "training",
+      "source_sha256": "6816ae4ee3571347d8297d1ab3e1c7df5397421b376ee39a96e2aec3cc9a9515"
+    },
+    {
+      "id": "CAT1_054",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-01",
+      "split": "training",
+      "source_sha256": "3b03c6e8b065fa0723d0eebdcd7455592aeebce58464aa7038cbdecd5c2400d4"
+    },
+    {
+      "id": "CAT1_055",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-01",
+      "split": "training",
+      "source_sha256": "1c839c4e333c87c7a99248a59c689f5a6e3f98e7b2d5ee243cd0a17f4edc1702"
+    },
+    {
+      "id": "CAT1_056",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-01",
+      "split": "training",
+      "source_sha256": "6ac5a0e5b289caabd4dae2992692faa6555007ec7e525d8019b4a7f2082bac58"
+    },
+    {
+      "id": "CAT1_057",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-01",
+      "split": "training",
+      "source_sha256": "c0a9fc1bd37186d040f9de67744843679371f6b52956753d8bd2c5367dc853b5"
+    },
+    {
+      "id": "CAT1_058",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-01",
+      "split": "training",
+      "source_sha256": "22f4706890297843fe362b90da7d794c0bc3c0428524e2d018e4218204e19bbf"
+    },
+    {
+      "id": "CAT1_059",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-01",
+      "split": "training",
+      "source_sha256": "a52666744080024491c0dd42f5bbe8c4a773240e2c7a84cc9381fe0c2e94b54d"
+    },
+    {
+      "id": "CAT1_060",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-01",
+      "split": "training",
+      "source_sha256": "43d14093872eb677729267a092d0e5d2377a42f18ffab8ff0b495cbed070489b"
+    },
+    {
+      "id": "CAT1_061",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-02",
+      "split": "training",
+      "source_sha256": "68f90c6d1cf95db72bd6c65cacb29e82a54a83362fd8af1322bbdc9119174b5e"
+    },
+    {
+      "id": "CAT1_062",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-02",
+      "split": "training",
+      "source_sha256": "cb892d7d98564e2f8f0a1f77e1af943082b9d3ae0c7531daff0ebc739b0f4a7a"
+    },
+    {
+      "id": "CAT1_063",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-02",
+      "split": "training",
+      "source_sha256": "95fec36dc5f14a82b94b2c8bd21c8cb61102542819a630fea479cf35be1d6008"
+    },
+    {
+      "id": "CAT1_064",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-02",
+      "split": "training",
+      "source_sha256": "c9e6690e7c1c4831677ee92ca03a10791bbf60740d9ec3a5b7bff961bbd00c8b"
+    },
+    {
+      "id": "CAT1_065",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-02",
+      "split": "training",
+      "source_sha256": "6c5472858955a63ae7e62a1226dfcedde2c21934b71f13efc82eb1abbeb60a51"
+    },
+    {
+      "id": "CAT1_066",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-02",
+      "split": "training",
+      "source_sha256": "dddb179d4527b5b504d11bbfcc733dfd8e66678ec46be71e4e1f074680020093"
+    },
+    {
+      "id": "CAT1_067",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-02",
+      "split": "training",
+      "source_sha256": "b1bdb78a4b6e34bdbb808e2d97dc49a001ec55643d4919df81b852c87e0ef6db"
+    },
+    {
+      "id": "CAT1_068",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-02",
+      "split": "training",
+      "source_sha256": "b182aaa49782ea4c07171fbfec357a682bca7239858dc07d3cf75ef27b1e7264"
+    },
+    {
+      "id": "CAT1_069",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-02",
+      "split": "training",
+      "source_sha256": "488b35ff9c8bac1c2afd3c9a1fe764706efa80bf8073162bef508543bb354960"
+    },
+    {
+      "id": "CAT1_070",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-02",
+      "split": "training",
+      "source_sha256": "735ed9217bf0473a4f97776a9135087aa1d7f9ba4b1e8ca7708518db45734b00"
+    },
+    {
+      "id": "CAT1_071",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-03",
+      "split": "training",
+      "source_sha256": "b6b0b0fc692f0ec4e1faae79e694cbc97e56a924e91cd4afa43e16b6f28d89ed"
+    },
+    {
+      "id": "CAT1_072",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-03",
+      "split": "training",
+      "source_sha256": "3a07a87bf53c2fb3729e25cbcdfcfd744e853c728c11c37bd25b24ae0badaae9"
+    },
+    {
+      "id": "CAT1_073",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-03",
+      "split": "training",
+      "source_sha256": "cdf2c5a3177f342d3a5d49e79348052678fdc7a522f8826d75a1943abc3eba1d"
+    },
+    {
+      "id": "CAT1_074",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-03",
+      "split": "training",
+      "source_sha256": "0a212e13c7ec4bc54e19cf5ec184731c954648324be325e39eb6fc95ccd7b333"
+    },
+    {
+      "id": "CAT1_075",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-03",
+      "split": "training",
+      "source_sha256": "f98c87f2e0fd2f70a7cc798894ba9bdfbc36ccdb2040d328dc09621a931b178b"
+    },
+    {
+      "id": "CAT1_076",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-03",
+      "split": "training",
+      "source_sha256": "211d0d0adb397f9fed49977542f301d77615860e0db3b2a17c95d7b40c260852"
+    },
+    {
+      "id": "CAT1_077",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-03",
+      "split": "training",
+      "source_sha256": "247cbbea1c7a4735c9a040b03216c42485fd522abc54e42642784a435c2875df"
+    },
+    {
+      "id": "CAT1_078",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-03",
+      "split": "training",
+      "source_sha256": "dc654ebd053c0f41154bc9e0ef8df957b244e2007c0e3409a97bc93fe711bd83"
+    },
+    {
+      "id": "CAT1_079",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-03",
+      "split": "training",
+      "source_sha256": "3b88b9d8bcc8c03ab54b80b796cff333de35e31721ddb979037da2912f9e0dc5"
+    },
+    {
+      "id": "CAT1_080",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-03",
+      "split": "training",
+      "source_sha256": "e4e5b2b8b000bcce43dd39acbcfa9aa2dd99f74df1b0f8c97a8cc2f469823a89"
+    },
+    {
+      "id": "CAT1_081",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "495e7865ec2e6ff9e5f6bb13ba062c72ae55bbbb0b0061a22168e3d90232fc90"
+    },
+    {
+      "id": "CAT1_082",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "c6f81a33224350730f76a47fdd1f3549eb45530e864c7ab135f3e30bbd1492a8"
+    },
+    {
+      "id": "CAT1_083",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "adb351ea04ea88dea1bdc83e8892a8719a1e23846148b408da00343f46514e11"
+    },
+    {
+      "id": "CAT1_084",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "3ac38dadb6b01a76216dd6eae0abdf25faf90a69f43d9c994dca63a88ec9a745"
+    },
+    {
+      "id": "CAT1_085",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "b951e638c16c355943d39afc5a72de8be84330e3d0b2b2df1051cf9526181f6a"
+    },
+    {
+      "id": "CAT1_086",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "593c5639cab88883ca4ed1f2a714b3cac92ced5d3e9930902097c93468631ede"
+    },
+    {
+      "id": "CAT1_087",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "2b8a08b3132863337c53da511c486a3951167176807e520e76a550f77a61669f"
+    },
+    {
+      "id": "CAT1_088",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "e32561aa3236d3c280fd4c58fe8d36499b9a89a425d54915795ded325468e299"
+    },
+    {
+      "id": "CAT1_089",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "e1fb9c4fa9a4e776d9c79c1f123e21e48aa00e586988edaf8bb06cf05ac67a01"
+    },
+    {
+      "id": "CAT1_090",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "c2f9aad9080b89a34cccfdf98475cc53c5d684e705860c68847a1668fd5a9917"
+    },
+    {
+      "id": "CAT1_091",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "2c443c8f1e6a36a9a4414ee658867daffacfbc8af528609bf2bfe064b0be78f3"
+    },
+    {
+      "id": "CAT1_092",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "e4f2f90e43c60f13a1ecc2eb8a7606aaead276d889b86f3b3e8750b7e6ad85c2"
+    },
+    {
+      "id": "CAT1_093",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "2157c5daf1569e28a2b55ea322cf5a97c843e666ed8a12d4b31f54d3a2fcad45"
+    },
+    {
+      "id": "CAT1_094",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "2a06d34908ba6bc7bd9945a998ece1546d28bbfef84f45219960d6423d91f44a"
+    },
+    {
+      "id": "CAT1_095",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "bd5b9a5598de07cee5adcb4036f8722673428827b8913b9efbf2973c49a0a698"
+    },
+    {
+      "id": "CAT1_096",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "472b05a2e3149ccb3f0be3917065867342c466909d87a0732073dc518fc5da00"
+    },
+    {
+      "id": "CAT1_097",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "7433bce376453b51d7238904ee28c9691266560d9484270fc6ea3d68774c1495"
+    },
+    {
+      "id": "CAT1_098",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "aa40c89082be05904888e78e8f7237b769a0bae34ba8c5b8f58cf7b34c62c361"
+    },
+    {
+      "id": "CAT1_099",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "e80c872049ec46591a4d85f28c69a93a369bdc0ca06ac4b16171fd331453cc4f"
+    },
+    {
+      "id": "CAT1_100",
+      "category": "constant_expressions",
+      "size": "small",
+      "family_id": "constant_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "8702df8a678637a8506ae50fdf43d99a4134f047001b2c921535097a2e46305d"
+    },
+    {
+      "id": "CAT2_041",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-00",
+      "split": "training",
+      "source_sha256": "298669530145755aee53253bdd575a0f5c7f061d98577b27328fb509ae09f753"
+    },
+    {
+      "id": "CAT2_042",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-00",
+      "split": "training",
+      "source_sha256": "109eeec1f7aa301fe55e6b8a51955ea0805b7e416092ff6c49f1ecd67d10f3d1"
+    },
+    {
+      "id": "CAT2_043",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-00",
+      "split": "training",
+      "source_sha256": "c3aa854912172b6b7f65cffb4c6947f09c764b702a08738071f885c7a3a31b64"
+    },
+    {
+      "id": "CAT2_044",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-00",
+      "split": "training",
+      "source_sha256": "68503b9f6674be8aa9dadff7c0e668a15d1f84617d01b767225dae49b683cc59"
+    },
+    {
+      "id": "CAT2_045",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-00",
+      "split": "training",
+      "source_sha256": "e7c9d0d1b4e62035d8247eeead2514bb1763b5e2fd25175bc4bd8593a8898146"
+    },
+    {
+      "id": "CAT2_046",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-00",
+      "split": "training",
+      "source_sha256": "46cea9edbc8448c07c4418984ea686bf59ded09aed9dfdab0b728c4eb92409de"
+    },
+    {
+      "id": "CAT2_047",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-00",
+      "split": "training",
+      "source_sha256": "f9135df0ddce117b17f15519e5832b8ab5d3c08310a189dc90240779788fa821"
+    },
+    {
+      "id": "CAT2_048",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-00",
+      "split": "training",
+      "source_sha256": "7253dcdfc9530838f7cb9d3746239f9e0a17eab756650784ea461fc351d91f8f"
+    },
+    {
+      "id": "CAT2_049",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-00",
+      "split": "training",
+      "source_sha256": "605b97148b747524b1b2c3446ef0d93bb624f113c4872e2c8e9ba6bef27bf5f6"
+    },
+    {
+      "id": "CAT2_050",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-00",
+      "split": "training",
+      "source_sha256": "b8ad165eb9b6b82f615f7e53723e22169455c2c2c696a42bce4ddf276461e70b"
+    },
+    {
+      "id": "CAT2_051",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-01",
+      "split": "training",
+      "source_sha256": "ae46f7a0eebbf5a7815dc7002397807457a9391a0b5549b5f5485b0b3983b619"
+    },
+    {
+      "id": "CAT2_052",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-01",
+      "split": "training",
+      "source_sha256": "a95cef41b1eba18303274736e18ac29379c5ef53c665c6ef48dd1e67fa0f4ffa"
+    },
+    {
+      "id": "CAT2_053",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-01",
+      "split": "training",
+      "source_sha256": "dc7e1ec6218aa7ff1ea9fccc4dfb9bfd286e6f8e278ae6db48e98f252735e64a"
+    },
+    {
+      "id": "CAT2_054",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-01",
+      "split": "training",
+      "source_sha256": "01f3c059fa1ba285bf6843da69b8472a77cf8f4e2b60d43d6b0d40c0085a62ef"
+    },
+    {
+      "id": "CAT2_055",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-01",
+      "split": "training",
+      "source_sha256": "a65e517e6aefae7290ccac71417b3ae94f483e7bdb66f7c999701c2431f9cde5"
+    },
+    {
+      "id": "CAT2_056",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-01",
+      "split": "training",
+      "source_sha256": "11d85fc486a3f25724020358f958320748530d80324e38ab56122e78ccbcebd4"
+    },
+    {
+      "id": "CAT2_057",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-01",
+      "split": "training",
+      "source_sha256": "3cbd72d0af6efc7fd3c21bd7597916720bcda986f554d719aa7003b93570754b"
+    },
+    {
+      "id": "CAT2_058",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-01",
+      "split": "training",
+      "source_sha256": "1d328c82d0be9900e5b24dd4311320832e500597ed65a83e5f50e3e9566a02b6"
+    },
+    {
+      "id": "CAT2_059",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-01",
+      "split": "training",
+      "source_sha256": "3e026857376f9dd0cf4e5ce3453d09e3ec565961d85c4f7f716f463c8951573d"
+    },
+    {
+      "id": "CAT2_060",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-01",
+      "split": "training",
+      "source_sha256": "eecfaaae9da20bbe96bb058b7c2f5f5d77dd24da4c84022a07119d1586a2bf07"
+    },
+    {
+      "id": "CAT2_061",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-02",
+      "split": "training",
+      "source_sha256": "bc0d25e03ef183b3c577050671f5a2c00f71e5ba119b7caf38433aa3bfe5c4e8"
+    },
+    {
+      "id": "CAT2_062",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-02",
+      "split": "training",
+      "source_sha256": "a4b0c10b57afe95980f3e2b3e1b6e427fc0eb460cdb0373f39e6ac18246e2339"
+    },
+    {
+      "id": "CAT2_063",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-02",
+      "split": "training",
+      "source_sha256": "d6c8c469c340a00437fab14f12d6640c38f5a22e89783ce4446f39e6f7e1a547"
+    },
+    {
+      "id": "CAT2_064",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-02",
+      "split": "training",
+      "source_sha256": "101b714a3ddb6c44b3526677309aa6cb5f35cdb5ecf19740ad54e6f5e1d240c9"
+    },
+    {
+      "id": "CAT2_065",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-02",
+      "split": "training",
+      "source_sha256": "d56c440ee9987f49f1d4615b93d8dad9ebac14232b537c85d597c5efa53faada"
+    },
+    {
+      "id": "CAT2_066",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-02",
+      "split": "training",
+      "source_sha256": "73a05a6c19042571efd524f4e2247f7f6d49258d0e030e4ef54c2015cebd28d1"
+    },
+    {
+      "id": "CAT2_067",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-02",
+      "split": "training",
+      "source_sha256": "aa583d9cfc01c5771bce5bab3f2bcb915c912ff77f40ab69a481e252d51ce2e4"
+    },
+    {
+      "id": "CAT2_068",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-02",
+      "split": "training",
+      "source_sha256": "60f03824e4fa6c09be850c52728479f581ee98e4c224e1baeaa83705a8d00c29"
+    },
+    {
+      "id": "CAT2_069",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-02",
+      "split": "training",
+      "source_sha256": "9ab69ff28a5dff075250eaadb1023b57bf31ec1f3e2ceead15e89aec90130b90"
+    },
+    {
+      "id": "CAT2_070",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-02",
+      "split": "training",
+      "source_sha256": "ee78604122a601486b5b4c3772536d4d0e97cf977493dd73ebf81e0e1fee73bf"
+    },
+    {
+      "id": "CAT2_071",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-03",
+      "split": "training",
+      "source_sha256": "6a64aff210c16f78cd1a99c68c9f93e8d5653e4f6cd30dc6eb179d6048b5c710"
+    },
+    {
+      "id": "CAT2_072",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-03",
+      "split": "training",
+      "source_sha256": "a19bd4ab323889bc1fa06c7828c0c1bc45a834f5b4d72bfd1bd975057cd88447"
+    },
+    {
+      "id": "CAT2_073",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-03",
+      "split": "training",
+      "source_sha256": "0014f657f2a0f81ab9b7c3efd1364a3fee9745e1c38de146149b94b618895cb7"
+    },
+    {
+      "id": "CAT2_074",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-03",
+      "split": "training",
+      "source_sha256": "a30c6defe2818c3661302fc4027264a94e70d285fb5e3ab447b06ed7d068b3c1"
+    },
+    {
+      "id": "CAT2_075",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-03",
+      "split": "training",
+      "source_sha256": "2825b38d7d75479d192fa712eb063871e775b27ca317f42edc4b12f100df1056"
+    },
+    {
+      "id": "CAT2_076",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-03",
+      "split": "training",
+      "source_sha256": "1afed5e4eca680c744ebb4991966af78c320e6a198ad612a9185dd211eb62d85"
+    },
+    {
+      "id": "CAT2_077",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-03",
+      "split": "training",
+      "source_sha256": "653ab51f02a0c02bb484579a59bf73b58530bb45b2b5075d81ef0da00bf3c41b"
+    },
+    {
+      "id": "CAT2_078",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-03",
+      "split": "training",
+      "source_sha256": "37eec533180bb0529ee6e7de566b5debd5308083a6ac0d6d31b31934e9148525"
+    },
+    {
+      "id": "CAT2_079",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-03",
+      "split": "training",
+      "source_sha256": "b7e6bab631f0b8c054f5d665f0a55531bd1a310a5f6bce67617685307270bd53"
+    },
+    {
+      "id": "CAT2_080",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-03",
+      "split": "training",
+      "source_sha256": "02b363e183f48fdf269f9bca35a8a401ee30e0324d9db16a3bd4ed5e7412563a"
+    },
+    {
+      "id": "CAT2_081",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-04",
+      "split": "testing",
+      "source_sha256": "d68128c053a4141020ff77c2a9134e364cea617a1f110617b23fae651b1d003c"
+    },
+    {
+      "id": "CAT2_082",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-04",
+      "split": "testing",
+      "source_sha256": "5af267b4b50240df3f046e59991b9e3de22b2694c4307e84343b2ef8d25cfb8c"
+    },
+    {
+      "id": "CAT2_083",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-04",
+      "split": "testing",
+      "source_sha256": "a0eebb7e70b1c00c53c09188db0d86e6704e9766a80e4bc4f8358520f9d9605e"
+    },
+    {
+      "id": "CAT2_084",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-04",
+      "split": "testing",
+      "source_sha256": "937525aa691bee8f147ef9f154a645e1c47d35780af28760552996c86f756a96"
+    },
+    {
+      "id": "CAT2_085",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-04",
+      "split": "testing",
+      "source_sha256": "cdb8163fb60a43d6ff0eaeaaca3b9cbf20a3747165d0b6edc0e879362922718b"
+    },
+    {
+      "id": "CAT2_086",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-04",
+      "split": "testing",
+      "source_sha256": "4696e5511f2f810636e855590b07e0561af944d4dc189c5dd71839615a866ea3"
+    },
+    {
+      "id": "CAT2_087",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-04",
+      "split": "testing",
+      "source_sha256": "0f115b630473c151068de170d185e411e9181262b094b19eff92b80fad65e7cf"
+    },
+    {
+      "id": "CAT2_088",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-04",
+      "split": "testing",
+      "source_sha256": "e258ab16716f0503a836aa3dcc0d5d86008e314c7e593ad6ee4e9649ecbaf2a2"
+    },
+    {
+      "id": "CAT2_089",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-04",
+      "split": "testing",
+      "source_sha256": "830cd968bae9d512fa0698ef340fab46d5c5bc23028d6e214857a3aceed70eae"
+    },
+    {
+      "id": "CAT2_090",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-04",
+      "split": "testing",
+      "source_sha256": "0adaf58c0bd2fb3833a328ef6aceac3de006c5f8342f42dee0c692c173fae989"
+    },
+    {
+      "id": "CAT2_091",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-05",
+      "split": "testing",
+      "source_sha256": "1429577bf2d23ffcfb078191eb724eeab004763c4a01f880fa8feebc9add88d1"
+    },
+    {
+      "id": "CAT2_092",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-05",
+      "split": "testing",
+      "source_sha256": "0d44e63db19db7dd6d3d3a46bb38319230bf47c92ee1e4a4293e5be81fdea486"
+    },
+    {
+      "id": "CAT2_093",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-05",
+      "split": "testing",
+      "source_sha256": "1204d73fd984483cdae21a93eb12e6bd71710ae1ba012873869a855b6e17a66d"
+    },
+    {
+      "id": "CAT2_094",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-05",
+      "split": "testing",
+      "source_sha256": "62011cb1182fc9b23a8db9139f514a93fb7456b3c3a402e3e97fb15331975c1f"
+    },
+    {
+      "id": "CAT2_095",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-05",
+      "split": "testing",
+      "source_sha256": "3ab16b278c1aaa5c58dc64344e9b9c453d66231655750ff82dbe350a4ad0c91c"
+    },
+    {
+      "id": "CAT2_096",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-05",
+      "split": "testing",
+      "source_sha256": "77b0b27130c6d3f1ee7661cc61d449fed2840e3cb0586c80809da4facd0d1e39"
+    },
+    {
+      "id": "CAT2_097",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-05",
+      "split": "testing",
+      "source_sha256": "8775ed0af6ca2994639421584c478314e31a3030bf8b0720162f146dd07a164e"
+    },
+    {
+      "id": "CAT2_098",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-05",
+      "split": "testing",
+      "source_sha256": "5ad06789a850458a601f5ffe7b4b1e7032ca37ec0a37675dfbd8e171fd7a1b9c"
+    },
+    {
+      "id": "CAT2_099",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-05",
+      "split": "testing",
+      "source_sha256": "5abc6f48305663e888eaeb747c292c968ef4ecf780a1e8f5c758788c8e9bf03f"
+    },
+    {
+      "id": "CAT2_100",
+      "category": "algebraic_redundancy",
+      "size": "small",
+      "family_id": "algebraic_redundancy:family-05",
+      "split": "testing",
+      "source_sha256": "a9f19f4d8842a1f15e35526a856b21b27b2e548226f597b5283e1ffeb2b36f45"
+    },
+    {
+      "id": "CAT3_041",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-00",
+      "split": "training",
+      "source_sha256": "c8148a50528fe12dafd329be98fa0542eab4280c186706550b6d35370c45fb10"
+    },
+    {
+      "id": "CAT3_042",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-00",
+      "split": "training",
+      "source_sha256": "0f23f828e7c6a09faa14de598e480106d85303a2d6c4bec3c1c34561afafa7f4"
+    },
+    {
+      "id": "CAT3_043",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-00",
+      "split": "training",
+      "source_sha256": "da35baca4fe458f530a0309c7afb751afa6cced88ca68f5618ee566c7552872a"
+    },
+    {
+      "id": "CAT3_044",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-00",
+      "split": "training",
+      "source_sha256": "ce55e272b368adcf0345fb6e95affb793679ddaeb173f3a0a8cfeba07a26718d"
+    },
+    {
+      "id": "CAT3_045",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-00",
+      "split": "training",
+      "source_sha256": "dbc0f85777ea21023270afd6c54f4a0a04d2aa271f099b26ea3a4241c8f2c0de"
+    },
+    {
+      "id": "CAT3_046",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-00",
+      "split": "training",
+      "source_sha256": "d6e0bad159e03d9780bd46539b52e154b9870822622fb2ce2d5424256cc33e1c"
+    },
+    {
+      "id": "CAT3_047",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-00",
+      "split": "training",
+      "source_sha256": "cee08067cc238c246e3494db2a60cff3c16f4f47d4503bab4c94cfead8b235fa"
+    },
+    {
+      "id": "CAT3_048",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-00",
+      "split": "training",
+      "source_sha256": "ff4da0b7133803dc2670c8d370e66d0dc6c478aff09b20f19d64cd93ab423730"
+    },
+    {
+      "id": "CAT3_049",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-00",
+      "split": "training",
+      "source_sha256": "9223fa0cdf0f639dd62526dded6b5ff03d2099f7c49f49ab385cae92a062041a"
+    },
+    {
+      "id": "CAT3_050",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-00",
+      "split": "training",
+      "source_sha256": "ab4bfcd0839f07a1db467e7edc2ad24117c3ce1f174bb53ef627e792ad8a91a7"
+    },
+    {
+      "id": "CAT3_051",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-01",
+      "split": "training",
+      "source_sha256": "96494b3ce3ac8772c5c46043216702a7702fb2458e97f83cb63969ca5c6bf5d0"
+    },
+    {
+      "id": "CAT3_052",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-01",
+      "split": "training",
+      "source_sha256": "e6da073cf163a566ab1ee39e4b195b833d80afd93375c753e85b5180783559e4"
+    },
+    {
+      "id": "CAT3_053",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-01",
+      "split": "training",
+      "source_sha256": "65e7df9501ba6642e9bfadbe667f519c892ebb44cee9caa0ef83dd5e00802c37"
+    },
+    {
+      "id": "CAT3_054",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-01",
+      "split": "training",
+      "source_sha256": "20640b21d2bf110231735fe547fb3030263769f2d75aafa20442c77695c0662e"
+    },
+    {
+      "id": "CAT3_055",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-01",
+      "split": "training",
+      "source_sha256": "f4ef92023f4247f265032f3b477b9c71306b914f4aa90eaf2d60ba68869150f3"
+    },
+    {
+      "id": "CAT3_056",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-01",
+      "split": "training",
+      "source_sha256": "de0923df543e3fe0d3b1cb772ce8b1df0afd3a28c04064e202361797592128b1"
+    },
+    {
+      "id": "CAT3_057",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-01",
+      "split": "training",
+      "source_sha256": "06c5db9728382de66807779c7c590f4d2402203c9dd605652e83501b49f39857"
+    },
+    {
+      "id": "CAT3_058",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-01",
+      "split": "training",
+      "source_sha256": "4af143516d4797e93c1a6e9a018b3c1e9f251a5608eb0e7f88bc8ff9be7d5909"
+    },
+    {
+      "id": "CAT3_059",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-01",
+      "split": "training",
+      "source_sha256": "17fa0876148f946eb6f6239e1d992f1a58477631b415abda122df6e455234b4a"
+    },
+    {
+      "id": "CAT3_060",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-01",
+      "split": "training",
+      "source_sha256": "9fb65568a2126dbe1c8b5f16bbf1d13192bd972c91890e9c025a198441322dbb"
+    },
+    {
+      "id": "CAT3_061",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-02",
+      "split": "training",
+      "source_sha256": "33de1b589ec20d792db0ca1643b049ad2a88449acff49e8d438e882c69168a25"
+    },
+    {
+      "id": "CAT3_062",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-02",
+      "split": "training",
+      "source_sha256": "6cef677f81b6b031d57691d289eefc13daddd505275cbc5cfab143df57cfeebc"
+    },
+    {
+      "id": "CAT3_063",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-02",
+      "split": "training",
+      "source_sha256": "43d566b3256f49d401b7031d932fb23b66ebf3ffa3a72ff7cf5b538d34c31429"
+    },
+    {
+      "id": "CAT3_064",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-02",
+      "split": "training",
+      "source_sha256": "40426b316beefd91697f1335072139688ea24a59a519b3f02312e4673d5fc5c4"
+    },
+    {
+      "id": "CAT3_065",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-02",
+      "split": "training",
+      "source_sha256": "29ff526f9b6d1976fbbc17ca4a0249aa59472325afb098ac20960f45ed98fae8"
+    },
+    {
+      "id": "CAT3_066",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-02",
+      "split": "training",
+      "source_sha256": "0e95c68f5156aa8bbcc475ddd9844474da9dd1656411aab22438fe175d107bf0"
+    },
+    {
+      "id": "CAT3_067",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-02",
+      "split": "training",
+      "source_sha256": "85bc97e189096270ea0fadc33dcc2984be79da2eeb65ccda9cefa879f113707f"
+    },
+    {
+      "id": "CAT3_068",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-02",
+      "split": "training",
+      "source_sha256": "c55cc5a9277283a3ad3331e66ef8df17694c76a8ac1657890cace3023b130e84"
+    },
+    {
+      "id": "CAT3_069",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-02",
+      "split": "training",
+      "source_sha256": "59cab8ebababb8ca3332abc1f79aa4850e87d4a13cf1629a6d28222e71dea934"
+    },
+    {
+      "id": "CAT3_070",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-02",
+      "split": "training",
+      "source_sha256": "d467bc64ff7017ef184d7b727be138636520c3bd6e2d8d2b517a33c6197fdac1"
+    },
+    {
+      "id": "CAT3_071",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-03",
+      "split": "training",
+      "source_sha256": "6ad27674fb69f09473e285dff380195f537491f415b54715c68ef02db71ecc78"
+    },
+    {
+      "id": "CAT3_072",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-03",
+      "split": "training",
+      "source_sha256": "1a9c2c2d079e0bd307a5decf382fadf5cd93cc6c99b0d320595c748fe6f6e343"
+    },
+    {
+      "id": "CAT3_073",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-03",
+      "split": "training",
+      "source_sha256": "443c69304e5cc624c00ec662d1de173540c7335ed865159dba80ea6e79188d24"
+    },
+    {
+      "id": "CAT3_074",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-03",
+      "split": "training",
+      "source_sha256": "2e3b1814b77917cf92644e03885d0a4d2bdd6ec0381f3d2c208745e306c84d22"
+    },
+    {
+      "id": "CAT3_075",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-03",
+      "split": "training",
+      "source_sha256": "bb20a227e1c97103398951b3e199dfff6a26863765685af79fcc156d38f79b0e"
+    },
+    {
+      "id": "CAT3_076",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-03",
+      "split": "training",
+      "source_sha256": "9c9ceb28f0c2182c742b45fb018f9d764fb1c82410a88557f0eb3c1d96f29190"
+    },
+    {
+      "id": "CAT3_077",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-03",
+      "split": "training",
+      "source_sha256": "3f049e09f4ae14713e1dcf30caecc5f7e6924399a8096b188e4b9a4cbff0c4c0"
+    },
+    {
+      "id": "CAT3_078",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-03",
+      "split": "training",
+      "source_sha256": "cd1f9e888b559096ce0e85bf5dfe8b97ea2bbc4bcec75187bc72f15a5a67e353"
+    },
+    {
+      "id": "CAT3_079",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-03",
+      "split": "training",
+      "source_sha256": "93b71e632e65a4eec28208ffb9cc772fd3d9329ec73d189b744816aef741a8f6"
+    },
+    {
+      "id": "CAT3_080",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-03",
+      "split": "training",
+      "source_sha256": "545769cf7819e80da1da7e34fa2cadd83ec2d95bea1eeaff1df40f12222ed1a1"
+    },
+    {
+      "id": "CAT3_081",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-04",
+      "split": "testing",
+      "source_sha256": "bcc0b8771fc9f571abaed810ff9e5f7e39a89b51ebd06869a752268f0b5f808d"
+    },
+    {
+      "id": "CAT3_082",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-04",
+      "split": "testing",
+      "source_sha256": "881fbaafb2dcdfb431e95b82edb8b393b7b71b5767fcd8a73c6593faca52a25e"
+    },
+    {
+      "id": "CAT3_083",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-04",
+      "split": "testing",
+      "source_sha256": "1809cc2ec30b32070e63cf68e1ef2cb476a913e483fd84fcf1b3f214885fcf1b"
+    },
+    {
+      "id": "CAT3_084",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-04",
+      "split": "testing",
+      "source_sha256": "ad70cdaa52623e33ac51bbad30e70d4cc4d9c09e7ec7170e48306855b4676799"
+    },
+    {
+      "id": "CAT3_085",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-04",
+      "split": "testing",
+      "source_sha256": "67137556551f803069061c6863cdea8be1eb903f4ff4e6ae6d28237c08bc2c49"
+    },
+    {
+      "id": "CAT3_086",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-04",
+      "split": "testing",
+      "source_sha256": "f4795b67b13f16dd3f9dfa9231008d2869f43a997c4846e740f736b12edf4d42"
+    },
+    {
+      "id": "CAT3_087",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-04",
+      "split": "testing",
+      "source_sha256": "124446f9021e2b995cae5764f08d356bac3058a9b0623c1eae882a8a16f207af"
+    },
+    {
+      "id": "CAT3_088",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-04",
+      "split": "testing",
+      "source_sha256": "42ff2d48ec81a63ece11f03ae6d04a740c2e1b5f7eddb5e88c455d94379ef880"
+    },
+    {
+      "id": "CAT3_089",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-04",
+      "split": "testing",
+      "source_sha256": "c0bdb483d6fab061bd14c45fa79a11aa8ccba2ad1f463aaadd78f49e57dc84ef"
+    },
+    {
+      "id": "CAT3_090",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-04",
+      "split": "testing",
+      "source_sha256": "197967a931900c51068357cab004ad98cbcc5f49b5a93c3cbae0dfbaf79f9afb"
+    },
+    {
+      "id": "CAT3_091",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-05",
+      "split": "testing",
+      "source_sha256": "f882f4a9a4f392f5b2dbc3ea8ef94f244c28f9b6edc9023c578a527540c1c116"
+    },
+    {
+      "id": "CAT3_092",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-05",
+      "split": "testing",
+      "source_sha256": "11d354bbac842ffe1efa72287ec0fe2384d3e973def176912d91797badc0f68b"
+    },
+    {
+      "id": "CAT3_093",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-05",
+      "split": "testing",
+      "source_sha256": "4422214c6637917fa3b69a25bf38bec2bf17b7e751cb75ef17477bdbe6ff2e3d"
+    },
+    {
+      "id": "CAT3_094",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-05",
+      "split": "testing",
+      "source_sha256": "e0b08b20aff076ee07d4f6dbd7c1d1d66a97142af00cd18ed75d1a8ba0e30907"
+    },
+    {
+      "id": "CAT3_095",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-05",
+      "split": "testing",
+      "source_sha256": "0f350dfeef7dfa014ce9edc2c70c4ecf2faec65e8c62847f4d4d769198e7374a"
+    },
+    {
+      "id": "CAT3_096",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-05",
+      "split": "testing",
+      "source_sha256": "bbe907e4093a313471c040b524bc07831d659d4959fe9f34f713b8c0af5ec579"
+    },
+    {
+      "id": "CAT3_097",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-05",
+      "split": "testing",
+      "source_sha256": "43a5ffc9bb936d0e84f2a238291a52341b434b418f0f06f657e255092958646e"
+    },
+    {
+      "id": "CAT3_098",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-05",
+      "split": "testing",
+      "source_sha256": "2a29d3e491830c5ab1874e1da40c64d27d16176309298261998f58ba2c437215"
+    },
+    {
+      "id": "CAT3_099",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-05",
+      "split": "testing",
+      "source_sha256": "378afbcd83b4d6a09ddcd17bbf1f49b580740a817a1c62c0f70119d59bc5066f"
+    },
+    {
+      "id": "CAT3_100",
+      "category": "dead_code",
+      "size": "small",
+      "family_id": "dead_code:family-05",
+      "split": "testing",
+      "source_sha256": "74bb58dc72c185c688aa94161c7cacce4f9c514233d6cbc948801182d105ab50"
+    },
+    {
+      "id": "CAT4_041",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-00",
+      "split": "training",
+      "source_sha256": "51c94675b914eabbb79d175351d5021a7385c13c6e3a4a5ca740eafc1aa46ce5"
+    },
+    {
+      "id": "CAT4_042",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-00",
+      "split": "training",
+      "source_sha256": "48a8ada9a16770be5d595f37a7f516acc52861ab38b416b860eea1adccf87425"
+    },
+    {
+      "id": "CAT4_043",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-00",
+      "split": "training",
+      "source_sha256": "2e09eaebf467264e11533b4ee8007f2e1dc42e9995ad1eeaa51eaabab8f039f8"
+    },
+    {
+      "id": "CAT4_044",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-00",
+      "split": "training",
+      "source_sha256": "462026c78cc0850fb96d5d3928e64f0f67f815ab00b4fcd72057cbc939f52e91"
+    },
+    {
+      "id": "CAT4_045",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-00",
+      "split": "training",
+      "source_sha256": "e54866201ae034164ba750b7c932f6179c3e384aad38167330aed62f09e9a102"
+    },
+    {
+      "id": "CAT4_046",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-00",
+      "split": "training",
+      "source_sha256": "43213ca45ffc0ca2f07fc9cbe7d01ca685d1997942d210e84cb3e4ef5493402c"
+    },
+    {
+      "id": "CAT4_047",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-00",
+      "split": "training",
+      "source_sha256": "81272d816656479ba186a24d53dc03994f5cb0ad0ba393a4e277b5cc02a4634f"
+    },
+    {
+      "id": "CAT4_048",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-00",
+      "split": "training",
+      "source_sha256": "09e0b14ec8c0f98b0a9cb292fb31eae650a000ce41c5dc70c7cc5b97e68674d2"
+    },
+    {
+      "id": "CAT4_049",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-00",
+      "split": "training",
+      "source_sha256": "6537640b0e696f9fffaeff81198dfb5086b170547895a1728a2bb6ad07590056"
+    },
+    {
+      "id": "CAT4_050",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-00",
+      "split": "training",
+      "source_sha256": "30aac03c65c9d33f5219e08487cbc2f6e86643e5d0ff8a6cc1eed33e2e423821"
+    },
+    {
+      "id": "CAT4_051",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-01",
+      "split": "training",
+      "source_sha256": "cdbf18a485aa6fe64b0cdb82b1ec7245c3af1e4bc04408f9c83f67aeb46f9b1d"
+    },
+    {
+      "id": "CAT4_052",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-01",
+      "split": "training",
+      "source_sha256": "5a6a9f3c6e34db08b88d1d3bf720adc788c00fa5a198b2dcba9d5dd8ea2b1f29"
+    },
+    {
+      "id": "CAT4_053",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-01",
+      "split": "training",
+      "source_sha256": "e1e3d30bd9ce0fb620e2eef0da090abd852ba1d10a5376e838101dfd751e09c4"
+    },
+    {
+      "id": "CAT4_054",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-01",
+      "split": "training",
+      "source_sha256": "6e33b82cb9331ad61e52791dc0594da5877054bf894518cbeb9cdd7d942637ea"
+    },
+    {
+      "id": "CAT4_055",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-01",
+      "split": "training",
+      "source_sha256": "9befc3a4e5a38d30de51510de3a29bf772e49c7499b78eb9fc3f817b63eb1c57"
+    },
+    {
+      "id": "CAT4_056",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-01",
+      "split": "training",
+      "source_sha256": "b6a40e39befd8daf339e2b4b65fe433010328544c264604a1711335e44fed99f"
+    },
+    {
+      "id": "CAT4_057",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-01",
+      "split": "training",
+      "source_sha256": "8f4af42e73b18c9e3390ae96696f551dbd468b6911c71ec10d9c5a89202dc24d"
+    },
+    {
+      "id": "CAT4_058",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-01",
+      "split": "training",
+      "source_sha256": "3489c426f55c830e1f5220aed267b4355f0a4c2782bc799cd98b28868957729a"
+    },
+    {
+      "id": "CAT4_059",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-01",
+      "split": "training",
+      "source_sha256": "cecb3f8390b4545d1523a9965ce545257897fc8d0b0872f8837b35244292d8f9"
+    },
+    {
+      "id": "CAT4_060",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-01",
+      "split": "training",
+      "source_sha256": "90ed82e341672c649cd8c55699e08feb49e4643e14d708146f4c1ad4fe751281"
+    },
+    {
+      "id": "CAT4_061",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-02",
+      "split": "training",
+      "source_sha256": "1c36ebe2e43ab85b5ba586b0a9927601f62877a4ecb1c1923046176fa20b6fed"
+    },
+    {
+      "id": "CAT4_062",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-02",
+      "split": "training",
+      "source_sha256": "dbd7dfa2c8acfac1ddea6d34782bd310b9c6910a630f7cac42ef08285643e00a"
+    },
+    {
+      "id": "CAT4_063",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-02",
+      "split": "training",
+      "source_sha256": "442d4eec6a87350270970ceefb5fe3fe5a5d7b264a03475e9070a40ca3c292ad"
+    },
+    {
+      "id": "CAT4_064",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-02",
+      "split": "training",
+      "source_sha256": "87bc95bbb7183c62812e492624cd1b7416b0799322e6757221ed5d7729eb95d7"
+    },
+    {
+      "id": "CAT4_065",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-02",
+      "split": "training",
+      "source_sha256": "e3c3d4e289041c16b422e3c8ff64494e810d6579fcf4b44470f9284341cc3610"
+    },
+    {
+      "id": "CAT4_066",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-02",
+      "split": "training",
+      "source_sha256": "428bf2b469fca4f44596d26882b7d9ab3ff9560a2a707e529287c9255e2eedf1"
+    },
+    {
+      "id": "CAT4_067",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-02",
+      "split": "training",
+      "source_sha256": "8b79e89794ef50b4a9c3bce1af536ad78e84c44c48061069c0d3ee2e2ca4844c"
+    },
+    {
+      "id": "CAT4_068",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-02",
+      "split": "training",
+      "source_sha256": "3cd6f1b2c783b8cc30824e2dd9cd5a46e08e9c86a51611ef9a4a04146d38645b"
+    },
+    {
+      "id": "CAT4_069",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-02",
+      "split": "training",
+      "source_sha256": "f37e1075c0da419afe48c5885b80b64f948a7ae226f76653a75a8a972cdaf792"
+    },
+    {
+      "id": "CAT4_070",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-02",
+      "split": "training",
+      "source_sha256": "f12fc94c4de50d396036afe74f9bdb27ab542d7a41170a7b4096b1d69abe92d4"
+    },
+    {
+      "id": "CAT4_071",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-03",
+      "split": "training",
+      "source_sha256": "0fc258065f540bb6fbb994a04d32719abd5deb5ec3153fc19e1e249087d10b06"
+    },
+    {
+      "id": "CAT4_072",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-03",
+      "split": "training",
+      "source_sha256": "0f7aa77050644795ab0d88c71656477b3c4e3ec0be2c383a2ffaf3b1bc716b7f"
+    },
+    {
+      "id": "CAT4_073",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-03",
+      "split": "training",
+      "source_sha256": "abeceac8b3c8e86f69b18b5aafdaea2fa44afb08984010939ed31224b4dc834d"
+    },
+    {
+      "id": "CAT4_074",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-03",
+      "split": "training",
+      "source_sha256": "1e741d06c055b724a0f0b3a6f627809b45bfbd1b04c4e7d26f8c03bdf1ca9e4c"
+    },
+    {
+      "id": "CAT4_075",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-03",
+      "split": "training",
+      "source_sha256": "41bec99d627d4316286bacd997ee7cb126745357ccf6975da69b4a24d2bdec12"
+    },
+    {
+      "id": "CAT4_076",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-03",
+      "split": "training",
+      "source_sha256": "af0ff665dbcb33b184114163b78e8544c68370645c055067ec255f653ab574f6"
+    },
+    {
+      "id": "CAT4_077",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-03",
+      "split": "training",
+      "source_sha256": "a26ed7f717fc706897938fa3917eb657a0b710cca57b9aa492235fcb7b9fc245"
+    },
+    {
+      "id": "CAT4_078",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-03",
+      "split": "training",
+      "source_sha256": "238890201cc37feb555fbb85eaf955b2004e64c7e62c970e63e9b8901b60af64"
+    },
+    {
+      "id": "CAT4_079",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-03",
+      "split": "training",
+      "source_sha256": "e9330bd74382c637042dd3246e7f5ac343585a2651028c34213742fe5607e1e1"
+    },
+    {
+      "id": "CAT4_080",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-03",
+      "split": "training",
+      "source_sha256": "4429afe304d157d21351d619aab890310e51506cc33936b2df1589812495f894"
+    },
+    {
+      "id": "CAT4_081",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "e6cc0147eecbf692d89457936fffff4e66e3c06327a0c55d913708ad22c3b9a7"
+    },
+    {
+      "id": "CAT4_082",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "442fd706f70685502904946e11f3da8b773f7727b14e5d7bab6b2185bd7fa3a5"
+    },
+    {
+      "id": "CAT4_083",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "c3ccae3cbeb30eb19ae5706d20c4fc321c71e07c012f5de82f79608fe95642d2"
+    },
+    {
+      "id": "CAT4_084",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "90c83f74eba1036b01aab8ffd501b300ba1fe3c089480b163d1ec69c78f42656"
+    },
+    {
+      "id": "CAT4_085",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "8e0bedb289aa01b181c15752280253ed7652281a1457c92225612bb90e55e269"
+    },
+    {
+      "id": "CAT4_086",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "57d7efffadb13218ac5bddc3aa57e0b2b73d6f2cb643576d4df40731c4e4c1b7"
+    },
+    {
+      "id": "CAT4_087",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "df10fd6448b3b691962a3347735f5faf08769d52b2284ee913ab29fcde49270e"
+    },
+    {
+      "id": "CAT4_088",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "91e1b833972e213d46262be7b0ea37cb0d198ad7db9e1c6f591d1422d76f0338"
+    },
+    {
+      "id": "CAT4_089",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "2e3f4ec0c0ebb54111935bbe3eb3d4af67a8209c26ff085e51c1aed6f9c2b20a"
+    },
+    {
+      "id": "CAT4_090",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-04",
+      "split": "testing",
+      "source_sha256": "942bad59629787cfd58ce693c930a2ca2813589c2c299501c231c13e26271696"
+    },
+    {
+      "id": "CAT4_091",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "d771e30c64ce1bfd904ce4a2e25a0687d1875f7129bf60f61b97769920d46f34"
+    },
+    {
+      "id": "CAT4_092",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "90de7d00f89511b1cccd2c4897af4db8e28bfb746e6d3ee156b8a8b646c0c6f3"
+    },
+    {
+      "id": "CAT4_093",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "d3f539ffb956b2aa096fe717534b3d0c1b1a88dd63b79748855333493996d8f7"
+    },
+    {
+      "id": "CAT4_094",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "8d26e6c4e175d0b44d29333037a8824644413cd7db35ff10053885d5a39db859"
+    },
+    {
+      "id": "CAT4_095",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "d61c544a1b053cf8c06f3e0ec0d8c3c5a2c0ec0481ef5f142baad79fd9e2f561"
+    },
+    {
+      "id": "CAT4_096",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "be65f1c72befd37283c955869d4de8102f861801b36e9e8171c40417fedd659a"
+    },
+    {
+      "id": "CAT4_097",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "f8c480a782a6071f1aec9d3bf6d6f0fac782500170f189ada7acfd58c8e9a53d"
+    },
+    {
+      "id": "CAT4_098",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "d40a726fcf54ccf5b0114503b45dcd4388f4fee48f7bd748448da65e2049b87f"
+    },
+    {
+      "id": "CAT4_099",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "5e8c50681a6d6a4cd31ded1c579ae583bfa8fb600beb7f8e80ed3965ecc39d35"
+    },
+    {
+      "id": "CAT4_100",
+      "category": "repeated_expressions",
+      "size": "small",
+      "family_id": "repeated_expressions:family-05",
+      "split": "testing",
+      "source_sha256": "e303db50a90112d23205952a5a53489c409e6eeb309af7e62d84166980e353cf"
+    },
+    {
+      "id": "CAT5_041",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-00",
+      "split": "training",
+      "source_sha256": "12cf0369067f4dff853ea7a730dfef6c77cabb8f36ddc2dc44d9efb663999782"
+    },
+    {
+      "id": "CAT5_042",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-00",
+      "split": "training",
+      "source_sha256": "1e5f9879b99f2c107866565b5383086e5266b7e847fdece3d280cfc322d12eb8"
+    },
+    {
+      "id": "CAT5_043",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-00",
+      "split": "training",
+      "source_sha256": "897db0bdc717abdad493d335cacb188445829e8b13876de1e48f62ca0dda76c9"
+    },
+    {
+      "id": "CAT5_044",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-00",
+      "split": "training",
+      "source_sha256": "cd4d51064f6f3693b833a5d5133395d7b67aa85fd3a21ff8ad0885ccea0d8ffb"
+    },
+    {
+      "id": "CAT5_045",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-00",
+      "split": "training",
+      "source_sha256": "7595a25d01c8e04d5ca1ec16c5b73a626f9b988544539edd5bc77993dc420dbd"
+    },
+    {
+      "id": "CAT5_046",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-00",
+      "split": "training",
+      "source_sha256": "f1fb098e30e38650c1387b764ef1b490ff17cafc4c68a0778d1837ac6cb4becb"
+    },
+    {
+      "id": "CAT5_047",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-00",
+      "split": "training",
+      "source_sha256": "83e005289959b5817bde85ff5cfa646106c7b6a70c7e2979755a559caea3cda1"
+    },
+    {
+      "id": "CAT5_048",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-00",
+      "split": "training",
+      "source_sha256": "8de78e6a8688c03b9c9444a2293ccf2198e7ab795326218143763498c9698f1c"
+    },
+    {
+      "id": "CAT5_049",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-00",
+      "split": "training",
+      "source_sha256": "4b384ba08257c800f009291296272637b9495b6fe94ef18b4d922161a4c264d2"
+    },
+    {
+      "id": "CAT5_050",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-00",
+      "split": "training",
+      "source_sha256": "ff885f150a46d30a1f56c943248fe9e21017cff82631a805daaef2bf9a6a244e"
+    },
+    {
+      "id": "CAT5_051",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-01",
+      "split": "training",
+      "source_sha256": "3bfb72349c11f7cc2f4ec19452308c4e7e73955405e677b38d9e2958b602668c"
+    },
+    {
+      "id": "CAT5_052",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-01",
+      "split": "training",
+      "source_sha256": "dddc58155e5d782d858483a728299a6dec8b232d012e1979eda0a54fb5d8f7f9"
+    },
+    {
+      "id": "CAT5_053",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-01",
+      "split": "training",
+      "source_sha256": "72c646e0232c9dbdc0e9940554da2492f55056e9a6e1327b28d34733c0f659c3"
+    },
+    {
+      "id": "CAT5_054",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-01",
+      "split": "training",
+      "source_sha256": "20441ef4f2187bd35d2b6fd03d6710aff9de352e1db2962b25cf8d9e36668324"
+    },
+    {
+      "id": "CAT5_055",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-01",
+      "split": "training",
+      "source_sha256": "14419c9f36b861d2ed34679a1ef4fe96a51144fbe78d64f7b77fdbeca4338a5a"
+    },
+    {
+      "id": "CAT5_056",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-01",
+      "split": "training",
+      "source_sha256": "09e4728dfad0a7272463a0ba5dcf83717823727ecef035907e0f578a58ea4486"
+    },
+    {
+      "id": "CAT5_057",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-01",
+      "split": "training",
+      "source_sha256": "fdf29b8fb4f2599d1b55a83a9ee6c362c142164a4ea26df7f602cce048d4c720"
+    },
+    {
+      "id": "CAT5_058",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-01",
+      "split": "training",
+      "source_sha256": "c6302395594f4042ec1e0c7cc7cbec2d4dfe9fbf8d4cde328b5f407a008dadaf"
+    },
+    {
+      "id": "CAT5_059",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-01",
+      "split": "training",
+      "source_sha256": "7b6463f1088a764ecd6e31290067f23720400d1d6462c81baac6d557caed9803"
+    },
+    {
+      "id": "CAT5_060",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-01",
+      "split": "training",
+      "source_sha256": "9e133a278fc8e74852849237dc179c1f759ec79fda471de064b4ca2dc92e97c8"
+    },
+    {
+      "id": "CAT5_061",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-02",
+      "split": "training",
+      "source_sha256": "0e158224019956dfd44f65bd57c1fe4360bad4343b676174f60c54a277be4fff"
+    },
+    {
+      "id": "CAT5_062",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-02",
+      "split": "training",
+      "source_sha256": "be5ad925391cf27e20c6bcd1d1fcdcb298bd3245dba91dde97908fad8038989d"
+    },
+    {
+      "id": "CAT5_063",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-02",
+      "split": "training",
+      "source_sha256": "f6da65de3effbd187fa26c978ff79489c161b490bf9d9023321fa368768b7f09"
+    },
+    {
+      "id": "CAT5_064",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-02",
+      "split": "training",
+      "source_sha256": "587d4fa204a9ef42514b14acfafde86773d754fbba82440350accb21781633a6"
+    },
+    {
+      "id": "CAT5_065",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-02",
+      "split": "training",
+      "source_sha256": "4298d0c4eee624a5571f1dfad00ee3151abfdcd305c5796b968b8f92077fc4d7"
+    },
+    {
+      "id": "CAT5_066",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-02",
+      "split": "training",
+      "source_sha256": "a3369dd7a5ad01ea14ac4e2968c5996a48290f3d04cd29d8811398785da1affc"
+    },
+    {
+      "id": "CAT5_067",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-02",
+      "split": "training",
+      "source_sha256": "616e3db8aea243b6efdcb921740b8c76bcdd278fc50327cce072952de57c9500"
+    },
+    {
+      "id": "CAT5_068",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-02",
+      "split": "training",
+      "source_sha256": "4615f143f496219a280a954549f74bbbbf92932d368bb442c0932c0851f70841"
+    },
+    {
+      "id": "CAT5_069",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-02",
+      "split": "training",
+      "source_sha256": "600014fd67240c44f09cd443cb92280ff525d1a709f587807f0fb0a2ae7ba987"
+    },
+    {
+      "id": "CAT5_070",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-02",
+      "split": "training",
+      "source_sha256": "699565196eedb1f92e3b0aafbde4a7708c4c89765782648bc018ba29176218bf"
+    },
+    {
+      "id": "CAT5_071",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-03",
+      "split": "training",
+      "source_sha256": "af1427253059b1fb5f056404d2f34de9248dbcc5b52650e9ed888e956ae1096d"
+    },
+    {
+      "id": "CAT5_072",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-03",
+      "split": "training",
+      "source_sha256": "89e4843b9111624f2f050433a74d52dbd2c0b0a413d4b068cb1a331c844d0274"
+    },
+    {
+      "id": "CAT5_073",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-03",
+      "split": "training",
+      "source_sha256": "5aedfd878585a9b468c982a5cc463bb48919a6d33b5d15daa8791dfb03ff4fdf"
+    },
+    {
+      "id": "CAT5_074",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-03",
+      "split": "training",
+      "source_sha256": "19241b0b01cecbf89db0fd814ce14c9fb0f4f67560bfa3375a8fd5467c8780ef"
+    },
+    {
+      "id": "CAT5_075",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-03",
+      "split": "training",
+      "source_sha256": "04a6cd590ba25acff9ade770e72204b46fb04a2ca3f9bebc02cc6f1678660560"
+    },
+    {
+      "id": "CAT5_076",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-03",
+      "split": "training",
+      "source_sha256": "9d013f4eef8f492461f43fab811a797de124bce5713762078c0174825400ee25"
+    },
+    {
+      "id": "CAT5_077",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-03",
+      "split": "training",
+      "source_sha256": "61f2ff60bf8739e353dc1a8648855e7252d798214d413dc097fa341a970402d8"
+    },
+    {
+      "id": "CAT5_078",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-03",
+      "split": "training",
+      "source_sha256": "494eca429e0276bdd8566f408174860e55f1544ecda1469332755a1743af542f"
+    },
+    {
+      "id": "CAT5_079",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-03",
+      "split": "training",
+      "source_sha256": "15da9120e2892e4577aae60144d85484166ba892546973d5ac6979af5d4f08f3"
+    },
+    {
+      "id": "CAT5_080",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-03",
+      "split": "training",
+      "source_sha256": "2e8b19729be5ee1d213dc26c41c50f6baa91ce29e1afb61784461dd11fe70bf5"
+    },
+    {
+      "id": "CAT5_081",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-04",
+      "split": "testing",
+      "source_sha256": "a81b76943265c67ad4ff73d1e59adc0be549fd74feabb7ea1f69aba464591301"
+    },
+    {
+      "id": "CAT5_082",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-04",
+      "split": "testing",
+      "source_sha256": "86d95812efe223c20ba8e97c325e22cb20d048f4dfa3d906061ec83ddeadc607"
+    },
+    {
+      "id": "CAT5_083",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-04",
+      "split": "testing",
+      "source_sha256": "14dc88dd6246ce2cb75750b853fba8e391d245eaf5818528158a1665774bc002"
+    },
+    {
+      "id": "CAT5_084",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-04",
+      "split": "testing",
+      "source_sha256": "8d06b8fd6ced0cd982882c8e6dd922c0628b727b1564c9a6a3e4a03813c8ea61"
+    },
+    {
+      "id": "CAT5_085",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-04",
+      "split": "testing",
+      "source_sha256": "10e6e1f8b677c62e8ce76c9fc46bcd15de3c2c09c93c6f2cbb5d3d0d60be4cdf"
+    },
+    {
+      "id": "CAT5_086",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-04",
+      "split": "testing",
+      "source_sha256": "3440d0003cb5bb27ce81e3566a00a2674a0f46a71c48461156481bcad8b3099a"
+    },
+    {
+      "id": "CAT5_087",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-04",
+      "split": "testing",
+      "source_sha256": "4c23ef63a8c58686ff9b02b493668a814a6ff09ff7a2376e4f92ea82cc81780e"
+    },
+    {
+      "id": "CAT5_088",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-04",
+      "split": "testing",
+      "source_sha256": "d05cff12bac61344a86a385f8b7bccfcd2aee694503c5d81bd29006c7b16bb2a"
+    },
+    {
+      "id": "CAT5_089",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-04",
+      "split": "testing",
+      "source_sha256": "4f25d366d335ce8646227721849a2a93bba58539c5677e0e771ef7c3f6600167"
+    },
+    {
+      "id": "CAT5_090",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-04",
+      "split": "testing",
+      "source_sha256": "e77e7f63e75170f870579d0def0170f74f1488c21b2bf4fed0c5d40065c6b4cf"
+    },
+    {
+      "id": "CAT5_091",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-05",
+      "split": "testing",
+      "source_sha256": "504eff20b7f86d59b0593ed74b4266cde213471f338be7c6728821de1e099ad6"
+    },
+    {
+      "id": "CAT5_092",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-05",
+      "split": "testing",
+      "source_sha256": "edfa990ebfca551d304f6746e8309a6ae61c9b3c12729bc847e12f28f42a4a3f"
+    },
+    {
+      "id": "CAT5_093",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-05",
+      "split": "testing",
+      "source_sha256": "30c894bf1b896430cff1e717f89610b642d28b73979596b00aea646af894a9d9"
+    },
+    {
+      "id": "CAT5_094",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-05",
+      "split": "testing",
+      "source_sha256": "91328873fd1c6be045ceaa307d28dd5e60f4656d4e0955f18be5c5a24a536694"
+    },
+    {
+      "id": "CAT5_095",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-05",
+      "split": "testing",
+      "source_sha256": "bfc6e9c2495e9b16304935e5dee7131c2c2fd629afb177d3d3b8cbfd82464652"
+    },
+    {
+      "id": "CAT5_096",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-05",
+      "split": "testing",
+      "source_sha256": "61836f6b60dddd942998dd19a3181783edeaf2ef1054fff723746725ea1c5a32"
+    },
+    {
+      "id": "CAT5_097",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-05",
+      "split": "testing",
+      "source_sha256": "06bc09b71f816012ee79217ccd425c575ffac694af0964153b5624f332bc02dd"
+    },
+    {
+      "id": "CAT5_098",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-05",
+      "split": "testing",
+      "source_sha256": "0f53293afe6621a0a5586c52732272f3cc40664e1f6e49e9e6bfd636b0286e5f"
+    },
+    {
+      "id": "CAT5_099",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-05",
+      "split": "testing",
+      "source_sha256": "ecbdf5a04d2ba6b92e8ed3964ed8c54dee4d7307164b397731dd6432065a1737"
+    },
+    {
+      "id": "CAT5_100",
+      "category": "loop_based",
+      "size": "small",
+      "family_id": "loop_based:family-05",
+      "split": "testing",
+      "source_sha256": "2fd94715b6dff4f9339dce4ca60938529b7be6e7c1f52c77fff54347ff702eb0"
+    }
+  ],
+  "supported_source_syntax": "Assignments, + - * / %, parentheses, unary minus, print, and the compiler's restricted counted for-loop form.",
+  "dataset_file": "benchmarks/dataset.json",
+  "training_file": "dataset/training/training.json",
+  "testing_file": "dataset/testing/testing.json",
+  "training_record_fields": [
+    "id",
+    "category",
+    "size",
+    "source",
+    "expected_output",
+    "inputs"
+  ],
+  "testing_record_fields": [
+    "source"
+  ],
+  "note": "Split/family metadata is kept in this manifest, not in program records. Applicability labels and features are derived by compiler analysis at training/evaluation time.",
+  "compiler_labeling_completed": true,
+  "label_counts": {
+    "training": {
+      "constant_folding": 200,
+      "constant_propagation": 400,
+      "algebraic_simplification": 81,
+      "common_subexpression_elimination": 80,
+      "dead_code_elimination": 120,
+      "strength_reduction": 93
+    },
+    "testing": {
+      "constant_folding": 60,
+      "constant_propagation": 100,
+      "algebraic_simplification": 20,
+      "common_subexpression_elimination": 20,
+      "dead_code_elimination": 40,
+      "strength_reduction": 30
+    }
+  },
+  "all_programs_supported_by_compiler": true,
+  "all_expected_outputs_match_original_compiler": true,
+  "evaluation_path": "results/benchmark_v2_ml_evaluation.json",
+  "compiler_results_path": "results/benchmark_v2_compiler_results.json",
+  "model_path": "ml/benchmark_pass_recommender.joblib",
+  "compiler_failures": []
+}

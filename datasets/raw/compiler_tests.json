@@ -1,0 +1,74 @@
+[
+  {
+    "id": "llvm-instcombine-add-neutral",
+    "source_type": "compiler_test",
+    "source_family": "llvm-instcombine-add-ll",
+    "category": "algebraic_simplification",
+    "source_title": "LLVM InstCombine add test (excerpt)",
+    "author_or_organization": "The LLVM Project",
+    "document_title": "LLVM llvm/test/Transforms/InstCombine/add.ll",
+    "edition": null,
+    "chapter": null,
+    "page": null,
+    "source_url": "https://github.com/llvm/llvm-project/blob/e833378300e7b695282cae9e21723ebaeafd15a5/llvm/test/Transforms/InstCombine/add.ll",
+    "repository": "llvm/llvm-project",
+    "file_path": "llvm/test/Transforms/InstCombine/add.ll",
+    "revision": "e833378300e7b695282cae9e21723ebaeafd15a5",
+    "license": "Apache-2.0 WITH LLVM-exception (repository-level LICENSE.TXT; file-specific header not present in the excerpt)",
+    "license_url": "https://github.com/llvm/llvm-project/blob/e833378300e7b695282cae9e21723ebaeafd15a5/LICENSE.TXT",
+    "original_source": "%a = add i32 %x, 0",
+    "adapted_source": "x = 10; y = x + 0; print(y);",
+    "adaptation_notes": "The LLVM IR uses an SSA parameter and an integer add-by-zero operation. The compiler accepts only assignments, arithmetic, and print, so the parameter is initialized to 10 and the unsupported IR function and checks are omitted. This is a fixed-input demonstration of the operation, not an equivalent translation for all inputs.",
+    "optimization_patterns": [
+      "algebraic_simplification"
+    ]
+  },
+  {
+    "id": "gcc-pr96392-plus-zero",
+    "source_type": "compiler_test",
+    "source_family": "gcc-pr96392",
+    "category": "algebraic_simplification",
+    "source_title": "GCC PR tree-optimization/96392 test, plus0 excerpt",
+    "author_or_organization": "GCC project contributors",
+    "document_title": "GCC testsuite, gcc/testsuite/gcc.dg/pr96392.c",
+    "edition": null,
+    "chapter": null,
+    "page": null,
+    "source_url": "https://github.com/gcc-mirror/gcc/blob/58e696376aecf8b895bb952a99988538cf366479/gcc/testsuite/gcc.dg/pr96392.c",
+    "repository": "gcc-mirror/gcc",
+    "file_path": "gcc/testsuite/gcc.dg/pr96392.c",
+    "revision": "58e696376aecf8b895bb952a99988538cf366479",
+    "license": "GPL-3.0 (repository COPYING3; per-file copyright/assignment was not independently verified)",
+    "license_url": "https://github.com/gcc-mirror/gcc/blob/58e696376aecf8b895bb952a99988538cf366479/COPYING3",
+    "original_source": "double plus0(int x) { return x + 0.0; }",
+    "adapted_source": "x = 10; y = x + 0.0; print(y);",
+    "adaptation_notes": "The source function accepts a runtime integer and returns double. The educational compiler has no function declarations or runtime inputs, so x is fixed at 10 and only the addition expression is retained. The floating-point literal is preserved; this demonstrates one input case, not the full function contract.",
+    "optimization_patterns": [
+      "algebraic_simplification"
+    ]
+  },
+  {
+    "id": "gcc-pr96392-sub-zero",
+    "source_type": "compiler_test",
+    "source_family": "gcc-pr96392",
+    "category": "algebraic_simplification",
+    "source_title": "GCC PR tree-optimization/96392 test, sub0 excerpt",
+    "author_or_organization": "GCC project contributors",
+    "document_title": "GCC testsuite, gcc/testsuite/gcc.dg/pr96392.c",
+    "edition": null,
+    "chapter": null,
+    "page": null,
+    "source_url": "https://github.com/gcc-mirror/gcc/blob/58e696376aecf8b895bb952a99988538cf366479/gcc/testsuite/gcc.dg/pr96392.c",
+    "repository": "gcc-mirror/gcc",
+    "file_path": "gcc/testsuite/gcc.dg/pr96392.c",
+    "revision": "58e696376aecf8b895bb952a99988538cf366479",
+    "license": "GPL-3.0 (repository COPYING3; per-file copyright/assignment was not independently verified)",
+    "license_url": "https://github.com/gcc-mirror/gcc/blob/58e696376aecf8b895bb952a99988538cf366479/COPYING3",
+    "original_source": "double sub0(int x) { return x - 0.0; }",
+    "adapted_source": "x = 11; y = x - 0.0; print(y);",
+    "adaptation_notes": "The source function accepts a runtime integer and returns double. The educational compiler has no function declarations or runtime inputs, so x is fixed at 11 and only the subtraction expression is retained. The floating-point literal is preserved; this demonstrates one input case, not the full function contract.",
+    "optimization_patterns": [
+      "algebraic_simplification"
+    ]
+  }
+]

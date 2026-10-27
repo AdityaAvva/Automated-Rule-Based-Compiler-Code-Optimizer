@@ -1,0 +1,1 @@
+a7 = 9; b7 = 11; x7 = a7 + b7; y7 = a7 + b7; print(x7); print(y7);

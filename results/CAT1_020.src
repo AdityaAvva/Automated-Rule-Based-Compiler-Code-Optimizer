@@ -1,0 +1,1 @@
+x = 24 * 7; print(x); y = x + 7; print(y); z = y - 1; print(z);

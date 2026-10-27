@@ -1,0 +1,1 @@
+sum1 = 11; for(index1=0;index1<2;index1=index1+1){ sum1 = sum1 + index1 * 3; } print(sum1);

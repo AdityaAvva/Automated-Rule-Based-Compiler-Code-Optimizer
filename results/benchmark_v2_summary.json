@@ -1,0 +1,71 @@
+{
+  "program_count": 500,
+  "training_count": 400,
+  "testing_count": 100,
+  "training_family_count": 25,
+  "testing_family_count": 10,
+  "category_distribution": {
+    "constant_expressions": {
+      "total": 100,
+      "training": 80,
+      "testing": 20
+    },
+    "algebraic_redundancy": {
+      "total": 100,
+      "training": 80,
+      "testing": 20
+    },
+    "dead_code": {
+      "total": 100,
+      "training": 80,
+      "testing": 20
+    },
+    "repeated_expressions": {
+      "total": 100,
+      "training": 80,
+      "testing": 20
+    },
+    "loop_based": {
+      "total": 100,
+      "training": 80,
+      "testing": 20
+    }
+  },
+  "training_label_counts": {
+    "constant_folding": 200,
+    "constant_propagation": 400,
+    "algebraic_simplification": 81,
+    "common_subexpression_elimination": 80,
+    "dead_code_elimination": 120,
+    "strength_reduction": 93
+  },
+  "ml_recommendation_evaluation": {
+    "overall_pass_recommendation_accuracy": 1.0,
+    "overall_precision_micro": 1.0,
+    "overall_recall_micro": 1.0,
+    "overall_f1_micro": 1.0,
+    "overall_precision_macro": 1.0,
+    "overall_recall_macro": 1.0,
+    "overall_f1_macro": 1.0,
+    "subset_accuracy": 1.0,
+    "hamming_loss": 0.0
+  },
+  "compiler_test_summary": {
+    "test_program_count": 100,
+    "recommended_correct_outputs": 100,
+    "all_passes_correct_outputs": 100,
+    "failures": [],
+    "ml_recommended_average_instruction_reduction_pct": 27.61904761904762,
+    "all_passes_average_instruction_reduction_pct": 66.95238095238095,
+    "ml_recommended_average_code_size_reduction_pct": 36.912535899202965,
+    "all_passes_average_code_size_reduction_pct": 71.47324568058526,
+    "ml_recommended_mean_optimization_cycles": 2.8,
+    "all_passes_mean_optimization_cycles": 3.4,
+    "interpretation": "ML-recommended execution and the all-six-pass baseline are independent compiler runs. All-pass results do not measure ML quality."
+  },
+  "test_failure_count": 0,
+  "training_report": "results\\benchmark_v2_training_summary.json",
+  "evaluation_report": "results\\benchmark_v2_ml_evaluation.json",
+  "compiler_results": "results\\benchmark_v2_compiler_results.json",
+  "plots_directory": "plots\\benchmark_v2"
+}

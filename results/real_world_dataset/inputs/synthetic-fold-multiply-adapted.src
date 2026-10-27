@@ -1,0 +1,1 @@
+product = 4 * 7; print(product);

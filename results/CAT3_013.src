@@ -1,0 +1,1 @@
+unused12 = 23; also_unused12 = 32 * 3; answer = 19; print(answer);

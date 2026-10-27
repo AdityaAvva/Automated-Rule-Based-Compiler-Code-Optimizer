@@ -1,0 +1,1 @@
+left14 = 21; right14 = 9; first14 = left14 * right14; again14 = left14 * right14; print(first14); print(again14);

@@ -1,0 +1,1 @@
+x = 16 * 6; print(x); y = x + 4; print(y); z = y - 1; print(z);

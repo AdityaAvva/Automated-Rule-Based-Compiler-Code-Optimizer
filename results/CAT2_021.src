@@ -1,0 +1,1 @@
+base0 = 10; x0 = base0 + 0; y0 = x0 * 1; print(y0);

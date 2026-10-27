@@ -1,0 +1,1 @@
+left2 = 9; right2 = 9; first2 = left2 * right2; again2 = left2 * right2; print(first2); print(again2);

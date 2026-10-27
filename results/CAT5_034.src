@@ -1,0 +1,1 @@
+sum13 = 23; for(index13=0;index13<2;index13=index13+1){ sum13 = sum13 + index13 * 3; } print(sum13);

@@ -1,0 +1,10 @@
+{
+  "id": "CAT3_083",
+  "category": "dead_code",
+  "size": "small",
+  "source": "drop42 = 40 * 8; gone42 = drop42 + 11; live42 = 40 + 9; print(live42);",
+  "expected_output": "49\n",
+  "inputs": [
+    {}
+  ]
+}

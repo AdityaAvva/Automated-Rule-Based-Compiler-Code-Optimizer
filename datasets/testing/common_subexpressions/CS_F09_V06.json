@@ -1,0 +1,3 @@
+{
+  "source": "left9 = 9; right9 = 7; third9 = 2; expr9 = left9 * right9; reuse0 = left9 * right9; print(reuse0); reuse1 = left9 * right9; print(reuse1); reuse2 = left9 * right9; print(reuse2); reuse3 = left9 * right9; print(reuse3); other9 = expr9 + third9; print(other9);"
+}

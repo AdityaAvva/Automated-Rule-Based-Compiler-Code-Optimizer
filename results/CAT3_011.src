@@ -1,0 +1,1 @@
+unused10 = 21; also_unused10 = 30 * 3; answer = 17; print(answer);

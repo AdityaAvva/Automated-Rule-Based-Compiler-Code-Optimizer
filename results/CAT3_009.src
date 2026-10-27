@@ -1,0 +1,1 @@
+unused8 = 19; also_unused8 = 28 * 3; answer = 15; print(answer);

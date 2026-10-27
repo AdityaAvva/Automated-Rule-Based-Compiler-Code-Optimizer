@@ -1,0 +1,400 @@
+{
+  "schema_version": "1.0",
+  "raw_program_count": 15,
+  "compatible_program_count": 15,
+  "rejected_program_count": 0,
+  "compatibility_rate": 1.0,
+  "original_external_excerpt_compatibility": {
+    "checked": 3,
+    "supported": 0,
+    "unsupported": 3,
+    "details": [
+      {
+        "id": "llvm-instcombine-add-neutral",
+        "supported": false,
+        "reason": "ERROR: Invalid identifier: %a\nSupported syntax: assignments, arithmetic (+ - * / %), print expr, and simple for(i=0;i<N;i=i+1){...} loops."
+      },
+      {
+        "id": "gcc-pr96392-plus-zero",
+        "supported": false,
+        "reason": "ERROR: Expected assignment: double plus0(int x) { return x + 0.0\nSupported syntax: assignments, arithmetic (+ - * / %), print expr, and simple for(i=0;i<N;i=i+1){...} loops."
+      },
+      {
+        "id": "gcc-pr96392-sub-zero",
+        "supported": false,
+        "reason": "ERROR: Expected assignment: double sub0(int x) { return x - 0.0\nSupported syntax: assignments, arithmetic (+ - * / %), print expr, and simple for(i=0;i<N;i=i+1){...} loops."
+      }
+    ]
+  },
+  "counts_by_source_type": {
+    "compiler_test": 3,
+    "generated": 12
+  },
+  "compatible_counts_by_source_type": {
+    "compiler_test": 3,
+    "generated": 12
+  },
+  "source_provenance_counts": {
+    "verified_dataset_origins": {
+      "llvm_compiler_test": 1,
+      "gcc_compiler_test": 2,
+      "generated": 12,
+      "textbook_or_lecture_origins_from_supplied_candidates": 0,
+      "llvm_testing_guides_as_program_origins": 0
+    },
+    "conceptual_references_checked": 5,
+    "conceptual_references_with_dataset_origin": 0
+  },
+  "counts_by_optimization_pattern": {
+    "algebraic_simplification": 5,
+    "constant_folding": 6,
+    "constant_propagation": 2,
+    "dead_code_elimination": 1,
+    "common_subexpression_elimination": 1,
+    "strength_reduction": 1,
+    "loop_expansion": 1
+  },
+  "unique_compatible_source_families": 14,
+  "split_counts": {
+    "train": {
+      "programs": 11,
+      "source_families": 10,
+      "source_types": {
+        "compiler_test": 2,
+        "generated": 9
+      }
+    },
+    "validation": {
+      "programs": 2,
+      "source_families": 2,
+      "source_types": {
+        "generated": 2
+      }
+    },
+    "test": {
+      "programs": 2,
+      "source_families": 2,
+      "source_types": {
+        "compiler_test": 1,
+        "generated": 1
+      }
+    }
+  },
+  "requested_split_ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "actual_split_ratios": {
+    "train": 0.7333333333333333,
+    "validation": 0.13333333333333333,
+    "test": 0.13333333333333333
+  },
+  "family_assignments": {
+    "train": [
+      "synthetic-propagation-chain-v1",
+      "synthetic-fold-multiply-v1",
+      "synthetic-unary-negation-v1",
+      "synthetic-strength-reduction-v1",
+      "gcc-pr96392",
+      "synthetic-loop-unroll-v1",
+      "synthetic-variable-reassignment-v1",
+      "synthetic-parenthesized-expression-v1",
+      "synthetic-algebraic-multiply-one-v1",
+      "synthetic-fold-remainder-v1"
+    ],
+    "validation": [
+      "synthetic-algebraic-add-zero-v1",
+      "synthetic-cse-add-v1"
+    ],
+    "test": [
+      "llvm-instcombine-add-ll",
+      "synthetic-dead-stores-v1"
+    ]
+  },
+  "leakage_checks": {
+    "unique_ids_across_splits": true,
+    "normalized_source_overlap": false,
+    "source_family_overlap": false,
+    "random_seed": 307
+  },
+  "training_program_count": 11,
+  "validation_program_count": 2,
+  "testing_program_count": 2,
+  "training_source_types": {
+    "compiler_test": 2,
+    "generated": 9
+  },
+  "validation_source_types": {
+    "generated": 2
+  },
+  "testing_source_types": {
+    "compiler_test": 1,
+    "generated": 1
+  },
+  "feature_count": 18,
+  "feature_names": [
+    "semicolon_delimited_segment_count",
+    "source_character_count",
+    "numeric_literal_count",
+    "identifier_token_count",
+    "arithmetic_operator_count",
+    "plus_operator_count",
+    "minus_operator_count",
+    "multiply_operator_count",
+    "divide_operator_count",
+    "modulo_operator_count",
+    "counted_for_keyword_count",
+    "print_keyword_count",
+    "selected_named_zero_add_or_multiply_pattern_count",
+    "add_zero_pattern_count",
+    "multiply_one_pattern_count",
+    "literal_binary_assignment_count",
+    "identifier_binary_assignment_count",
+    "identifier_copy_assignment_count"
+  ],
+  "features": "Existing source-text regex feature extractor; outputs and post-optimization metrics are excluded. Names document the exact positional output.",
+  "label_definition": "Positive means the independently applied pass transforms TAC, preserves interpreter output, and reduces at least one static metric (instructions, operations, temporaries, or TAC characters). It does not mean runtime speedup.",
+  "model": "RandomForestClassifier per pass; train split only; thresholds selected on validation split; final metrics use test split only.",
+  "validation_metrics": {
+    "program_count": 2,
+    "exact_match_ratio": 0.0,
+    "micro_precision": 1.0,
+    "micro_recall": 0.5,
+    "micro_f1": 0.6666666666666666,
+    "macro_f1": 0.16666666666666666,
+    "hamming_loss": 0.16666666666666666,
+    "per_pass": {
+      "constant_folding": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0,
+        "predicted_positive": 0,
+        "confusion": {
+          "true_positive": 0,
+          "false_positive": 0,
+          "true_negative": 2,
+          "false_negative": 0
+        }
+      },
+      "constant_propagation": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2,
+        "predicted_positive": 2,
+        "confusion": {
+          "true_positive": 2,
+          "false_positive": 0,
+          "true_negative": 0,
+          "false_negative": 0
+        }
+      },
+      "algebraic_simplification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1,
+        "predicted_positive": 0,
+        "confusion": {
+          "true_positive": 0,
+          "false_positive": 0,
+          "true_negative": 1,
+          "false_negative": 1
+        }
+      },
+      "common_subexpression_elimination": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1,
+        "predicted_positive": 0,
+        "confusion": {
+          "true_positive": 0,
+          "false_positive": 0,
+          "true_negative": 1,
+          "false_negative": 1
+        }
+      },
+      "dead_code_elimination": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0,
+        "predicted_positive": 0,
+        "confusion": {
+          "true_positive": 0,
+          "false_positive": 0,
+          "true_negative": 2,
+          "false_negative": 0
+        }
+      },
+      "strength_reduction": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0,
+        "predicted_positive": 0,
+        "confusion": {
+          "true_positive": 0,
+          "false_positive": 0,
+          "true_negative": 2,
+          "false_negative": 0
+        }
+      }
+    },
+    "aggregate_confusion": {
+      "true_positive": 2,
+      "false_positive": 0,
+      "true_negative": 8,
+      "false_negative": 2
+    },
+    "limitation": "Small held-out counts and sparse pass labels make these estimates descriptive, not reliable generalization claims."
+  },
+  "threshold_selection": {
+    "constant_folding": {
+      "threshold": 0.5,
+      "status": "validation labels contain one class; default threshold retained"
+    },
+    "constant_propagation": {
+      "threshold": 0.5,
+      "status": "validation labels contain one class; default threshold retained"
+    },
+    "algebraic_simplification": {
+      "threshold": 0.5,
+      "validation_f1": 0.0,
+      "status": "selected by validation F1"
+    },
+    "common_subexpression_elimination": {
+      "threshold": 0.5,
+      "validation_f1": 0.0,
+      "status": "selected by validation F1"
+    },
+    "dead_code_elimination": {
+      "threshold": 0.5,
+      "status": "validation labels contain one class; default threshold retained"
+    },
+    "strength_reduction": {
+      "threshold": 0.5,
+      "status": "validation labels contain one class; default threshold retained"
+    }
+  },
+  "test_metrics": {
+    "program_count": 2,
+    "exact_match_ratio": 0.0,
+    "micro_precision": 1.0,
+    "micro_recall": 0.25,
+    "micro_f1": 0.4,
+    "macro_f1": 0.16666666666666666,
+    "hamming_loss": 0.25,
+    "per_pass": {
+      "constant_folding": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1,
+        "predicted_positive": 0,
+        "confusion": {
+          "true_positive": 0,
+          "false_positive": 0,
+          "true_negative": 1,
+          "false_negative": 1
+        }
+      },
+      "constant_propagation": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1,
+        "predicted_positive": 1,
+        "confusion": {
+          "true_positive": 1,
+          "false_positive": 0,
+          "true_negative": 1,
+          "false_negative": 0
+        }
+      },
+      "algebraic_simplification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1,
+        "predicted_positive": 0,
+        "confusion": {
+          "true_positive": 0,
+          "false_positive": 0,
+          "true_negative": 1,
+          "false_negative": 1
+        }
+      },
+      "common_subexpression_elimination": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0,
+        "predicted_positive": 0,
+        "confusion": {
+          "true_positive": 0,
+          "false_positive": 0,
+          "true_negative": 2,
+          "false_negative": 0
+        }
+      },
+      "dead_code_elimination": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1,
+        "predicted_positive": 0,
+        "confusion": {
+          "true_positive": 0,
+          "false_positive": 0,
+          "true_negative": 1,
+          "false_negative": 1
+        }
+      },
+      "strength_reduction": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0,
+        "predicted_positive": 0,
+        "confusion": {
+          "true_positive": 0,
+          "false_positive": 0,
+          "true_negative": 2,
+          "false_negative": 0
+        }
+      }
+    },
+    "aggregate_confusion": {
+      "true_positive": 1,
+      "false_positive": 0,
+      "true_negative": 8,
+      "false_negative": 3
+    },
+    "limitation": "Small held-out counts and sparse pass labels make these estimates descriptive, not reliable generalization claims."
+  },
+  "optimization_effectiveness": {
+    "held_out_programs": 2,
+    "recommended_output_equivalent": 2,
+    "all_passes_output_equivalent": 2,
+    "comparison_note": "ML recommendation quality and rule-optimizer effectiveness are separate. Code-size/instruction changes are not evidence of execution speedup."
+  },
+  "limitations": [
+    "No textbook examples were added: no suitable textbook source and reuse license were verified during this run. The raw textbook file is an empty import point.",
+    "External C and LLVM IR excerpts are not accepted by the existing compiler. Only separately stored, explicitly documented adaptations are evaluated.",
+    "External adaptations use fixed values because the language has no functions or runtime inputs; they are not equivalent translations for every source input.",
+    "The dataset and family-level holdout are small; held-out scores are descriptive only and cannot establish generalization.",
+    "The underlying feature extractor is the current source-text heuristic extractor, not a new parser-derived TAC feature set.",
+    "Tiny interpreter and optimization timings are noisy; no execution speedup is claimed.",
+    "Loop constructs are expanded before TAC optimization; loop metrics do not represent retained loop-control-flow optimization."
+  ],
+  "files": {
+    "model": "ml\\real_world_pass_recommender.joblib",
+    "predictions": "results\\real_world_dataset\\test_predictions.json",
+    "effectiveness": "results\\real_world_dataset\\test_effectiveness.json",
+    "plots": "plots\\real_world"
+  }
+}

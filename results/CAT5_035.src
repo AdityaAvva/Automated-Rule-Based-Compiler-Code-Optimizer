@@ -1,0 +1,1 @@
+sum14 = 24; for(index14=0;index14<2;index14=index14+1){ sum14 = sum14 + index14 * 3; } print(sum14);

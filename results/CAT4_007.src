@@ -1,0 +1,1 @@
+a6 = 8; b6 = 10; x6 = a6 + b6; y6 = a6 + b6; print(x6); print(y6);

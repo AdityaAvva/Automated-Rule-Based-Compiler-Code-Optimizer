@@ -1,0 +1,1 @@
+discarded = 8 * 3; replaced = 2 + 5; replaced = 12; print(replaced);

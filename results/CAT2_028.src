@@ -1,0 +1,1 @@
+base7 = 17; x7 = base7 + 0; y7 = x7 * 1; print(y7);

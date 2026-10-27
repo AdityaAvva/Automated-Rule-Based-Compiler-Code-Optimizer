@@ -1,0 +1,1 @@
+sum4 = 4; for(i4=0;i4<2;i4=i4+1){ sum4 = sum4 + i4 * 2; } print(sum4);

@@ -1,0 +1,1 @@
+seed = 9; copied = seed; answer = copied + 2; print(answer);

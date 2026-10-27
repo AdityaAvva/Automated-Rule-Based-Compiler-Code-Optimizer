@@ -1,0 +1,25 @@
+{
+  "status": "evaluated",
+  "testing_file": "dataset\\testing\\testing.json",
+  "model": "ml\\separated_pass_recommender.joblib",
+  "model_sha256": "f11f6beb3a2c9bd291f4a116d85462202af567809da81e7194eaf265d1ecf14e",
+  "testing_data_sha256": "29251b5eb79ea0f35c99eb167d785cbca7ccc585e151162868d74e0046c6a3d0",
+  "testing_program_count": 100,
+  "executed_program_count": 100,
+  "successful_program_count": 100,
+  "failed_program_count": 0,
+  "mean_instruction_reduction_pct": 27.619047619047624,
+  "passes": [
+    "constant_folding",
+    "constant_propagation",
+    "algebraic_simplification",
+    "common_subexpression_elimination",
+    "dead_code_elimination",
+    "strength_reduction"
+  ],
+  "limitations": [
+    "Testing records contain source only; no test expected outputs or applicability labels are consumed.",
+    "Output equivalence is checked against the original execution from the same C++ compiler run.",
+    "These generated, family-held-out examples do not establish generalization to arbitrary source programs."
+  ]
+}

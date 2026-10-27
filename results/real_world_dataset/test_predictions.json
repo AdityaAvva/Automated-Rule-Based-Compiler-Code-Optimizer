@@ -1,0 +1,66 @@
+[
+  {
+    "id": "llvm-instcombine-add-neutral",
+    "source_type": "compiler_test",
+    "category": "algebraic_simplification",
+    "source_family": "llvm-instcombine-add-ll",
+    "actual_labels": {
+      "constant_folding": 0,
+      "constant_propagation": 0,
+      "algebraic_simplification": 1,
+      "common_subexpression_elimination": 0,
+      "dead_code_elimination": 0,
+      "strength_reduction": 0
+    },
+    "probabilities": {
+      "constant_folding": 0.075,
+      "constant_propagation": 0.19166666666666668,
+      "algebraic_simplification": 0.025,
+      "common_subexpression_elimination": 0.0,
+      "dead_code_elimination": 0.0,
+      "strength_reduction": 0.0
+    },
+    "recommendations": {
+      "constant_folding": false,
+      "constant_propagation": false,
+      "algebraic_simplification": false,
+      "common_subexpression_elimination": false,
+      "dead_code_elimination": false,
+      "strength_reduction": false
+    },
+    "recommended_passes": []
+  },
+  {
+    "id": "synthetic-dead-stores",
+    "source_type": "generated",
+    "category": "dead_code_elimination",
+    "source_family": "synthetic-dead-stores-v1",
+    "actual_labels": {
+      "constant_folding": 1,
+      "constant_propagation": 1,
+      "algebraic_simplification": 0,
+      "common_subexpression_elimination": 0,
+      "dead_code_elimination": 1,
+      "strength_reduction": 0
+    },
+    "probabilities": {
+      "constant_folding": 0.08333333333333333,
+      "constant_propagation": 0.8666666666666667,
+      "algebraic_simplification": 0.15,
+      "common_subexpression_elimination": 0.0,
+      "dead_code_elimination": 0.0,
+      "strength_reduction": 0.0
+    },
+    "recommendations": {
+      "constant_folding": false,
+      "constant_propagation": true,
+      "algebraic_simplification": false,
+      "common_subexpression_elimination": false,
+      "dead_code_elimination": false,
+      "strength_reduction": false
+    },
+    "recommended_passes": [
+      "constant_propagation"
+    ]
+  }
+]

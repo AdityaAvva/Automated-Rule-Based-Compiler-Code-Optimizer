@@ -1,0 +1,1 @@
+unused13 = 15 * 3; discard13 = unused13 + 1; answer13 = 112; print(answer13);

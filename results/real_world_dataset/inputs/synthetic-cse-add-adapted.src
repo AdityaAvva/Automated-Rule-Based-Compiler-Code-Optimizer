@@ -1,0 +1,1 @@
+left = 5; right = 8; first = left + right; print(first); second = left + right; print(second);

@@ -1,0 +1,1 @@
+sum5 = 5; for(i5=0;i5<2;i5=i5+1){ sum5 = sum5 + i5 * 2; } print(sum5);

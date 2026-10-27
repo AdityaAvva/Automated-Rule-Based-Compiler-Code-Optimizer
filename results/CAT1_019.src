@@ -1,0 +1,1 @@
+x = 23 * 6; print(x); y = x + 6; print(y); z = y - 1; print(z);

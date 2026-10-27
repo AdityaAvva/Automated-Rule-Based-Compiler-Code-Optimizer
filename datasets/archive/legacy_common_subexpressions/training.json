@@ -1,0 +1,802 @@
+[
+  {
+    "id": "CS_F00_V00",
+    "category": "common_subexpressions",
+    "size": "small",
+    "source": "left0 = 19; right0 = 26; third0 = 2; expr0 = left0 + right0; reuse0 = right0 + left0; print(reuse0); reuse1 = right0 + left0; print(reuse1); other0 = expr0 + third0; print(other0);",
+    "expected_output": "45\n45\n47\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F00_V01",
+    "category": "common_subexpressions",
+    "size": "small",
+    "source": "left0 = 19; right0 = 24; third0 = 5; expr0 = left0 + right0; reuse0 = right0 + left0; print(reuse0); reuse1 = right0 + left0; print(reuse1); other0 = expr0 + third0; print(other0);",
+    "expected_output": "43\n43\n48\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F00_V02",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left0 = 12; right0 = 21; third0 = 6; expr0 = left0 + right0; reuse0 = right0 + left0; print(reuse0); reuse1 = right0 + left0; print(reuse1); reuse2 = right0 + left0; print(reuse2); reuse3 = right0 + left0; print(reuse3); other0 = expr0 + third0; print(other0);",
+    "expected_output": "33\n33\n33\n33\n39\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F00_V03",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left0 = 20; right0 = 4; third0 = 5; expr0 = left0 + right0; reuse0 = right0 + left0; print(reuse0); reuse1 = right0 + left0; print(reuse1); reuse2 = right0 + left0; print(reuse2); reuse3 = right0 + left0; print(reuse3); other0 = expr0 + third0; print(other0);",
+    "expected_output": "24\n24\n24\n24\n29\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F00_V04",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left0 = 17; right0 = 19; third0 = 3; expr0 = left0 + right0; reuse0 = right0 + left0; print(reuse0); reuse1 = right0 + left0; print(reuse1); reuse2 = right0 + left0; print(reuse2); reuse3 = right0 + left0; print(reuse3); other0 = expr0 + third0; print(other0);",
+    "expected_output": "36\n36\n36\n36\n39\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F00_V05",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left0 = 21; right0 = 20; third0 = 10; expr0 = left0 + right0; reuse0 = right0 + left0; print(reuse0); reuse1 = right0 + left0; print(reuse1); reuse2 = right0 + left0; print(reuse2); reuse3 = right0 + left0; print(reuse3); other0 = expr0 + third0; print(other0);",
+    "expected_output": "41\n41\n41\n41\n51\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F00_V06",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left0 = 23; right0 = 27; third0 = 10; expr0 = left0 + right0; reuse0 = right0 + left0; print(reuse0); reuse1 = right0 + left0; print(reuse1); reuse2 = right0 + left0; print(reuse2); reuse3 = right0 + left0; print(reuse3); reuse4 = right0 + left0; print(reuse4); reuse5 = right0 + left0; print(reuse5); reuse6 = right0 + left0; print(reuse6); other0 = expr0 + third0; print(other0);",
+    "expected_output": "50\n50\n50\n50\n50\n50\n50\n60\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F00_V07",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left0 = 7; right0 = 21; third0 = 3; expr0 = left0 + right0; reuse0 = right0 + left0; print(reuse0); reuse1 = right0 + left0; print(reuse1); reuse2 = right0 + left0; print(reuse2); reuse3 = right0 + left0; print(reuse3); reuse4 = right0 + left0; print(reuse4); reuse5 = right0 + left0; print(reuse5); reuse6 = right0 + left0; print(reuse6); other0 = expr0 + third0; print(other0);",
+    "expected_output": "28\n28\n28\n28\n28\n28\n28\n31\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F00_V08",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left0 = 20; right0 = 16; third0 = 3; expr0 = left0 + right0; reuse0 = right0 + left0; print(reuse0); reuse1 = right0 + left0; print(reuse1); reuse2 = right0 + left0; print(reuse2); reuse3 = right0 + left0; print(reuse3); reuse4 = right0 + left0; print(reuse4); reuse5 = right0 + left0; print(reuse5); reuse6 = right0 + left0; print(reuse6); other0 = expr0 + third0; print(other0);",
+    "expected_output": "36\n36\n36\n36\n36\n36\n36\n39\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F00_V09",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left0 = 10; right0 = 5; third0 = 5; expr0 = left0 + right0; reuse0 = right0 + left0; print(reuse0); reuse1 = right0 + left0; print(reuse1); reuse2 = right0 + left0; print(reuse2); reuse3 = right0 + left0; print(reuse3); reuse4 = right0 + left0; print(reuse4); reuse5 = right0 + left0; print(reuse5); reuse6 = right0 + left0; print(reuse6); other0 = expr0 + third0; print(other0);",
+    "expected_output": "15\n15\n15\n15\n15\n15\n15\n20\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F01_V00",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left1 = 12; right1 = 22; third1 = 2; expr1 = left1 * right1; reuse0 = left1 * right1; print(reuse0); reuse1 = left1 * right1; print(reuse1); reuse2 = left1 * right1; print(reuse2); reuse3 = left1 * right1; print(reuse3); other1 = expr1 + third1; print(other1);",
+    "expected_output": "264\n264\n264\n264\n266\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F01_V01",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left1 = 3; right1 = 9; third1 = 5; expr1 = left1 * right1; reuse0 = left1 * right1; print(reuse0); reuse1 = left1 * right1; print(reuse1); reuse2 = left1 * right1; print(reuse2); reuse3 = left1 * right1; print(reuse3); other1 = expr1 + third1; print(other1);",
+    "expected_output": "27\n27\n27\n27\n32\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F01_V02",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left1 = 4; right1 = 23; third1 = 3; expr1 = left1 * right1; reuse0 = left1 * right1; print(reuse0); reuse1 = left1 * right1; print(reuse1); reuse2 = left1 * right1; print(reuse2); reuse3 = left1 * right1; print(reuse3); other1 = expr1 + third1; print(other1);",
+    "expected_output": "92\n92\n92\n92\n95\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F01_V03",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left1 = 16; right1 = 10; third1 = 6; expr1 = left1 * right1; reuse0 = left1 * right1; print(reuse0); reuse1 = left1 * right1; print(reuse1); reuse2 = left1 * right1; print(reuse2); reuse3 = left1 * right1; print(reuse3); reuse4 = left1 * right1; print(reuse4); reuse5 = left1 * right1; print(reuse5); reuse6 = left1 * right1; print(reuse6); other1 = expr1 + third1; print(other1);",
+    "expected_output": "160\n160\n160\n160\n160\n160\n160\n166\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F01_V04",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left1 = 2; right1 = 29; third1 = 2; expr1 = left1 * right1; reuse0 = left1 * right1; print(reuse0); reuse1 = left1 * right1; print(reuse1); reuse2 = left1 * right1; print(reuse2); reuse3 = left1 * right1; print(reuse3); reuse4 = left1 * right1; print(reuse4); reuse5 = left1 * right1; print(reuse5); reuse6 = left1 * right1; print(reuse6); other1 = expr1 + third1; print(other1);",
+    "expected_output": "58\n58\n58\n58\n58\n58\n58\n60\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F01_V05",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left1 = 15; right1 = 13; third1 = 2; expr1 = left1 * right1; reuse0 = left1 * right1; print(reuse0); reuse1 = left1 * right1; print(reuse1); reuse2 = left1 * right1; print(reuse2); reuse3 = left1 * right1; print(reuse3); reuse4 = left1 * right1; print(reuse4); reuse5 = left1 * right1; print(reuse5); reuse6 = left1 * right1; print(reuse6); other1 = expr1 + third1; print(other1);",
+    "expected_output": "195\n195\n195\n195\n195\n195\n195\n197\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F01_V06",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left1 = 13; right1 = 24; third1 = 4; expr1 = left1 * right1; reuse0 = left1 * right1; print(reuse0); reuse1 = left1 * right1; print(reuse1); reuse2 = left1 * right1; print(reuse2); reuse3 = left1 * right1; print(reuse3); reuse4 = left1 * right1; print(reuse4); reuse5 = left1 * right1; print(reuse5); reuse6 = left1 * right1; print(reuse6); other1 = expr1 + third1; print(other1);",
+    "expected_output": "312\n312\n312\n312\n312\n312\n312\n316\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F01_V07",
+    "category": "common_subexpressions",
+    "size": "small",
+    "source": "left1 = 20; right1 = 23; third1 = 10; expr1 = left1 * right1; reuse0 = left1 * right1; print(reuse0); reuse1 = left1 * right1; print(reuse1); other1 = expr1 + third1; print(other1);",
+    "expected_output": "460\n460\n470\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F01_V08",
+    "category": "common_subexpressions",
+    "size": "small",
+    "source": "left1 = 17; right1 = 8; third1 = 5; expr1 = left1 * right1; reuse0 = left1 * right1; print(reuse0); reuse1 = left1 * right1; print(reuse1); other1 = expr1 + third1; print(other1);",
+    "expected_output": "136\n136\n141\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F01_V09",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left1 = 21; right1 = 6; third1 = 10; expr1 = left1 * right1; reuse0 = left1 * right1; print(reuse0); reuse1 = left1 * right1; print(reuse1); reuse2 = left1 * right1; print(reuse2); reuse3 = left1 * right1; print(reuse3); other1 = expr1 + third1; print(other1);",
+    "expected_output": "126\n126\n126\n126\n136\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F02_V00",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left2 = 17; right2 = 12; third2 = 8; expr2 = left2 + right2; reuse0 = right2 + left2; print(reuse0); reuse1 = right2 + left2; print(reuse1); reuse2 = right2 + left2; print(reuse2); reuse3 = right2 + left2; print(reuse3); reuse4 = right2 + left2; print(reuse4); reuse5 = right2 + left2; print(reuse5); reuse6 = right2 + left2; print(reuse6); other2 = expr2 + third2; print(other2);",
+    "expected_output": "29\n29\n29\n29\n29\n29\n29\n37\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F02_V01",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left2 = 12; right2 = 17; third2 = 10; expr2 = left2 + right2; reuse0 = right2 + left2; print(reuse0); reuse1 = right2 + left2; print(reuse1); reuse2 = right2 + left2; print(reuse2); reuse3 = right2 + left2; print(reuse3); reuse4 = right2 + left2; print(reuse4); reuse5 = right2 + left2; print(reuse5); reuse6 = right2 + left2; print(reuse6); other2 = expr2 + third2; print(other2);",
+    "expected_output": "29\n29\n29\n29\n29\n29\n29\n39\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F02_V02",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left2 = 10; right2 = 21; third2 = 4; expr2 = left2 + right2; reuse0 = right2 + left2; print(reuse0); reuse1 = right2 + left2; print(reuse1); reuse2 = right2 + left2; print(reuse2); reuse3 = right2 + left2; print(reuse3); reuse4 = right2 + left2; print(reuse4); reuse5 = right2 + left2; print(reuse5); reuse6 = right2 + left2; print(reuse6); other2 = expr2 + third2; print(other2);",
+    "expected_output": "31\n31\n31\n31\n31\n31\n31\n35\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F02_V03",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left2 = 10; right2 = 20; third2 = 5; expr2 = left2 + right2; reuse0 = right2 + left2; print(reuse0); reuse1 = right2 + left2; print(reuse1); reuse2 = right2 + left2; print(reuse2); reuse3 = right2 + left2; print(reuse3); reuse4 = right2 + left2; print(reuse4); reuse5 = right2 + left2; print(reuse5); reuse6 = right2 + left2; print(reuse6); other2 = expr2 + third2; print(other2);",
+    "expected_output": "30\n30\n30\n30\n30\n30\n30\n35\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F02_V04",
+    "category": "common_subexpressions",
+    "size": "small",
+    "source": "left2 = 7; right2 = 6; third2 = 8; expr2 = left2 + right2; reuse0 = right2 + left2; print(reuse0); reuse1 = right2 + left2; print(reuse1); other2 = expr2 + third2; print(other2);",
+    "expected_output": "13\n13\n21\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F02_V05",
+    "category": "common_subexpressions",
+    "size": "small",
+    "source": "left2 = 15; right2 = 25; third2 = 7; expr2 = left2 + right2; reuse0 = right2 + left2; print(reuse0); reuse1 = right2 + left2; print(reuse1); other2 = expr2 + third2; print(other2);",
+    "expected_output": "40\n40\n47\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F02_V06",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left2 = 15; right2 = 5; third2 = 1; expr2 = left2 + right2; reuse0 = right2 + left2; print(reuse0); reuse1 = right2 + left2; print(reuse1); reuse2 = right2 + left2; print(reuse2); reuse3 = right2 + left2; print(reuse3); other2 = expr2 + third2; print(other2);",
+    "expected_output": "20\n20\n20\n20\n21\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F02_V07",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left2 = 21; right2 = 28; third2 = 1; expr2 = left2 + right2; reuse0 = right2 + left2; print(reuse0); reuse1 = right2 + left2; print(reuse1); reuse2 = right2 + left2; print(reuse2); reuse3 = right2 + left2; print(reuse3); other2 = expr2 + third2; print(other2);",
+    "expected_output": "49\n49\n49\n49\n50\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F02_V08",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left2 = 11; right2 = 22; third2 = 4; expr2 = left2 + right2; reuse0 = right2 + left2; print(reuse0); reuse1 = right2 + left2; print(reuse1); reuse2 = right2 + left2; print(reuse2); reuse3 = right2 + left2; print(reuse3); other2 = expr2 + third2; print(other2);",
+    "expected_output": "33\n33\n33\n33\n37\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F02_V09",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left2 = 12; right2 = 12; third2 = 6; expr2 = left2 + right2; reuse0 = right2 + left2; print(reuse0); reuse1 = right2 + left2; print(reuse1); reuse2 = right2 + left2; print(reuse2); reuse3 = right2 + left2; print(reuse3); other2 = expr2 + third2; print(other2);",
+    "expected_output": "24\n24\n24\n24\n30\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F03_V00",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left3 = 8; right3 = 11; third3 = 7; expr3 = left3 * right3; reuse0 = left3 * right3; print(reuse0); reuse1 = left3 * right3; print(reuse1); reuse2 = left3 * right3; print(reuse2); reuse3 = left3 * right3; print(reuse3); reuse4 = left3 * right3; print(reuse4); reuse5 = left3 * right3; print(reuse5); reuse6 = left3 * right3; print(reuse6); other3 = expr3 + third3; print(other3);",
+    "expected_output": "88\n88\n88\n88\n88\n88\n88\n95\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F03_V01",
+    "category": "common_subexpressions",
+    "size": "small",
+    "source": "left3 = 3; right3 = 16; third3 = 3; expr3 = left3 * right3; reuse0 = left3 * right3; print(reuse0); reuse1 = left3 * right3; print(reuse1); other3 = expr3 + third3; print(other3);",
+    "expected_output": "48\n48\n51\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F03_V02",
+    "category": "common_subexpressions",
+    "size": "small",
+    "source": "left3 = 14; right3 = 26; third3 = 9; expr3 = left3 * right3; reuse0 = left3 * right3; print(reuse0); reuse1 = left3 * right3; print(reuse1); other3 = expr3 + third3; print(other3);",
+    "expected_output": "364\n364\n373\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F03_V03",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left3 = 13; right3 = 23; third3 = 4; expr3 = left3 * right3; reuse0 = left3 * right3; print(reuse0); reuse1 = left3 * right3; print(reuse1); reuse2 = left3 * right3; print(reuse2); reuse3 = left3 * right3; print(reuse3); other3 = expr3 + third3; print(other3);",
+    "expected_output": "299\n299\n299\n299\n303\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F03_V04",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left3 = 6; right3 = 21; third3 = 7; expr3 = left3 * right3; reuse0 = left3 * right3; print(reuse0); reuse1 = left3 * right3; print(reuse1); reuse2 = left3 * right3; print(reuse2); reuse3 = left3 * right3; print(reuse3); other3 = expr3 + third3; print(other3);",
+    "expected_output": "126\n126\n126\n126\n133\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F03_V05",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left3 = 8; right3 = 17; third3 = 5; expr3 = left3 * right3; reuse0 = left3 * right3; print(reuse0); reuse1 = left3 * right3; print(reuse1); reuse2 = left3 * right3; print(reuse2); reuse3 = left3 * right3; print(reuse3); other3 = expr3 + third3; print(other3);",
+    "expected_output": "136\n136\n136\n136\n141\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F03_V06",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left3 = 3; right3 = 24; third3 = 4; expr3 = left3 * right3; reuse0 = left3 * right3; print(reuse0); reuse1 = left3 * right3; print(reuse1); reuse2 = left3 * right3; print(reuse2); reuse3 = left3 * right3; print(reuse3); other3 = expr3 + third3; print(other3);",
+    "expected_output": "72\n72\n72\n72\n76\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F03_V07",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left3 = 22; right3 = 3; third3 = 8; expr3 = left3 * right3; reuse0 = left3 * right3; print(reuse0); reuse1 = left3 * right3; print(reuse1); reuse2 = left3 * right3; print(reuse2); reuse3 = left3 * right3; print(reuse3); reuse4 = left3 * right3; print(reuse4); reuse5 = left3 * right3; print(reuse5); reuse6 = left3 * right3; print(reuse6); other3 = expr3 + third3; print(other3);",
+    "expected_output": "66\n66\n66\n66\n66\n66\n66\n74\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F03_V08",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left3 = 20; right3 = 10; third3 = 7; expr3 = left3 * right3; reuse0 = left3 * right3; print(reuse0); reuse1 = left3 * right3; print(reuse1); reuse2 = left3 * right3; print(reuse2); reuse3 = left3 * right3; print(reuse3); reuse4 = left3 * right3; print(reuse4); reuse5 = left3 * right3; print(reuse5); reuse6 = left3 * right3; print(reuse6); other3 = expr3 + third3; print(other3);",
+    "expected_output": "200\n200\n200\n200\n200\n200\n200\n207\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F03_V09",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left3 = 2; right3 = 13; third3 = 6; expr3 = left3 * right3; reuse0 = left3 * right3; print(reuse0); reuse1 = left3 * right3; print(reuse1); reuse2 = left3 * right3; print(reuse2); reuse3 = left3 * right3; print(reuse3); reuse4 = left3 * right3; print(reuse4); reuse5 = left3 * right3; print(reuse5); reuse6 = left3 * right3; print(reuse6); other3 = expr3 + third3; print(other3);",
+    "expected_output": "26\n26\n26\n26\n26\n26\n26\n32\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F04_V00",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left4 = 15; right4 = 16; third4 = 4; expr4 = left4 + right4; reuse0 = right4 + left4; print(reuse0); reuse1 = right4 + left4; print(reuse1); reuse2 = right4 + left4; print(reuse2); reuse3 = right4 + left4; print(reuse3); other4 = expr4 + third4; print(other4);",
+    "expected_output": "31\n31\n31\n31\n35\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F04_V01",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left4 = 19; right4 = 26; third4 = 9; expr4 = left4 + right4; reuse0 = right4 + left4; print(reuse0); reuse1 = right4 + left4; print(reuse1); reuse2 = right4 + left4; print(reuse2); reuse3 = right4 + left4; print(reuse3); other4 = expr4 + third4; print(other4);",
+    "expected_output": "45\n45\n45\n45\n54\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F04_V02",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left4 = 3; right4 = 20; third4 = 11; expr4 = left4 + right4; reuse0 = right4 + left4; print(reuse0); reuse1 = right4 + left4; print(reuse1); reuse2 = right4 + left4; print(reuse2); reuse3 = right4 + left4; print(reuse3); other4 = expr4 + third4; print(other4);",
+    "expected_output": "23\n23\n23\n23\n34\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F04_V03",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left4 = 4; right4 = 4; third4 = 9; expr4 = left4 + right4; reuse0 = right4 + left4; print(reuse0); reuse1 = right4 + left4; print(reuse1); reuse2 = right4 + left4; print(reuse2); reuse3 = right4 + left4; print(reuse3); other4 = expr4 + third4; print(other4);",
+    "expected_output": "8\n8\n8\n8\n17\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F04_V04",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left4 = 13; right4 = 28; third4 = 8; expr4 = left4 + right4; reuse0 = right4 + left4; print(reuse0); reuse1 = right4 + left4; print(reuse1); reuse2 = right4 + left4; print(reuse2); reuse3 = right4 + left4; print(reuse3); reuse4 = right4 + left4; print(reuse4); reuse5 = right4 + left4; print(reuse5); reuse6 = right4 + left4; print(reuse6); other4 = expr4 + third4; print(other4);",
+    "expected_output": "41\n41\n41\n41\n41\n41\n41\n49\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F04_V05",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left4 = 19; right4 = 22; third4 = 7; expr4 = left4 + right4; reuse0 = right4 + left4; print(reuse0); reuse1 = right4 + left4; print(reuse1); reuse2 = right4 + left4; print(reuse2); reuse3 = right4 + left4; print(reuse3); reuse4 = right4 + left4; print(reuse4); reuse5 = right4 + left4; print(reuse5); reuse6 = right4 + left4; print(reuse6); other4 = expr4 + third4; print(other4);",
+    "expected_output": "41\n41\n41\n41\n41\n41\n41\n48\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F04_V06",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left4 = 14; right4 = 4; third4 = 2; expr4 = left4 + right4; reuse0 = right4 + left4; print(reuse0); reuse1 = right4 + left4; print(reuse1); reuse2 = right4 + left4; print(reuse2); reuse3 = right4 + left4; print(reuse3); reuse4 = right4 + left4; print(reuse4); reuse5 = right4 + left4; print(reuse5); reuse6 = right4 + left4; print(reuse6); other4 = expr4 + third4; print(other4);",
+    "expected_output": "18\n18\n18\n18\n18\n18\n18\n20\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F04_V07",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left4 = 13; right4 = 25; third4 = 5; expr4 = left4 + right4; reuse0 = right4 + left4; print(reuse0); reuse1 = right4 + left4; print(reuse1); reuse2 = right4 + left4; print(reuse2); reuse3 = right4 + left4; print(reuse3); reuse4 = right4 + left4; print(reuse4); reuse5 = right4 + left4; print(reuse5); reuse6 = right4 + left4; print(reuse6); other4 = expr4 + third4; print(other4);",
+    "expected_output": "38\n38\n38\n38\n38\n38\n38\n43\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F04_V08",
+    "category": "common_subexpressions",
+    "size": "small",
+    "source": "left4 = 11; right4 = 27; third4 = 1; expr4 = left4 + right4; reuse0 = right4 + left4; print(reuse0); reuse1 = right4 + left4; print(reuse1); other4 = expr4 + third4; print(other4);",
+    "expected_output": "38\n38\n39\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F04_V09",
+    "category": "common_subexpressions",
+    "size": "small",
+    "source": "left4 = 18; right4 = 29; third4 = 2; expr4 = left4 + right4; reuse0 = right4 + left4; print(reuse0); reuse1 = right4 + left4; print(reuse1); other4 = expr4 + third4; print(other4);",
+    "expected_output": "47\n47\n49\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F05_V00",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left5 = 21; right5 = 10; third5 = 4; expr5 = left5 * right5; reuse0 = left5 * right5; print(reuse0); reuse1 = left5 * right5; print(reuse1); reuse2 = left5 * right5; print(reuse2); reuse3 = left5 * right5; print(reuse3); other5 = expr5 + third5; print(other5);",
+    "expected_output": "210\n210\n210\n210\n214\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F05_V01",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left5 = 13; right5 = 12; third5 = 2; expr5 = left5 * right5; reuse0 = left5 * right5; print(reuse0); reuse1 = left5 * right5; print(reuse1); reuse2 = left5 * right5; print(reuse2); reuse3 = left5 * right5; print(reuse3); reuse4 = left5 * right5; print(reuse4); reuse5 = left5 * right5; print(reuse5); reuse6 = left5 * right5; print(reuse6); other5 = expr5 + third5; print(other5);",
+    "expected_output": "156\n156\n156\n156\n156\n156\n156\n158\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F05_V02",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left5 = 12; right5 = 25; third5 = 11; expr5 = left5 * right5; reuse0 = left5 * right5; print(reuse0); reuse1 = left5 * right5; print(reuse1); reuse2 = left5 * right5; print(reuse2); reuse3 = left5 * right5; print(reuse3); reuse4 = left5 * right5; print(reuse4); reuse5 = left5 * right5; print(reuse5); reuse6 = left5 * right5; print(reuse6); other5 = expr5 + third5; print(other5);",
+    "expected_output": "300\n300\n300\n300\n300\n300\n300\n311\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F05_V03",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left5 = 17; right5 = 6; third5 = 7; expr5 = left5 * right5; reuse0 = left5 * right5; print(reuse0); reuse1 = left5 * right5; print(reuse1); reuse2 = left5 * right5; print(reuse2); reuse3 = left5 * right5; print(reuse3); reuse4 = left5 * right5; print(reuse4); reuse5 = left5 * right5; print(reuse5); reuse6 = left5 * right5; print(reuse6); other5 = expr5 + third5; print(other5);",
+    "expected_output": "102\n102\n102\n102\n102\n102\n102\n109\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F05_V04",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left5 = 7; right5 = 5; third5 = 11; expr5 = left5 * right5; reuse0 = left5 * right5; print(reuse0); reuse1 = left5 * right5; print(reuse1); reuse2 = left5 * right5; print(reuse2); reuse3 = left5 * right5; print(reuse3); reuse4 = left5 * right5; print(reuse4); reuse5 = left5 * right5; print(reuse5); reuse6 = left5 * right5; print(reuse6); other5 = expr5 + third5; print(other5);",
+    "expected_output": "35\n35\n35\n35\n35\n35\n35\n46\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F05_V05",
+    "category": "common_subexpressions",
+    "size": "small",
+    "source": "left5 = 18; right5 = 13; third5 = 6; expr5 = left5 * right5; reuse0 = left5 * right5; print(reuse0); reuse1 = left5 * right5; print(reuse1); other5 = expr5 + third5; print(other5);",
+    "expected_output": "234\n234\n240\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F05_V06",
+    "category": "common_subexpressions",
+    "size": "small",
+    "source": "left5 = 15; right5 = 8; third5 = 2; expr5 = left5 * right5; reuse0 = left5 * right5; print(reuse0); reuse1 = left5 * right5; print(reuse1); other5 = expr5 + third5; print(other5);",
+    "expected_output": "120\n120\n122\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F05_V07",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left5 = 14; right5 = 13; third5 = 7; expr5 = left5 * right5; reuse0 = left5 * right5; print(reuse0); reuse1 = left5 * right5; print(reuse1); reuse2 = left5 * right5; print(reuse2); reuse3 = left5 * right5; print(reuse3); other5 = expr5 + third5; print(other5);",
+    "expected_output": "182\n182\n182\n182\n189\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F05_V08",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left5 = 2; right5 = 20; third5 = 1; expr5 = left5 * right5; reuse0 = left5 * right5; print(reuse0); reuse1 = left5 * right5; print(reuse1); reuse2 = left5 * right5; print(reuse2); reuse3 = left5 * right5; print(reuse3); other5 = expr5 + third5; print(other5);",
+    "expected_output": "40\n40\n40\n40\n41\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F05_V09",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left5 = 3; right5 = 13; third5 = 5; expr5 = left5 * right5; reuse0 = left5 * right5; print(reuse0); reuse1 = left5 * right5; print(reuse1); reuse2 = left5 * right5; print(reuse2); reuse3 = left5 * right5; print(reuse3); other5 = expr5 + third5; print(other5);",
+    "expected_output": "39\n39\n39\n39\n44\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F06_V00",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left6 = 6; right6 = 17; third6 = 5; expr6 = left6 + right6; reuse0 = right6 + left6; print(reuse0); reuse1 = right6 + left6; print(reuse1); reuse2 = right6 + left6; print(reuse2); reuse3 = right6 + left6; print(reuse3); reuse4 = right6 + left6; print(reuse4); reuse5 = right6 + left6; print(reuse5); reuse6 = right6 + left6; print(reuse6); other6 = expr6 + third6; print(other6);",
+    "expected_output": "23\n23\n23\n23\n23\n23\n23\n28\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F06_V01",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left6 = 16; right6 = 17; third6 = 2; expr6 = left6 + right6; reuse0 = right6 + left6; print(reuse0); reuse1 = right6 + left6; print(reuse1); reuse2 = right6 + left6; print(reuse2); reuse3 = right6 + left6; print(reuse3); reuse4 = right6 + left6; print(reuse4); reuse5 = right6 + left6; print(reuse5); reuse6 = right6 + left6; print(reuse6); other6 = expr6 + third6; print(other6);",
+    "expected_output": "33\n33\n33\n33\n33\n33\n33\n35\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F06_V02",
+    "category": "common_subexpressions",
+    "size": "small",
+    "source": "left6 = 4; right6 = 29; third6 = 6; expr6 = left6 + right6; reuse0 = right6 + left6; print(reuse0); reuse1 = right6 + left6; print(reuse1); other6 = expr6 + third6; print(other6);",
+    "expected_output": "33\n33\n39\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F06_V03",
+    "category": "common_subexpressions",
+    "size": "small",
+    "source": "left6 = 15; right6 = 21; third6 = 2; expr6 = left6 + right6; reuse0 = right6 + left6; print(reuse0); reuse1 = right6 + left6; print(reuse1); other6 = expr6 + third6; print(other6);",
+    "expected_output": "36\n36\n38\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F06_V04",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left6 = 12; right6 = 4; third6 = 6; expr6 = left6 + right6; reuse0 = right6 + left6; print(reuse0); reuse1 = right6 + left6; print(reuse1); reuse2 = right6 + left6; print(reuse2); reuse3 = right6 + left6; print(reuse3); other6 = expr6 + third6; print(other6);",
+    "expected_output": "16\n16\n16\n16\n22\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F06_V05",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left6 = 8; right6 = 25; third6 = 8; expr6 = left6 + right6; reuse0 = right6 + left6; print(reuse0); reuse1 = right6 + left6; print(reuse1); reuse2 = right6 + left6; print(reuse2); reuse3 = right6 + left6; print(reuse3); other6 = expr6 + third6; print(other6);",
+    "expected_output": "33\n33\n33\n33\n41\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F06_V06",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left6 = 11; right6 = 10; third6 = 11; expr6 = left6 + right6; reuse0 = right6 + left6; print(reuse0); reuse1 = right6 + left6; print(reuse1); reuse2 = right6 + left6; print(reuse2); reuse3 = right6 + left6; print(reuse3); other6 = expr6 + third6; print(other6);",
+    "expected_output": "21\n21\n21\n21\n32\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F06_V07",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left6 = 22; right6 = 11; third6 = 4; expr6 = left6 + right6; reuse0 = right6 + left6; print(reuse0); reuse1 = right6 + left6; print(reuse1); reuse2 = right6 + left6; print(reuse2); reuse3 = right6 + left6; print(reuse3); other6 = expr6 + third6; print(other6);",
+    "expected_output": "33\n33\n33\n33\n37\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F06_V08",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left6 = 21; right6 = 23; third6 = 3; expr6 = left6 + right6; reuse0 = right6 + left6; print(reuse0); reuse1 = right6 + left6; print(reuse1); reuse2 = right6 + left6; print(reuse2); reuse3 = right6 + left6; print(reuse3); reuse4 = right6 + left6; print(reuse4); reuse5 = right6 + left6; print(reuse5); reuse6 = right6 + left6; print(reuse6); other6 = expr6 + third6; print(other6);",
+    "expected_output": "44\n44\n44\n44\n44\n44\n44\n47\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F06_V09",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left6 = 3; right6 = 29; third6 = 11; expr6 = left6 + right6; reuse0 = right6 + left6; print(reuse0); reuse1 = right6 + left6; print(reuse1); reuse2 = right6 + left6; print(reuse2); reuse3 = right6 + left6; print(reuse3); reuse4 = right6 + left6; print(reuse4); reuse5 = right6 + left6; print(reuse5); reuse6 = right6 + left6; print(reuse6); other6 = expr6 + third6; print(other6);",
+    "expected_output": "32\n32\n32\n32\n32\n32\n32\n43\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F08_V00",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left8 = 12; right8 = 19; third8 = 10; expr8 = left8 + right8; reuse0 = right8 + left8; print(reuse0); reuse1 = right8 + left8; print(reuse1); reuse2 = right8 + left8; print(reuse2); reuse3 = right8 + left8; print(reuse3); other8 = expr8 + third8; print(other8);",
+    "expected_output": "31\n31\n31\n31\n41\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F08_V01",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left8 = 19; right8 = 29; third8 = 11; expr8 = left8 + right8; reuse0 = right8 + left8; print(reuse0); reuse1 = right8 + left8; print(reuse1); reuse2 = right8 + left8; print(reuse2); reuse3 = right8 + left8; print(reuse3); other8 = expr8 + third8; print(other8);",
+    "expected_output": "48\n48\n48\n48\n59\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F08_V02",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left8 = 7; right8 = 6; third8 = 2; expr8 = left8 + right8; reuse0 = right8 + left8; print(reuse0); reuse1 = right8 + left8; print(reuse1); reuse2 = right8 + left8; print(reuse2); reuse3 = right8 + left8; print(reuse3); reuse4 = right8 + left8; print(reuse4); reuse5 = right8 + left8; print(reuse5); reuse6 = right8 + left8; print(reuse6); other8 = expr8 + third8; print(other8);",
+    "expected_output": "13\n13\n13\n13\n13\n13\n13\n15\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F08_V03",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left8 = 20; right8 = 14; third8 = 6; expr8 = left8 + right8; reuse0 = right8 + left8; print(reuse0); reuse1 = right8 + left8; print(reuse1); reuse2 = right8 + left8; print(reuse2); reuse3 = right8 + left8; print(reuse3); reuse4 = right8 + left8; print(reuse4); reuse5 = right8 + left8; print(reuse5); reuse6 = right8 + left8; print(reuse6); other8 = expr8 + third8; print(other8);",
+    "expected_output": "34\n34\n34\n34\n34\n34\n34\n40\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F08_V04",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left8 = 15; right8 = 26; third8 = 6; expr8 = left8 + right8; reuse0 = right8 + left8; print(reuse0); reuse1 = right8 + left8; print(reuse1); reuse2 = right8 + left8; print(reuse2); reuse3 = right8 + left8; print(reuse3); reuse4 = right8 + left8; print(reuse4); reuse5 = right8 + left8; print(reuse5); reuse6 = right8 + left8; print(reuse6); other8 = expr8 + third8; print(other8);",
+    "expected_output": "41\n41\n41\n41\n41\n41\n41\n47\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F08_V05",
+    "category": "common_subexpressions",
+    "size": "large",
+    "source": "left8 = 18; right8 = 9; third8 = 1; expr8 = left8 + right8; reuse0 = right8 + left8; print(reuse0); reuse1 = right8 + left8; print(reuse1); reuse2 = right8 + left8; print(reuse2); reuse3 = right8 + left8; print(reuse3); reuse4 = right8 + left8; print(reuse4); reuse5 = right8 + left8; print(reuse5); reuse6 = right8 + left8; print(reuse6); other8 = expr8 + third8; print(other8);",
+    "expected_output": "27\n27\n27\n27\n27\n27\n27\n28\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F08_V06",
+    "category": "common_subexpressions",
+    "size": "small",
+    "source": "left8 = 20; right8 = 15; third8 = 5; expr8 = left8 + right8; reuse0 = right8 + left8; print(reuse0); reuse1 = right8 + left8; print(reuse1); other8 = expr8 + third8; print(other8);",
+    "expected_output": "35\n35\n40\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F08_V07",
+    "category": "common_subexpressions",
+    "size": "small",
+    "source": "left8 = 8; right8 = 20; third8 = 5; expr8 = left8 + right8; reuse0 = right8 + left8; print(reuse0); reuse1 = right8 + left8; print(reuse1); other8 = expr8 + third8; print(other8);",
+    "expected_output": "28\n28\n33\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F08_V08",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left8 = 20; right8 = 24; third8 = 8; expr8 = left8 + right8; reuse0 = right8 + left8; print(reuse0); reuse1 = right8 + left8; print(reuse1); reuse2 = right8 + left8; print(reuse2); reuse3 = right8 + left8; print(reuse3); other8 = expr8 + third8; print(other8);",
+    "expected_output": "44\n44\n44\n44\n52\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CS_F08_V09",
+    "category": "common_subexpressions",
+    "size": "medium",
+    "source": "left8 = 7; right8 = 4; third8 = 4; expr8 = left8 + right8; reuse0 = right8 + left8; print(reuse0); reuse1 = right8 + left8; print(reuse1); reuse2 = right8 + left8; print(reuse2); reuse3 = right8 + left8; print(reuse3); other8 = expr8 + third8; print(other8);",
+    "expected_output": "11\n11\n11\n11\n15\n",
+    "inputs": [
+      {}
+    ]
+  }
+]

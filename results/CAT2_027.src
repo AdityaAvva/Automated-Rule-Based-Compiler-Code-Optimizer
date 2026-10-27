@@ -1,0 +1,1 @@
+base6 = 16; x6 = base6 + 0; y6 = x6 * 1; print(y6);

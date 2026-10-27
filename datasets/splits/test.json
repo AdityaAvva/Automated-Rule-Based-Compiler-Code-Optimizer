@@ -1,0 +1,4 @@
+[
+  "llvm-instcombine-add-neutral",
+  "synthetic-dead-stores"
+]

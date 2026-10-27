@@ -1,0 +1,1 @@
+sum19 = 29; for(index19=0;index19<2;index19=index19+1){ sum19 = sum19 + index19 * 3; } print(sum19);

@@ -1,0 +1,1 @@
+sum16 = 26; for(index16=0;index16<2;index16=index16+1){ sum16 = sum16 + index16 * 3; } print(sum16);

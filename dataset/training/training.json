@@ -1,0 +1,4002 @@
+[
+  {
+    "id": "CAT1_001",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 5 * 2; print(x); y = x + 3; print(y); z = y - 1; print(z);",
+    "expected_output": "10\n13\n12\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_002",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 6 * 3; print(x); y = x + 4; print(y); z = y - 1; print(z);",
+    "expected_output": "18\n22\n21\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_003",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 7 * 4; print(x); y = x + 5; print(y); z = y - 1; print(z);",
+    "expected_output": "28\n33\n32\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_004",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 8 * 5; print(x); y = x + 6; print(y); z = y - 1; print(z);",
+    "expected_output": "40\n46\n45\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_005",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 9 * 6; print(x); y = x + 7; print(y); z = y - 1; print(z);",
+    "expected_output": "54\n61\n60\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_006",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 10 * 7; print(x); y = x + 3; print(y); z = y - 1; print(z);",
+    "expected_output": "70\n73\n72\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_007",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 11 * 8; print(x); y = x + 4; print(y); z = y - 1; print(z);",
+    "expected_output": "88\n92\n91\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_008",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 12 * 2; print(x); y = x + 5; print(y); z = y - 1; print(z);",
+    "expected_output": "24\n29\n28\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_009",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 13 * 3; print(x); y = x + 6; print(y); z = y - 1; print(z);",
+    "expected_output": "39\n45\n44\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_010",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 14 * 4; print(x); y = x + 7; print(y); z = y - 1; print(z);",
+    "expected_output": "56\n63\n62\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_011",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 15 * 5; print(x); y = x + 3; print(y); z = y - 1; print(z);",
+    "expected_output": "75\n78\n77\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_012",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 16 * 6; print(x); y = x + 4; print(y); z = y - 1; print(z);",
+    "expected_output": "96\n100\n99\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_013",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 17 * 7; print(x); y = x + 5; print(y); z = y - 1; print(z);",
+    "expected_output": "119\n124\n123\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_014",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 18 * 8; print(x); y = x + 6; print(y); z = y - 1; print(z);",
+    "expected_output": "144\n150\n149\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_015",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 19 * 2; print(x); y = x + 7; print(y); z = y - 1; print(z);",
+    "expected_output": "38\n45\n44\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_016",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 20 * 3; print(x); y = x + 3; print(y); z = y - 1; print(z);",
+    "expected_output": "60\n63\n62\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_017",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 21 * 4; print(x); y = x + 4; print(y); z = y - 1; print(z);",
+    "expected_output": "84\n88\n87\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_018",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 22 * 5; print(x); y = x + 5; print(y); z = y - 1; print(z);",
+    "expected_output": "110\n115\n114\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_019",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 23 * 6; print(x); y = x + 6; print(y); z = y - 1; print(z);",
+    "expected_output": "138\n144\n143\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_020",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x = 24 * 7; print(x); y = x + 7; print(y); z = y - 1; print(z);",
+    "expected_output": "168\n175\n174\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_021",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a0 = (20 + 2) * 3; b0 = a0 + 0; print(b0);",
+    "expected_output": "66\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_022",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a1 = (21 + 3) * 4; b1 = a1 + 1; print(b1);",
+    "expected_output": "97\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_023",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a2 = (22 + 4) * 5; b2 = a2 + 2; print(b2);",
+    "expected_output": "132\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_024",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a3 = (23 + 5) * 6; b3 = a3 + 3; print(b3);",
+    "expected_output": "171\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_025",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a4 = (24 + 6) * 7; b4 = a4 + 0; print(b4);",
+    "expected_output": "210\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_026",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a5 = (25 + 7) * 3; b5 = a5 + 1; print(b5);",
+    "expected_output": "97\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_027",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a6 = (26 + 8) * 4; b6 = a6 + 2; print(b6);",
+    "expected_output": "138\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_028",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a7 = (27 + 2) * 5; b7 = a7 + 3; print(b7);",
+    "expected_output": "148\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_029",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a8 = (28 + 3) * 6; b8 = a8 + 0; print(b8);",
+    "expected_output": "186\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_030",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a9 = (29 + 4) * 7; b9 = a9 + 1; print(b9);",
+    "expected_output": "232\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_031",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a10 = (30 + 5) * 3; b10 = a10 + 2; print(b10);",
+    "expected_output": "107\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_032",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a11 = (31 + 6) * 4; b11 = a11 + 3; print(b11);",
+    "expected_output": "151\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_033",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a12 = (32 + 7) * 5; b12 = a12 + 0; print(b12);",
+    "expected_output": "195\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_034",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a13 = (33 + 8) * 6; b13 = a13 + 1; print(b13);",
+    "expected_output": "247\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_035",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a14 = (34 + 2) * 7; b14 = a14 + 2; print(b14);",
+    "expected_output": "254\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_036",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a15 = (35 + 3) * 3; b15 = a15 + 3; print(b15);",
+    "expected_output": "117\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_037",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a16 = (36 + 4) * 4; b16 = a16 + 0; print(b16);",
+    "expected_output": "160\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_038",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a17 = (37 + 5) * 5; b17 = a17 + 1; print(b17);",
+    "expected_output": "211\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_039",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a18 = (38 + 6) * 6; b18 = a18 + 2; print(b18);",
+    "expected_output": "266\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_040",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "a19 = (39 + 7) * 7; b19 = a19 + 3; print(b19);",
+    "expected_output": "325\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_001",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v0 = 3; x = v0 + 0; y = x * 2; print(y);",
+    "expected_output": "6\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_002",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v1 = 4; x = v1 - 0; y = x * 2; print(y);",
+    "expected_output": "8\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_003",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v2 = 5; x = v2 * 1; y = x * 2; print(y);",
+    "expected_output": "10\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_004",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v3 = 6; x = v3 / 1; y = x * 2; print(y);",
+    "expected_output": "12\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_005",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v4 = 7; x = v4 * 2; y = x * 2; print(y);",
+    "expected_output": "28\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_006",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v5 = 8; x = v5 + 0; y = x * 2; print(y);",
+    "expected_output": "16\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_007",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v6 = 9; x = v6 - 0; y = x * 2; print(y);",
+    "expected_output": "18\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_008",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v7 = 10; x = v7 * 1; y = x * 2; print(y);",
+    "expected_output": "20\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_009",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v8 = 11; x = v8 / 1; y = x * 2; print(y);",
+    "expected_output": "22\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_010",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v9 = 12; x = v9 * 2; y = x * 2; print(y);",
+    "expected_output": "48\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_011",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v10 = 13; x = v10 + 0; y = x * 2; print(y);",
+    "expected_output": "26\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_012",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v11 = 14; x = v11 - 0; y = x * 2; print(y);",
+    "expected_output": "28\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_013",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v12 = 15; x = v12 * 1; y = x * 2; print(y);",
+    "expected_output": "30\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_014",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v13 = 16; x = v13 / 1; y = x * 2; print(y);",
+    "expected_output": "32\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_015",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v14 = 17; x = v14 * 2; y = x * 2; print(y);",
+    "expected_output": "68\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_016",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v15 = 18; x = v15 + 0; y = x * 2; print(y);",
+    "expected_output": "36\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_017",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v16 = 19; x = v16 - 0; y = x * 2; print(y);",
+    "expected_output": "38\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_018",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v17 = 20; x = v17 * 1; y = x * 2; print(y);",
+    "expected_output": "40\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_019",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v18 = 21; x = v18 / 1; y = x * 2; print(y);",
+    "expected_output": "42\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_020",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v19 = 22; x = v19 * 2; y = x * 2; print(y);",
+    "expected_output": "88\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_021",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base0 = 10; x0 = base0 + 0; y0 = x0 * 1; print(y0);",
+    "expected_output": "10\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_022",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base1 = 11; x1 = base1 + 0; y1 = x1 * 1; print(y1);",
+    "expected_output": "11\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_023",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base2 = 12; x2 = base2 + 0; y2 = x2 * 1; print(y2);",
+    "expected_output": "12\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_024",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base3 = 13; x3 = base3 + 0; y3 = x3 * 1; print(y3);",
+    "expected_output": "13\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_025",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base4 = 14; x4 = base4 + 0; y4 = x4 * 1; print(y4);",
+    "expected_output": "14\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_026",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base5 = 15; x5 = base5 + 0; y5 = x5 * 1; print(y5);",
+    "expected_output": "15\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_027",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base6 = 16; x6 = base6 + 0; y6 = x6 * 1; print(y6);",
+    "expected_output": "16\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_028",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base7 = 17; x7 = base7 + 0; y7 = x7 * 1; print(y7);",
+    "expected_output": "17\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_029",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base8 = 18; x8 = base8 + 0; y8 = x8 * 1; print(y8);",
+    "expected_output": "18\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_030",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base9 = 19; x9 = base9 + 0; y9 = x9 * 1; print(y9);",
+    "expected_output": "19\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_031",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base10 = 20; x10 = base10 + 0; y10 = x10 * 1; print(y10);",
+    "expected_output": "20\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_032",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base11 = 21; x11 = base11 + 0; y11 = x11 * 1; print(y11);",
+    "expected_output": "21\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_033",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base12 = 22; x12 = base12 + 0; y12 = x12 * 1; print(y12);",
+    "expected_output": "22\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_034",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base13 = 23; x13 = base13 + 0; y13 = x13 * 1; print(y13);",
+    "expected_output": "23\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_035",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base14 = 24; x14 = base14 + 0; y14 = x14 * 1; print(y14);",
+    "expected_output": "24\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_036",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base15 = 25; x15 = base15 + 0; y15 = x15 * 1; print(y15);",
+    "expected_output": "25\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_037",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base16 = 26; x16 = base16 + 0; y16 = x16 * 1; print(y16);",
+    "expected_output": "26\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_038",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base17 = 27; x17 = base17 + 0; y17 = x17 * 1; print(y17);",
+    "expected_output": "27\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_039",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base18 = 28; x18 = base18 + 0; y18 = x18 * 1; print(y18);",
+    "expected_output": "28\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_040",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "base19 = 29; x19 = base19 + 0; y19 = x19 * 1; print(y19);",
+    "expected_output": "29\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_001",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused0 = 11; also_unused0 = 20 * 3; answer = 7; print(answer);",
+    "expected_output": "7\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_002",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused1 = 12; also_unused1 = 21 * 3; answer = 8; print(answer);",
+    "expected_output": "8\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_003",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused2 = 13; also_unused2 = 22 * 3; answer = 9; print(answer);",
+    "expected_output": "9\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_004",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused3 = 14; also_unused3 = 23 * 3; answer = 10; print(answer);",
+    "expected_output": "10\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_005",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused4 = 15; also_unused4 = 24 * 3; answer = 11; print(answer);",
+    "expected_output": "11\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_006",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused5 = 16; also_unused5 = 25 * 3; answer = 12; print(answer);",
+    "expected_output": "12\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_007",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused6 = 17; also_unused6 = 26 * 3; answer = 13; print(answer);",
+    "expected_output": "13\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_008",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused7 = 18; also_unused7 = 27 * 3; answer = 14; print(answer);",
+    "expected_output": "14\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_009",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused8 = 19; also_unused8 = 28 * 3; answer = 15; print(answer);",
+    "expected_output": "15\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_010",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused9 = 20; also_unused9 = 29 * 3; answer = 16; print(answer);",
+    "expected_output": "16\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_011",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused10 = 21; also_unused10 = 30 * 3; answer = 17; print(answer);",
+    "expected_output": "17\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_012",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused11 = 22; also_unused11 = 31 * 3; answer = 18; print(answer);",
+    "expected_output": "18\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_013",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused12 = 23; also_unused12 = 32 * 3; answer = 19; print(answer);",
+    "expected_output": "19\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_014",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused13 = 24; also_unused13 = 33 * 3; answer = 20; print(answer);",
+    "expected_output": "20\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_015",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused14 = 25; also_unused14 = 34 * 3; answer = 21; print(answer);",
+    "expected_output": "21\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_016",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused15 = 26; also_unused15 = 35 * 3; answer = 22; print(answer);",
+    "expected_output": "22\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_017",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused16 = 27; also_unused16 = 36 * 3; answer = 23; print(answer);",
+    "expected_output": "23\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_018",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused17 = 28; also_unused17 = 37 * 3; answer = 24; print(answer);",
+    "expected_output": "24\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_019",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused18 = 29; also_unused18 = 38 * 3; answer = 25; print(answer);",
+    "expected_output": "25\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_020",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused19 = 30; also_unused19 = 39 * 3; answer = 26; print(answer);",
+    "expected_output": "26\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_021",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused0 = 2 * 3; discard0 = unused0 + 1; answer0 = 99; print(answer0);",
+    "expected_output": "99\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_022",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused1 = 3 * 3; discard1 = unused1 + 1; answer1 = 100; print(answer1);",
+    "expected_output": "100\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_023",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused2 = 4 * 3; discard2 = unused2 + 1; answer2 = 101; print(answer2);",
+    "expected_output": "101\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_024",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused3 = 5 * 3; discard3 = unused3 + 1; answer3 = 102; print(answer3);",
+    "expected_output": "102\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_025",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused4 = 6 * 3; discard4 = unused4 + 1; answer4 = 103; print(answer4);",
+    "expected_output": "103\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_026",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused5 = 7 * 3; discard5 = unused5 + 1; answer5 = 104; print(answer5);",
+    "expected_output": "104\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_027",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused6 = 8 * 3; discard6 = unused6 + 1; answer6 = 105; print(answer6);",
+    "expected_output": "105\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_028",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused7 = 9 * 3; discard7 = unused7 + 1; answer7 = 106; print(answer7);",
+    "expected_output": "106\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_029",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused8 = 10 * 3; discard8 = unused8 + 1; answer8 = 107; print(answer8);",
+    "expected_output": "107\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_030",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused9 = 11 * 3; discard9 = unused9 + 1; answer9 = 108; print(answer9);",
+    "expected_output": "108\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_031",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused10 = 12 * 3; discard10 = unused10 + 1; answer10 = 109; print(answer10);",
+    "expected_output": "109\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_032",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused11 = 13 * 3; discard11 = unused11 + 1; answer11 = 110; print(answer11);",
+    "expected_output": "110\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_033",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused12 = 14 * 3; discard12 = unused12 + 1; answer12 = 111; print(answer12);",
+    "expected_output": "111\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_034",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused13 = 15 * 3; discard13 = unused13 + 1; answer13 = 112; print(answer13);",
+    "expected_output": "112\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_035",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused14 = 16 * 3; discard14 = unused14 + 1; answer14 = 113; print(answer14);",
+    "expected_output": "113\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_036",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused15 = 17 * 3; discard15 = unused15 + 1; answer15 = 114; print(answer15);",
+    "expected_output": "114\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_037",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused16 = 18 * 3; discard16 = unused16 + 1; answer16 = 115; print(answer16);",
+    "expected_output": "115\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_038",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused17 = 19 * 3; discard17 = unused17 + 1; answer17 = 116; print(answer17);",
+    "expected_output": "116\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_039",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused18 = 20 * 3; discard18 = unused18 + 1; answer18 = 117; print(answer18);",
+    "expected_output": "117\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_040",
+    "category": "dead_code",
+    "size": "small",
+    "source": "unused19 = 21 * 3; discard19 = unused19 + 1; answer19 = 118; print(answer19);",
+    "expected_output": "118\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_001",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a0 = 2; b0 = 4; x0 = a0 + b0; y0 = a0 + b0; print(x0); print(y0);",
+    "expected_output": "6\n6\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_002",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a1 = 3; b1 = 5; x1 = a1 + b1; y1 = a1 + b1; print(x1); print(y1);",
+    "expected_output": "8\n8\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_003",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a2 = 4; b2 = 6; x2 = a2 + b2; y2 = a2 + b2; print(x2); print(y2);",
+    "expected_output": "10\n10\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_004",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a3 = 5; b3 = 7; x3 = a3 + b3; y3 = a3 + b3; print(x3); print(y3);",
+    "expected_output": "12\n12\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_005",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a4 = 6; b4 = 8; x4 = a4 + b4; y4 = a4 + b4; print(x4); print(y4);",
+    "expected_output": "14\n14\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_006",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a5 = 7; b5 = 9; x5 = a5 + b5; y5 = a5 + b5; print(x5); print(y5);",
+    "expected_output": "16\n16\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_007",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a6 = 8; b6 = 10; x6 = a6 + b6; y6 = a6 + b6; print(x6); print(y6);",
+    "expected_output": "18\n18\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_008",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a7 = 9; b7 = 11; x7 = a7 + b7; y7 = a7 + b7; print(x7); print(y7);",
+    "expected_output": "20\n20\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_009",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a8 = 10; b8 = 12; x8 = a8 + b8; y8 = a8 + b8; print(x8); print(y8);",
+    "expected_output": "22\n22\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_010",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a9 = 11; b9 = 13; x9 = a9 + b9; y9 = a9 + b9; print(x9); print(y9);",
+    "expected_output": "24\n24\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_011",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a10 = 12; b10 = 14; x10 = a10 + b10; y10 = a10 + b10; print(x10); print(y10);",
+    "expected_output": "26\n26\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_012",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a11 = 13; b11 = 15; x11 = a11 + b11; y11 = a11 + b11; print(x11); print(y11);",
+    "expected_output": "28\n28\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_013",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a12 = 14; b12 = 16; x12 = a12 + b12; y12 = a12 + b12; print(x12); print(y12);",
+    "expected_output": "30\n30\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_014",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a13 = 15; b13 = 17; x13 = a13 + b13; y13 = a13 + b13; print(x13); print(y13);",
+    "expected_output": "32\n32\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_015",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a14 = 16; b14 = 18; x14 = a14 + b14; y14 = a14 + b14; print(x14); print(y14);",
+    "expected_output": "34\n34\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_016",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a15 = 17; b15 = 19; x15 = a15 + b15; y15 = a15 + b15; print(x15); print(y15);",
+    "expected_output": "36\n36\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_017",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a16 = 18; b16 = 20; x16 = a16 + b16; y16 = a16 + b16; print(x16); print(y16);",
+    "expected_output": "38\n38\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_018",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a17 = 19; b17 = 21; x17 = a17 + b17; y17 = a17 + b17; print(x17); print(y17);",
+    "expected_output": "40\n40\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_019",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a18 = 20; b18 = 22; x18 = a18 + b18; y18 = a18 + b18; print(x18); print(y18);",
+    "expected_output": "42\n42\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_020",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a19 = 21; b19 = 23; x19 = a19 + b19; y19 = a19 + b19; print(x19); print(y19);",
+    "expected_output": "44\n44\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_021",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left0 = 7; right0 = 9; first0 = left0 * right0; again0 = left0 * right0; print(first0); print(again0);",
+    "expected_output": "63\n63\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_022",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left1 = 8; right1 = 9; first1 = left1 * right1; again1 = left1 * right1; print(first1); print(again1);",
+    "expected_output": "72\n72\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_023",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left2 = 9; right2 = 9; first2 = left2 * right2; again2 = left2 * right2; print(first2); print(again2);",
+    "expected_output": "81\n81\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_024",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left3 = 10; right3 = 9; first3 = left3 * right3; again3 = left3 * right3; print(first3); print(again3);",
+    "expected_output": "90\n90\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_025",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left4 = 11; right4 = 9; first4 = left4 * right4; again4 = left4 * right4; print(first4); print(again4);",
+    "expected_output": "99\n99\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_026",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left5 = 12; right5 = 9; first5 = left5 * right5; again5 = left5 * right5; print(first5); print(again5);",
+    "expected_output": "108\n108\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_027",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left6 = 13; right6 = 9; first6 = left6 * right6; again6 = left6 * right6; print(first6); print(again6);",
+    "expected_output": "117\n117\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_028",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left7 = 14; right7 = 9; first7 = left7 * right7; again7 = left7 * right7; print(first7); print(again7);",
+    "expected_output": "126\n126\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_029",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left8 = 15; right8 = 9; first8 = left8 * right8; again8 = left8 * right8; print(first8); print(again8);",
+    "expected_output": "135\n135\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_030",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left9 = 16; right9 = 9; first9 = left9 * right9; again9 = left9 * right9; print(first9); print(again9);",
+    "expected_output": "144\n144\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_031",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left10 = 17; right10 = 9; first10 = left10 * right10; again10 = left10 * right10; print(first10); print(again10);",
+    "expected_output": "153\n153\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_032",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left11 = 18; right11 = 9; first11 = left11 * right11; again11 = left11 * right11; print(first11); print(again11);",
+    "expected_output": "162\n162\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_033",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left12 = 19; right12 = 9; first12 = left12 * right12; again12 = left12 * right12; print(first12); print(again12);",
+    "expected_output": "171\n171\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_034",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left13 = 20; right13 = 9; first13 = left13 * right13; again13 = left13 * right13; print(first13); print(again13);",
+    "expected_output": "180\n180\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_035",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left14 = 21; right14 = 9; first14 = left14 * right14; again14 = left14 * right14; print(first14); print(again14);",
+    "expected_output": "189\n189\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_036",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left15 = 22; right15 = 9; first15 = left15 * right15; again15 = left15 * right15; print(first15); print(again15);",
+    "expected_output": "198\n198\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_037",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left16 = 23; right16 = 9; first16 = left16 * right16; again16 = left16 * right16; print(first16); print(again16);",
+    "expected_output": "207\n207\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_038",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left17 = 24; right17 = 9; first17 = left17 * right17; again17 = left17 * right17; print(first17); print(again17);",
+    "expected_output": "216\n216\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_039",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left18 = 25; right18 = 9; first18 = left18 * right18; again18 = left18 * right18; print(first18); print(again18);",
+    "expected_output": "225\n225\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_040",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "left19 = 26; right19 = 9; first19 = left19 * right19; again19 = left19 * right19; print(first19); print(again19);",
+    "expected_output": "234\n234\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_001",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum0 = 0; for(i0=0;i0<2;i0=i0+1){ sum0 = sum0 + i0 * 2; } print(sum0);",
+    "expected_output": "2\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_002",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum1 = 1; for(i1=0;i1<2;i1=i1+1){ sum1 = sum1 + i1 * 2; } print(sum1);",
+    "expected_output": "3\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_003",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum2 = 2; for(i2=0;i2<2;i2=i2+1){ sum2 = sum2 + i2 * 2; } print(sum2);",
+    "expected_output": "4\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_004",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum3 = 3; for(i3=0;i3<2;i3=i3+1){ sum3 = sum3 + i3 * 2; } print(sum3);",
+    "expected_output": "5\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_005",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum4 = 4; for(i4=0;i4<2;i4=i4+1){ sum4 = sum4 + i4 * 2; } print(sum4);",
+    "expected_output": "6\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_006",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum5 = 5; for(i5=0;i5<2;i5=i5+1){ sum5 = sum5 + i5 * 2; } print(sum5);",
+    "expected_output": "7\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_007",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum6 = 6; for(i6=0;i6<2;i6=i6+1){ sum6 = sum6 + i6 * 2; } print(sum6);",
+    "expected_output": "8\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_008",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum7 = 7; for(i7=0;i7<2;i7=i7+1){ sum7 = sum7 + i7 * 2; } print(sum7);",
+    "expected_output": "9\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_009",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum8 = 8; for(i8=0;i8<2;i8=i8+1){ sum8 = sum8 + i8 * 2; } print(sum8);",
+    "expected_output": "10\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_010",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum9 = 9; for(i9=0;i9<2;i9=i9+1){ sum9 = sum9 + i9 * 2; } print(sum9);",
+    "expected_output": "11\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_011",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum10 = 10; for(i10=0;i10<2;i10=i10+1){ sum10 = sum10 + i10 * 2; } print(sum10);",
+    "expected_output": "12\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_012",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum11 = 11; for(i11=0;i11<2;i11=i11+1){ sum11 = sum11 + i11 * 2; } print(sum11);",
+    "expected_output": "13\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_013",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum12 = 12; for(i12=0;i12<2;i12=i12+1){ sum12 = sum12 + i12 * 2; } print(sum12);",
+    "expected_output": "14\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_014",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum13 = 13; for(i13=0;i13<2;i13=i13+1){ sum13 = sum13 + i13 * 2; } print(sum13);",
+    "expected_output": "15\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_015",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum14 = 14; for(i14=0;i14<2;i14=i14+1){ sum14 = sum14 + i14 * 2; } print(sum14);",
+    "expected_output": "16\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_016",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum15 = 15; for(i15=0;i15<2;i15=i15+1){ sum15 = sum15 + i15 * 2; } print(sum15);",
+    "expected_output": "17\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_017",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum16 = 16; for(i16=0;i16<2;i16=i16+1){ sum16 = sum16 + i16 * 2; } print(sum16);",
+    "expected_output": "18\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_018",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum17 = 17; for(i17=0;i17<2;i17=i17+1){ sum17 = sum17 + i17 * 2; } print(sum17);",
+    "expected_output": "19\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_019",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum18 = 18; for(i18=0;i18<2;i18=i18+1){ sum18 = sum18 + i18 * 2; } print(sum18);",
+    "expected_output": "20\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_020",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum19 = 19; for(i19=0;i19<2;i19=i19+1){ sum19 = sum19 + i19 * 2; } print(sum19);",
+    "expected_output": "21\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_021",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum0 = 10; for(index0=0;index0<2;index0=index0+1){ sum0 = sum0 + index0 * 3; } print(sum0);",
+    "expected_output": "13\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_022",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum1 = 11; for(index1=0;index1<2;index1=index1+1){ sum1 = sum1 + index1 * 3; } print(sum1);",
+    "expected_output": "14\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_023",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum2 = 12; for(index2=0;index2<2;index2=index2+1){ sum2 = sum2 + index2 * 3; } print(sum2);",
+    "expected_output": "15\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_024",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum3 = 13; for(index3=0;index3<2;index3=index3+1){ sum3 = sum3 + index3 * 3; } print(sum3);",
+    "expected_output": "16\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_025",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum4 = 14; for(index4=0;index4<2;index4=index4+1){ sum4 = sum4 + index4 * 3; } print(sum4);",
+    "expected_output": "17\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_026",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum5 = 15; for(index5=0;index5<2;index5=index5+1){ sum5 = sum5 + index5 * 3; } print(sum5);",
+    "expected_output": "18\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_027",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum6 = 16; for(index6=0;index6<2;index6=index6+1){ sum6 = sum6 + index6 * 3; } print(sum6);",
+    "expected_output": "19\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_028",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum7 = 17; for(index7=0;index7<2;index7=index7+1){ sum7 = sum7 + index7 * 3; } print(sum7);",
+    "expected_output": "20\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_029",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum8 = 18; for(index8=0;index8<2;index8=index8+1){ sum8 = sum8 + index8 * 3; } print(sum8);",
+    "expected_output": "21\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_030",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum9 = 19; for(index9=0;index9<2;index9=index9+1){ sum9 = sum9 + index9 * 3; } print(sum9);",
+    "expected_output": "22\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_031",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum10 = 20; for(index10=0;index10<2;index10=index10+1){ sum10 = sum10 + index10 * 3; } print(sum10);",
+    "expected_output": "23\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_032",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum11 = 21; for(index11=0;index11<2;index11=index11+1){ sum11 = sum11 + index11 * 3; } print(sum11);",
+    "expected_output": "24\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_033",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum12 = 22; for(index12=0;index12<2;index12=index12+1){ sum12 = sum12 + index12 * 3; } print(sum12);",
+    "expected_output": "25\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_034",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum13 = 23; for(index13=0;index13<2;index13=index13+1){ sum13 = sum13 + index13 * 3; } print(sum13);",
+    "expected_output": "26\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_035",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum14 = 24; for(index14=0;index14<2;index14=index14+1){ sum14 = sum14 + index14 * 3; } print(sum14);",
+    "expected_output": "27\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_036",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum15 = 25; for(index15=0;index15<2;index15=index15+1){ sum15 = sum15 + index15 * 3; } print(sum15);",
+    "expected_output": "28\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_037",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum16 = 26; for(index16=0;index16<2;index16=index16+1){ sum16 = sum16 + index16 * 3; } print(sum16);",
+    "expected_output": "29\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_038",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum17 = 27; for(index17=0;index17<2;index17=index17+1){ sum17 = sum17 + index17 * 3; } print(sum17);",
+    "expected_output": "30\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_039",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum18 = 28; for(index18=0;index18<2;index18=index18+1){ sum18 = sum18 + index18 * 3; } print(sum18);",
+    "expected_output": "31\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_040",
+    "category": "loop_based",
+    "size": "small",
+    "source": "sum19 = 29; for(index19=0;index19<2;index19=index19+1){ sum19 = sum19 + index19 * 3; } print(sum19);",
+    "expected_output": "32\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_041",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x00 = (36 + 11) * 7; y00 = x00 - 9; print(y00);",
+    "expected_output": "320\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_042",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x01 = (35 + 15) * 8; y01 = x01 - 1; print(y01);",
+    "expected_output": "399\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_043",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x02 = (30 + 8) * 14; y02 = x02 - 6; print(y02);",
+    "expected_output": "526\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_044",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x03 = (13 + 8) * 16; y03 = x03 - 8; print(y03);",
+    "expected_output": "328\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_045",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x04 = (27 + 14) * 17; y04 = x04 - 1; print(y04);",
+    "expected_output": "696\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_046",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x05 = (17 + 12) * 13; y05 = x05 - 4; print(y05);",
+    "expected_output": "373\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_047",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x06 = (45 + 9) * 6; y06 = x06 - 7; print(y06);",
+    "expected_output": "317\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_048",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x07 = (21 + 4) * 7; y07 = x07 - 6; print(y07);",
+    "expected_output": "169\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_049",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x08 = (40 + 13) * 7; y08 = x08 - 1; print(y08);",
+    "expected_output": "370\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_050",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x09 = (14 + 10) * 7; y09 = x09 - 8; print(y09);",
+    "expected_output": "160\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_051",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x10 = (20 + 7) * 12; y10 = x10 - 9; print(y10);",
+    "expected_output": "315\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_052",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x11 = (18 + 3) * 6; y11 = x11 - 4; print(y11);",
+    "expected_output": "122\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_053",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x12 = (12 + 7) * 12; y12 = x12 - 6; print(y12);",
+    "expected_output": "222\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_054",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x13 = (25 + 9) * 12; y13 = x13 - 3; print(y13);",
+    "expected_output": "405\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_055",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x14 = (26 + 13) * 8; y14 = x14 - 3; print(y14);",
+    "expected_output": "309\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_056",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x15 = (25 + 5) * 13; y15 = x15 - 10; print(y15);",
+    "expected_output": "380\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_057",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x16 = (22 + 6) * 13; y16 = x16 - 2; print(y16);",
+    "expected_output": "362\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_058",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x17 = (32 + 8) * 8; y17 = x17 - 6; print(y17);",
+    "expected_output": "314\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_059",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x18 = (12 + 10) * 11; y18 = x18 - 3; print(y18);",
+    "expected_output": "239\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_060",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x19 = (21 + 11) * 9; y19 = x19 - 7; print(y19);",
+    "expected_output": "281\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_061",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x20 = (9 + 6) * 9; y20 = x20 - 9; print(y20);",
+    "expected_output": "126\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_062",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x21 = (22 + 5) * 5; y21 = x21 - 11; print(y21);",
+    "expected_output": "124\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_063",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x22 = (16 + 13) * 9; y22 = x22 - 8; print(y22);",
+    "expected_output": "253\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_064",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x23 = (36 + 10) * 8; y23 = x23 - 9; print(y23);",
+    "expected_output": "359\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_065",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x24 = (11 + 11) * 10; y24 = x24 - 6; print(y24);",
+    "expected_output": "214\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_066",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x25 = (34 + 13) * 7; y25 = x25 - 5; print(y25);",
+    "expected_output": "324\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_067",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x26 = (18 + 15) * 10; y26 = x26 - 9; print(y26);",
+    "expected_output": "321\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_068",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x27 = (26 + 16) * 6; y27 = x27 - 6; print(y27);",
+    "expected_output": "246\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_069",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x28 = (21 + 8) * 12; y28 = x28 - 8; print(y28);",
+    "expected_output": "340\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_070",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x29 = (32 + 18) * 16; y29 = x29 - 8; print(y29);",
+    "expected_output": "792\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_071",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x30 = (18 + 20) * 7; y30 = x30 - 12; print(y30);",
+    "expected_output": "254\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_072",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x31 = (9 + 15) * 7; y31 = x31 - 8; print(y31);",
+    "expected_output": "160\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_073",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x32 = (23 + 19) * 13; y32 = x32 - 9; print(y32);",
+    "expected_output": "537\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_074",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x33 = (27 + 10) * 15; y33 = x33 - 5; print(y33);",
+    "expected_output": "550\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_075",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x34 = (31 + 20) * 11; y34 = x34 - 7; print(y34);",
+    "expected_output": "554\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_076",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x35 = (26 + 14) * 3; y35 = x35 - 7; print(y35);",
+    "expected_output": "113\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_077",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x36 = (14 + 20) * 7; y36 = x36 - 11; print(y36);",
+    "expected_output": "227\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_078",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x37 = (29 + 15) * 8; y37 = x37 - 7; print(y37);",
+    "expected_output": "345\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_079",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x38 = (12 + 10) * 9; y38 = x38 - 5; print(y38);",
+    "expected_output": "193\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT1_080",
+    "category": "constant_expressions",
+    "size": "small",
+    "source": "x39 = (49 + 16) * 7; y39 = x39 - 7; print(y39);",
+    "expected_output": "448\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_041",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v00 = 16; x00 = 16 + 0; y00 = x00 * 2; print(y00);",
+    "expected_output": "32\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_042",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v01 = 21; x01 = 21 + 0; y01 = x01 * 2; print(y01);",
+    "expected_output": "42\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_043",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v02 = 32; x02 = 32 + 0; y02 = x02 * 2; print(y02);",
+    "expected_output": "64\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_044",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v03 = 20; x03 = 20 + 0; y03 = x03 * 2; print(y03);",
+    "expected_output": "40\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_045",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v04 = 36; x04 = 36 + 0; y04 = x04 * 2; print(y04);",
+    "expected_output": "72\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_046",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v05 = 33; x05 = 33 + 0; y05 = x05 * 2; print(y05);",
+    "expected_output": "66\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_047",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v06 = 30; x06 = 30 + 0; y06 = x06 * 2; print(y06);",
+    "expected_output": "60\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_048",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v07 = 19; x07 = 19 + 0; y07 = x07 * 2; print(y07);",
+    "expected_output": "38\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_049",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v08 = 38; x08 = 38 + 0; y08 = x08 * 2; print(y08);",
+    "expected_output": "76\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_050",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v09 = 50; x09 = 50 + 0; y09 = x09 * 2; print(y09);",
+    "expected_output": "100\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_051",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v10 = 26; x10 = 0 + 26; y10 = x10 * 2; print(y10);",
+    "expected_output": "52\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_052",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v11 = 35; x11 = 0 + 35; y11 = x11 * 2; print(y11);",
+    "expected_output": "70\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_053",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v12 = 21; x12 = 0 + 21; y12 = x12 * 2; print(y12);",
+    "expected_output": "42\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_054",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v13 = 23; x13 = 0 + 23; y13 = x13 * 2; print(y13);",
+    "expected_output": "46\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_055",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v14 = 42; x14 = 0 + 42; y14 = x14 * 2; print(y14);",
+    "expected_output": "84\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_056",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v15 = 12; x15 = 0 + 12; y15 = x15 * 2; print(y15);",
+    "expected_output": "24\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_057",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v16 = 11; x16 = 0 + 11; y16 = x16 * 2; print(y16);",
+    "expected_output": "22\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_058",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v17 = 13; x17 = 0 + 13; y17 = x17 * 2; print(y17);",
+    "expected_output": "26\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_059",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v18 = 33; x18 = 0 + 33; y18 = x18 * 2; print(y18);",
+    "expected_output": "66\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_060",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v19 = 32; x19 = 0 + 32; y19 = x19 * 2; print(y19);",
+    "expected_output": "64\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_061",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v20 = 21; x20 = 21 - 0; y20 = x20 * 2; print(y20);",
+    "expected_output": "42\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_062",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v21 = 29; x21 = 29 - 0; y21 = x21 * 2; print(y21);",
+    "expected_output": "58\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_063",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v22 = 7; x22 = 7 - 0; y22 = x22 * 2; print(y22);",
+    "expected_output": "14\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_064",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v23 = 8; x23 = 8 - 0; y23 = x23 * 2; print(y23);",
+    "expected_output": "16\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_065",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v24 = 31; x24 = 31 - 0; y24 = x24 * 2; print(y24);",
+    "expected_output": "62\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_066",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v25 = 17; x25 = 17 - 0; y25 = x25 * 2; print(y25);",
+    "expected_output": "34\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_067",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v26 = 22; x26 = 22 - 0; y26 = x26 * 2; print(y26);",
+    "expected_output": "44\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_068",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v27 = 18; x27 = 18 - 0; y27 = x27 * 2; print(y27);",
+    "expected_output": "36\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_069",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v28 = 29; x28 = 29 - 0; y28 = x28 * 2; print(y28);",
+    "expected_output": "58\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_070",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v29 = 41; x29 = 41 - 0; y29 = x29 * 2; print(y29);",
+    "expected_output": "82\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_071",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v30 = 13; x30 = 13 * 1; y30 = x30 * 2; print(y30);",
+    "expected_output": "26\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_072",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v31 = 24; x31 = 24 * 1; y31 = x31 * 2; print(y31);",
+    "expected_output": "48\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_073",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v32 = 18; x32 = 18 * 1; y32 = x32 * 2; print(y32);",
+    "expected_output": "36\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_074",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v33 = 42; x33 = 42 * 1; y33 = x33 * 2; print(y33);",
+    "expected_output": "84\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_075",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v34 = 20; x34 = 20 * 1; y34 = x34 * 2; print(y34);",
+    "expected_output": "40\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_076",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v35 = 22; x35 = 22 * 1; y35 = x35 * 2; print(y35);",
+    "expected_output": "44\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_077",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v36 = 33; x36 = 33 * 1; y36 = x36 * 2; print(y36);",
+    "expected_output": "66\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_078",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v37 = 34; x37 = 34 * 1; y37 = x37 * 2; print(y37);",
+    "expected_output": "68\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_079",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v38 = 33; x38 = 33 * 1; y38 = x38 * 2; print(y38);",
+    "expected_output": "66\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT2_080",
+    "category": "algebraic_redundancy",
+    "size": "small",
+    "source": "v39 = 24; x39 = 24 * 1; y39 = x39 * 2; print(y39);",
+    "expected_output": "48\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_041",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop00 = 34 * 15; gone00 = drop00 + 6; live00 = 34 + 3; print(live00);",
+    "expected_output": "37\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_042",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop01 = 22 * 15; gone01 = drop01 + 11; live01 = 22 + 9; print(live01);",
+    "expected_output": "31\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_043",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop02 = 38 * 14; gone02 = drop02 + 5; live02 = 38 + 4; print(live02);",
+    "expected_output": "42\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_044",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop03 = 38 * 9; gone03 = drop03 + 11; live03 = 38 + 5; print(live03);",
+    "expected_output": "43\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_045",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop04 = 22 * 16; gone04 = drop04 + 10; live04 = 22 + 7; print(live04);",
+    "expected_output": "29\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_046",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop05 = 28 * 3; gone05 = drop05 + 4; live05 = 28 + 6; print(live05);",
+    "expected_output": "34\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_047",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop06 = 35 * 10; gone06 = drop06 + 8; live06 = 35 + 7; print(live06);",
+    "expected_output": "42\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_048",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop07 = 30 * 11; gone07 = drop07 + 15; live07 = 30 + 7; print(live07);",
+    "expected_output": "37\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_049",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop08 = 32 * 17; gone08 = drop08 + 11; live08 = 32 + 4; print(live08);",
+    "expected_output": "36\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_050",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop09 = 39 * 16; gone09 = drop09 + 12; live09 = 39 + 2; print(live09);",
+    "expected_output": "41\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_051",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop10 = 12 * 13; gone10 = drop10 + 9; live10 = 12 + 3; print(live10);",
+    "expected_output": "15\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_052",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop11 = 27 * 12; gone11 = drop11 + 8; live11 = 27 + 5; print(live11);",
+    "expected_output": "32\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_053",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop12 = 29 * 5; gone12 = drop12 + 8; live12 = 29 + 10; print(live12);",
+    "expected_output": "39\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_054",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop13 = 14 * 5; gone13 = drop13 + 12; live13 = 14 + 10; print(live13);",
+    "expected_output": "24\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_055",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop14 = 26 * 11; gone14 = drop14 + 8; live14 = 26 + 9; print(live14);",
+    "expected_output": "35\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_056",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop15 = 35 * 9; gone15 = drop15 + 13; live15 = 35 + 10; print(live15);",
+    "expected_output": "45\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_057",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop16 = 33 * 18; gone16 = drop16 + 12; live16 = 33 + 5; print(live16);",
+    "expected_output": "38\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_058",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop17 = 29 * 4; gone17 = drop17 + 13; live17 = 29 + 5; print(live17);",
+    "expected_output": "34\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_059",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop18 = 35 * 13; gone18 = drop18 + 13; live18 = 35 + 8; print(live18);",
+    "expected_output": "43\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_060",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop19 = 39 * 14; gone19 = drop19 + 15; live19 = 39 + 5; print(live19);",
+    "expected_output": "44\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_061",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop20 = 37 * 19; gone20 = drop20 + 7; live20 = 37 + 11; print(live20);",
+    "expected_output": "48\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_062",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop21 = 25 * 7; gone21 = drop21 + 4; live21 = 25 + 10; print(live21);",
+    "expected_output": "35\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_063",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop22 = 33 * 19; gone22 = drop22 + 8; live22 = 33 + 11; print(live22);",
+    "expected_output": "44\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_064",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop23 = 14 * 4; gone23 = drop23 + 16; live23 = 14 + 7; print(live23);",
+    "expected_output": "21\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_065",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop24 = 45 * 5; gone24 = drop24 + 7; live24 = 45 + 7; print(live24);",
+    "expected_output": "52\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_066",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop25 = 19 * 4; gone25 = drop25 + 6; live25 = 19 + 3; print(live25);",
+    "expected_output": "22\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_067",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop26 = 47 * 11; gone26 = drop26 + 7; live26 = 47 + 11; print(live26);",
+    "expected_output": "58\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_068",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop27 = 12 * 17; gone27 = drop27 + 8; live27 = 12 + 10; print(live27);",
+    "expected_output": "22\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_069",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop28 = 20 * 5; gone28 = drop28 + 8; live28 = 20 + 4; print(live28);",
+    "expected_output": "24\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_070",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop29 = 34 * 10; gone29 = drop29 + 15; live29 = 34 + 6; print(live29);",
+    "expected_output": "40\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_071",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop30 = 14 * 17; gone30 = drop30 + 4; live30 = 14 + 7; print(live30);",
+    "expected_output": "21\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_072",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop31 = 37 * 17; gone31 = drop31 + 14; live31 = 37 + 4; print(live31);",
+    "expected_output": "41\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_073",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop32 = 6 * 13; gone32 = drop32 + 8; live32 = 6 + 4; print(live32);",
+    "expected_output": "10\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_074",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop33 = 14 * 13; gone33 = drop33 + 16; live33 = 14 + 12; print(live33);",
+    "expected_output": "26\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_075",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop34 = 11 * 13; gone34 = drop34 + 7; live34 = 11 + 10; print(live34);",
+    "expected_output": "21\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_076",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop35 = 32 * 10; gone35 = drop35 + 13; live35 = 32 + 12; print(live35);",
+    "expected_output": "44\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_077",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop36 = 29 * 9; gone36 = drop36 + 11; live36 = 29 + 6; print(live36);",
+    "expected_output": "35\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_078",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop37 = 45 * 15; gone37 = drop37 + 13; live37 = 45 + 6; print(live37);",
+    "expected_output": "51\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_079",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop38 = 19 * 5; gone38 = drop38 + 14; live38 = 19 + 10; print(live38);",
+    "expected_output": "29\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT3_080",
+    "category": "dead_code",
+    "size": "small",
+    "source": "drop39 = 22 * 18; gone39 = drop39 + 10; live39 = 22 + 6; print(live39);",
+    "expected_output": "28\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_041",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a00 = 28; b00 = 14; x00 = a00 + b00; y00 = a00 + b00; print(x00); print(y00);",
+    "expected_output": "42\n42\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_042",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a01 = 20; b01 = 13; x01 = a01 + b01; y01 = a01 + b01; print(x01); print(y01);",
+    "expected_output": "33\n33\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_043",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a02 = 10; b02 = 11; x02 = a02 + b02; y02 = a02 + b02; print(x02); print(y02);",
+    "expected_output": "21\n21\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_044",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a03 = 34; b03 = 15; x03 = a03 + b03; y03 = a03 + b03; print(x03); print(y03);",
+    "expected_output": "49\n49\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_045",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a04 = 12; b04 = 13; x04 = a04 + b04; y04 = a04 + b04; print(x04); print(y04);",
+    "expected_output": "25\n25\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_046",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a05 = 9; b05 = 7; x05 = a05 + b05; y05 = a05 + b05; print(x05); print(y05);",
+    "expected_output": "16\n16\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_047",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a06 = 35; b06 = 16; x06 = a06 + b06; y06 = a06 + b06; print(x06); print(y06);",
+    "expected_output": "51\n51\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_048",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a07 = 23; b07 = 17; x07 = a07 + b07; y07 = a07 + b07; print(x07); print(y07);",
+    "expected_output": "40\n40\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_049",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a08 = 17; b08 = 16; x08 = a08 + b08; y08 = a08 + b08; print(x08); print(y08);",
+    "expected_output": "33\n33\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_050",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a09 = 45; b09 = 14; x09 = a09 + b09; y09 = a09 + b09; print(x09); print(y09);",
+    "expected_output": "59\n59\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_051",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a10 = 40; b10 = 8; x10 = a10 * b10; y10 = a10 * b10; print(x10); print(y10);",
+    "expected_output": "320\n320\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_052",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a11 = 41; b11 = 3; x11 = a11 * b11; y11 = a11 * b11; print(x11); print(y11);",
+    "expected_output": "123\n123\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_053",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a12 = 34; b12 = 18; x12 = a12 * b12; y12 = a12 * b12; print(x12); print(y12);",
+    "expected_output": "612\n612\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_054",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a13 = 15; b13 = 3; x13 = a13 * b13; y13 = a13 * b13; print(x13); print(y13);",
+    "expected_output": "45\n45\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_055",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a14 = 26; b14 = 8; x14 = a14 * b14; y14 = a14 * b14; print(x14); print(y14);",
+    "expected_output": "208\n208\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_056",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a15 = 24; b15 = 11; x15 = a15 * b15; y15 = a15 * b15; print(x15); print(y15);",
+    "expected_output": "264\n264\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_057",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a16 = 26; b16 = 8; x16 = a16 * b16; y16 = a16 * b16; print(x16); print(y16);",
+    "expected_output": "208\n208\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_058",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a17 = 42; b17 = 6; x17 = a17 * b17; y17 = a17 * b17; print(x17); print(y17);",
+    "expected_output": "252\n252\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_059",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a18 = 33; b18 = 6; x18 = a18 * b18; y18 = a18 * b18; print(x18); print(y18);",
+    "expected_output": "198\n198\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_060",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a19 = 32; b19 = 10; x19 = a19 * b19; y19 = a19 * b19; print(x19); print(y19);",
+    "expected_output": "320\n320\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_061",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a20 = 7; b20 = 10; x20 = a20 + b20; y20 = a20 + b20; print(x20); print(y20);",
+    "expected_output": "17\n17\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_062",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a21 = 17; b21 = 15; x21 = a21 + b21; y21 = a21 + b21; print(x21); print(y21);",
+    "expected_output": "32\n32\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_063",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a22 = 22; b22 = 6; x22 = a22 + b22; y22 = a22 + b22; print(x22); print(y22);",
+    "expected_output": "28\n28\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_064",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a23 = 42; b23 = 5; x23 = a23 + b23; y23 = a23 + b23; print(x23); print(y23);",
+    "expected_output": "47\n47\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_065",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a24 = 43; b24 = 8; x24 = a24 + b24; y24 = a24 + b24; print(x24); print(y24);",
+    "expected_output": "51\n51\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_066",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a25 = 42; b25 = 12; x25 = a25 + b25; y25 = a25 + b25; print(x25); print(y25);",
+    "expected_output": "54\n54\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_067",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a26 = 29; b26 = 9; x26 = a26 + b26; y26 = a26 + b26; print(x26); print(y26);",
+    "expected_output": "38\n38\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_068",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a27 = 11; b27 = 11; x27 = a27 + b27; y27 = a27 + b27; print(x27); print(y27);",
+    "expected_output": "22\n22\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_069",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a28 = 45; b28 = 15; x28 = a28 + b28; y28 = a28 + b28; print(x28); print(y28);",
+    "expected_output": "60\n60\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_070",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a29 = 25; b29 = 14; x29 = a29 + b29; y29 = a29 + b29; print(x29); print(y29);",
+    "expected_output": "39\n39\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_071",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a30 = 20; b30 = 16; x30 = a30 * b30; y30 = a30 * b30; print(x30); print(y30);",
+    "expected_output": "320\n320\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_072",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a31 = 23; b31 = 9; x31 = a31 * b31; y31 = a31 * b31; print(x31); print(y31);",
+    "expected_output": "207\n207\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_073",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a32 = 8; b32 = 12; x32 = a32 * b32; y32 = a32 * b32; print(x32); print(y32);",
+    "expected_output": "96\n96\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_074",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a33 = 24; b33 = 14; x33 = a33 * b33; y33 = a33 * b33; print(x33); print(y33);",
+    "expected_output": "336\n336\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_075",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a34 = 40; b34 = 19; x34 = a34 * b34; y34 = a34 * b34; print(x34); print(y34);",
+    "expected_output": "760\n760\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_076",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a35 = 40; b35 = 6; x35 = a35 * b35; y35 = a35 * b35; print(x35); print(y35);",
+    "expected_output": "240\n240\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_077",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a36 = 35; b36 = 11; x36 = a36 * b36; y36 = a36 * b36; print(x36); print(y36);",
+    "expected_output": "385\n385\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_078",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a37 = 33; b37 = 7; x37 = a37 * b37; y37 = a37 * b37; print(x37); print(y37);",
+    "expected_output": "231\n231\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_079",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a38 = 48; b38 = 8; x38 = a38 * b38; y38 = a38 * b38; print(x38); print(y38);",
+    "expected_output": "384\n384\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT4_080",
+    "category": "repeated_expressions",
+    "size": "small",
+    "source": "a39 = 14; b39 = 8; x39 = a39 * b39; y39 = a39 * b39; print(x39); print(y39);",
+    "expected_output": "112\n112\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_041",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s00 = 1; for(i00=0;i00<2;i00=i00+1){ s00 = s00 + i00 * 2; } print(s00);",
+    "expected_output": "3\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_042",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s01 = 2; for(i01=0;i01<2;i01=i01+1){ s01 = s01 + i01 * 2; } print(s01);",
+    "expected_output": "4\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_043",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s02 = 3; for(i02=0;i02<2;i02=i02+1){ s02 = s02 + i02 * 2; } print(s02);",
+    "expected_output": "5\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_044",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s03 = 4; for(i03=0;i03<2;i03=i03+1){ s03 = s03 + i03 * 2; } print(s03);",
+    "expected_output": "6\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_045",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s04 = 5; for(i04=0;i04<2;i04=i04+1){ s04 = s04 + i04 * 2; } print(s04);",
+    "expected_output": "7\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_046",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s05 = 6; for(i05=0;i05<2;i05=i05+1){ s05 = s05 + i05 * 2; } print(s05);",
+    "expected_output": "8\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_047",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s06 = 7; for(i06=0;i06<2;i06=i06+1){ s06 = s06 + i06 * 2; } print(s06);",
+    "expected_output": "9\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_048",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s07 = 8; for(i07=0;i07<2;i07=i07+1){ s07 = s07 + i07 * 2; } print(s07);",
+    "expected_output": "10\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_049",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s08 = 9; for(i08=0;i08<2;i08=i08+1){ s08 = s08 + i08 * 2; } print(s08);",
+    "expected_output": "11\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_050",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s09 = 10; for(i09=0;i09<2;i09=i09+1){ s09 = s09 + i09 * 2; } print(s09);",
+    "expected_output": "12\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_051",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s10 = 1; for(i10=0;i10<2;i10=i10+1){ s10 = s10 + i10 * 3; } print(s10);",
+    "expected_output": "4\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_052",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s11 = 2; for(i11=0;i11<2;i11=i11+1){ s11 = s11 + i11 * 3; } print(s11);",
+    "expected_output": "5\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_053",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s12 = 3; for(i12=0;i12<2;i12=i12+1){ s12 = s12 + i12 * 3; } print(s12);",
+    "expected_output": "6\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_054",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s13 = 4; for(i13=0;i13<2;i13=i13+1){ s13 = s13 + i13 * 3; } print(s13);",
+    "expected_output": "7\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_055",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s14 = 5; for(i14=0;i14<2;i14=i14+1){ s14 = s14 + i14 * 3; } print(s14);",
+    "expected_output": "8\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_056",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s15 = 6; for(i15=0;i15<2;i15=i15+1){ s15 = s15 + i15 * 3; } print(s15);",
+    "expected_output": "9\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_057",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s16 = 7; for(i16=0;i16<2;i16=i16+1){ s16 = s16 + i16 * 3; } print(s16);",
+    "expected_output": "10\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_058",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s17 = 8; for(i17=0;i17<2;i17=i17+1){ s17 = s17 + i17 * 3; } print(s17);",
+    "expected_output": "11\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_059",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s18 = 9; for(i18=0;i18<2;i18=i18+1){ s18 = s18 + i18 * 3; } print(s18);",
+    "expected_output": "12\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_060",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s19 = 10; for(i19=0;i19<2;i19=i19+1){ s19 = s19 + i19 * 3; } print(s19);",
+    "expected_output": "13\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_061",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s20 = 1; for(i20=0;i20<2;i20=i20+1){ s20 = s20 + i20 * 4; } print(s20);",
+    "expected_output": "5\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_062",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s21 = 2; for(i21=0;i21<2;i21=i21+1){ s21 = s21 + i21 * 4; } print(s21);",
+    "expected_output": "6\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_063",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s22 = 3; for(i22=0;i22<2;i22=i22+1){ s22 = s22 + i22 * 4; } print(s22);",
+    "expected_output": "7\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_064",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s23 = 4; for(i23=0;i23<2;i23=i23+1){ s23 = s23 + i23 * 4; } print(s23);",
+    "expected_output": "8\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_065",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s24 = 5; for(i24=0;i24<2;i24=i24+1){ s24 = s24 + i24 * 4; } print(s24);",
+    "expected_output": "9\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_066",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s25 = 6; for(i25=0;i25<2;i25=i25+1){ s25 = s25 + i25 * 4; } print(s25);",
+    "expected_output": "10\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_067",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s26 = 7; for(i26=0;i26<2;i26=i26+1){ s26 = s26 + i26 * 4; } print(s26);",
+    "expected_output": "11\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_068",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s27 = 8; for(i27=0;i27<2;i27=i27+1){ s27 = s27 + i27 * 4; } print(s27);",
+    "expected_output": "12\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_069",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s28 = 9; for(i28=0;i28<2;i28=i28+1){ s28 = s28 + i28 * 4; } print(s28);",
+    "expected_output": "13\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_070",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s29 = 10; for(i29=0;i29<2;i29=i29+1){ s29 = s29 + i29 * 4; } print(s29);",
+    "expected_output": "14\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_071",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s30 = 1; for(i30=0;i30<2;i30=i30+1){ s30 = s30 + i30 * 5; } print(s30);",
+    "expected_output": "6\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_072",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s31 = 2; for(i31=0;i31<2;i31=i31+1){ s31 = s31 + i31 * 5; } print(s31);",
+    "expected_output": "7\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_073",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s32 = 3; for(i32=0;i32<2;i32=i32+1){ s32 = s32 + i32 * 5; } print(s32);",
+    "expected_output": "8\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_074",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s33 = 4; for(i33=0;i33<2;i33=i33+1){ s33 = s33 + i33 * 5; } print(s33);",
+    "expected_output": "9\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_075",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s34 = 5; for(i34=0;i34<2;i34=i34+1){ s34 = s34 + i34 * 5; } print(s34);",
+    "expected_output": "10\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_076",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s35 = 6; for(i35=0;i35<2;i35=i35+1){ s35 = s35 + i35 * 5; } print(s35);",
+    "expected_output": "11\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_077",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s36 = 7; for(i36=0;i36<2;i36=i36+1){ s36 = s36 + i36 * 5; } print(s36);",
+    "expected_output": "12\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_078",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s37 = 8; for(i37=0;i37<2;i37=i37+1){ s37 = s37 + i37 * 5; } print(s37);",
+    "expected_output": "13\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_079",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s38 = 9; for(i38=0;i38<2;i38=i38+1){ s38 = s38 + i38 * 5; } print(s38);",
+    "expected_output": "14\n",
+    "inputs": [
+      {}
+    ]
+  },
+  {
+    "id": "CAT5_080",
+    "category": "loop_based",
+    "size": "small",
+    "source": "s39 = 10; for(i39=0;i39<2;i39=i39+1){ s39 = s39 + i39 * 5; } print(s39);",
+    "expected_output": "15\n",
+    "inputs": [
+      {}
+    ]
+  }
+]

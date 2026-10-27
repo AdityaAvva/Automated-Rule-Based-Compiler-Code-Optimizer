@@ -1,0 +1,6517 @@
+{
+  "evaluation_split": "testing",
+  "test_program_count": 100,
+  "training_program_count": 400,
+  "test_ids": [
+    "CAT1_081",
+    "CAT1_082",
+    "CAT1_083",
+    "CAT1_084",
+    "CAT1_085",
+    "CAT1_086",
+    "CAT1_087",
+    "CAT1_088",
+    "CAT1_089",
+    "CAT1_090",
+    "CAT1_091",
+    "CAT1_092",
+    "CAT1_093",
+    "CAT1_094",
+    "CAT1_095",
+    "CAT1_096",
+    "CAT1_097",
+    "CAT1_098",
+    "CAT1_099",
+    "CAT1_100",
+    "CAT2_081",
+    "CAT2_082",
+    "CAT2_083",
+    "CAT2_084",
+    "CAT2_085",
+    "CAT2_086",
+    "CAT2_087",
+    "CAT2_088",
+    "CAT2_089",
+    "CAT2_090",
+    "CAT2_091",
+    "CAT2_092",
+    "CAT2_093",
+    "CAT2_094",
+    "CAT2_095",
+    "CAT2_096",
+    "CAT2_097",
+    "CAT2_098",
+    "CAT2_099",
+    "CAT2_100",
+    "CAT3_081",
+    "CAT3_082",
+    "CAT3_083",
+    "CAT3_084",
+    "CAT3_085",
+    "CAT3_086",
+    "CAT3_087",
+    "CAT3_088",
+    "CAT3_089",
+    "CAT3_090",
+    "CAT3_091",
+    "CAT3_092",
+    "CAT3_093",
+    "CAT3_094",
+    "CAT3_095",
+    "CAT3_096",
+    "CAT3_097",
+    "CAT3_098",
+    "CAT3_099",
+    "CAT3_100",
+    "CAT4_081",
+    "CAT4_082",
+    "CAT4_083",
+    "CAT4_084",
+    "CAT4_085",
+    "CAT4_086",
+    "CAT4_087",
+    "CAT4_088",
+    "CAT4_089",
+    "CAT4_090",
+    "CAT4_091",
+    "CAT4_092",
+    "CAT4_093",
+    "CAT4_094",
+    "CAT4_095",
+    "CAT4_096",
+    "CAT4_097",
+    "CAT4_098",
+    "CAT4_099",
+    "CAT4_100",
+    "CAT5_081",
+    "CAT5_082",
+    "CAT5_083",
+    "CAT5_084",
+    "CAT5_085",
+    "CAT5_086",
+    "CAT5_087",
+    "CAT5_088",
+    "CAT5_089",
+    "CAT5_090",
+    "CAT5_091",
+    "CAT5_092",
+    "CAT5_093",
+    "CAT5_094",
+    "CAT5_095",
+    "CAT5_096",
+    "CAT5_097",
+    "CAT5_098",
+    "CAT5_099",
+    "CAT5_100"
+  ],
+  "training_ids": [
+    "CAT1_001",
+    "CAT1_002",
+    "CAT1_003",
+    "CAT1_004",
+    "CAT1_005",
+    "CAT1_006",
+    "CAT1_007",
+    "CAT1_008",
+    "CAT1_009",
+    "CAT1_010",
+    "CAT1_011",
+    "CAT1_012",
+    "CAT1_013",
+    "CAT1_014",
+    "CAT1_015",
+    "CAT1_016",
+    "CAT1_017",
+    "CAT1_018",
+    "CAT1_019",
+    "CAT1_020",
+    "CAT1_021",
+    "CAT1_022",
+    "CAT1_023",
+    "CAT1_024",
+    "CAT1_025",
+    "CAT1_026",
+    "CAT1_027",
+    "CAT1_028",
+    "CAT1_029",
+    "CAT1_030",
+    "CAT1_031",
+    "CAT1_032",
+    "CAT1_033",
+    "CAT1_034",
+    "CAT1_035",
+    "CAT1_036",
+    "CAT1_037",
+    "CAT1_038",
+    "CAT1_039",
+    "CAT1_040",
+    "CAT1_041",
+    "CAT1_042",
+    "CAT1_043",
+    "CAT1_044",
+    "CAT1_045",
+    "CAT1_046",
+    "CAT1_047",
+    "CAT1_048",
+    "CAT1_049",
+    "CAT1_050",
+    "CAT1_051",
+    "CAT1_052",
+    "CAT1_053",
+    "CAT1_054",
+    "CAT1_055",
+    "CAT1_056",
+    "CAT1_057",
+    "CAT1_058",
+    "CAT1_059",
+    "CAT1_060",
+    "CAT1_061",
+    "CAT1_062",
+    "CAT1_063",
+    "CAT1_064",
+    "CAT1_065",
+    "CAT1_066",
+    "CAT1_067",
+    "CAT1_068",
+    "CAT1_069",
+    "CAT1_070",
+    "CAT1_071",
+    "CAT1_072",
+    "CAT1_073",
+    "CAT1_074",
+    "CAT1_075",
+    "CAT1_076",
+    "CAT1_077",
+    "CAT1_078",
+    "CAT1_079",
+    "CAT1_080",
+    "CAT2_001",
+    "CAT2_002",
+    "CAT2_003",
+    "CAT2_004",
+    "CAT2_005",
+    "CAT2_006",
+    "CAT2_007",
+    "CAT2_008",
+    "CAT2_009",
+    "CAT2_010",
+    "CAT2_011",
+    "CAT2_012",
+    "CAT2_013",
+    "CAT2_014",
+    "CAT2_015",
+    "CAT2_016",
+    "CAT2_017",
+    "CAT2_018",
+    "CAT2_019",
+    "CAT2_020",
+    "CAT2_021",
+    "CAT2_022",
+    "CAT2_023",
+    "CAT2_024",
+    "CAT2_025",
+    "CAT2_026",
+    "CAT2_027",
+    "CAT2_028",
+    "CAT2_029",
+    "CAT2_030",
+    "CAT2_031",
+    "CAT2_032",
+    "CAT2_033",
+    "CAT2_034",
+    "CAT2_035",
+    "CAT2_036",
+    "CAT2_037",
+    "CAT2_038",
+    "CAT2_039",
+    "CAT2_040",
+    "CAT2_041",
+    "CAT2_042",
+    "CAT2_043",
+    "CAT2_044",
+    "CAT2_045",
+    "CAT2_046",
+    "CAT2_047",
+    "CAT2_048",
+    "CAT2_049",
+    "CAT2_050",
+    "CAT2_051",
+    "CAT2_052",
+    "CAT2_053",
+    "CAT2_054",
+    "CAT2_055",
+    "CAT2_056",
+    "CAT2_057",
+    "CAT2_058",
+    "CAT2_059",
+    "CAT2_060",
+    "CAT2_061",
+    "CAT2_062",
+    "CAT2_063",
+    "CAT2_064",
+    "CAT2_065",
+    "CAT2_066",
+    "CAT2_067",
+    "CAT2_068",
+    "CAT2_069",
+    "CAT2_070",
+    "CAT2_071",
+    "CAT2_072",
+    "CAT2_073",
+    "CAT2_074",
+    "CAT2_075",
+    "CAT2_076",
+    "CAT2_077",
+    "CAT2_078",
+    "CAT2_079",
+    "CAT2_080",
+    "CAT3_001",
+    "CAT3_002",
+    "CAT3_003",
+    "CAT3_004",
+    "CAT3_005",
+    "CAT3_006",
+    "CAT3_007",
+    "CAT3_008",
+    "CAT3_009",
+    "CAT3_010",
+    "CAT3_011",
+    "CAT3_012",
+    "CAT3_013",
+    "CAT3_014",
+    "CAT3_015",
+    "CAT3_016",
+    "CAT3_017",
+    "CAT3_018",
+    "CAT3_019",
+    "CAT3_020",
+    "CAT3_021",
+    "CAT3_022",
+    "CAT3_023",
+    "CAT3_024",
+    "CAT3_025",
+    "CAT3_026",
+    "CAT3_027",
+    "CAT3_028",
+    "CAT3_029",
+    "CAT3_030",
+    "CAT3_031",
+    "CAT3_032",
+    "CAT3_033",
+    "CAT3_034",
+    "CAT3_035",
+    "CAT3_036",
+    "CAT3_037",
+    "CAT3_038",
+    "CAT3_039",
+    "CAT3_040",
+    "CAT3_041",
+    "CAT3_042",
+    "CAT3_043",
+    "CAT3_044",
+    "CAT3_045",
+    "CAT3_046",
+    "CAT3_047",
+    "CAT3_048",
+    "CAT3_049",
+    "CAT3_050",
+    "CAT3_051",
+    "CAT3_052",
+    "CAT3_053",
+    "CAT3_054",
+    "CAT3_055",
+    "CAT3_056",
+    "CAT3_057",
+    "CAT3_058",
+    "CAT3_059",
+    "CAT3_060",
+    "CAT3_061",
+    "CAT3_062",
+    "CAT3_063",
+    "CAT3_064",
+    "CAT3_065",
+    "CAT3_066",
+    "CAT3_067",
+    "CAT3_068",
+    "CAT3_069",
+    "CAT3_070",
+    "CAT3_071",
+    "CAT3_072",
+    "CAT3_073",
+    "CAT3_074",
+    "CAT3_075",
+    "CAT3_076",
+    "CAT3_077",
+    "CAT3_078",
+    "CAT3_079",
+    "CAT3_080",
+    "CAT4_001",
+    "CAT4_002",
+    "CAT4_003",
+    "CAT4_004",
+    "CAT4_005",
+    "CAT4_006",
+    "CAT4_007",
+    "CAT4_008",
+    "CAT4_009",
+    "CAT4_010",
+    "CAT4_011",
+    "CAT4_012",
+    "CAT4_013",
+    "CAT4_014",
+    "CAT4_015",
+    "CAT4_016",
+    "CAT4_017",
+    "CAT4_018",
+    "CAT4_019",
+    "CAT4_020",
+    "CAT4_021",
+    "CAT4_022",
+    "CAT4_023",
+    "CAT4_024",
+    "CAT4_025",
+    "CAT4_026",
+    "CAT4_027",
+    "CAT4_028",
+    "CAT4_029",
+    "CAT4_030",
+    "CAT4_031",
+    "CAT4_032",
+    "CAT4_033",
+    "CAT4_034",
+    "CAT4_035",
+    "CAT4_036",
+    "CAT4_037",
+    "CAT4_038",
+    "CAT4_039",
+    "CAT4_040",
+    "CAT4_041",
+    "CAT4_042",
+    "CAT4_043",
+    "CAT4_044",
+    "CAT4_045",
+    "CAT4_046",
+    "CAT4_047",
+    "CAT4_048",
+    "CAT4_049",
+    "CAT4_050",
+    "CAT4_051",
+    "CAT4_052",
+    "CAT4_053",
+    "CAT4_054",
+    "CAT4_055",
+    "CAT4_056",
+    "CAT4_057",
+    "CAT4_058",
+    "CAT4_059",
+    "CAT4_060",
+    "CAT4_061",
+    "CAT4_062",
+    "CAT4_063",
+    "CAT4_064",
+    "CAT4_065",
+    "CAT4_066",
+    "CAT4_067",
+    "CAT4_068",
+    "CAT4_069",
+    "CAT4_070",
+    "CAT4_071",
+    "CAT4_072",
+    "CAT4_073",
+    "CAT4_074",
+    "CAT4_075",
+    "CAT4_076",
+    "CAT4_077",
+    "CAT4_078",
+    "CAT4_079",
+    "CAT4_080",
+    "CAT5_001",
+    "CAT5_002",
+    "CAT5_003",
+    "CAT5_004",
+    "CAT5_005",
+    "CAT5_006",
+    "CAT5_007",
+    "CAT5_008",
+    "CAT5_009",
+    "CAT5_010",
+    "CAT5_011",
+    "CAT5_012",
+    "CAT5_013",
+    "CAT5_014",
+    "CAT5_015",
+    "CAT5_016",
+    "CAT5_017",
+    "CAT5_018",
+    "CAT5_019",
+    "CAT5_020",
+    "CAT5_021",
+    "CAT5_022",
+    "CAT5_023",
+    "CAT5_024",
+    "CAT5_025",
+    "CAT5_026",
+    "CAT5_027",
+    "CAT5_028",
+    "CAT5_029",
+    "CAT5_030",
+    "CAT5_031",
+    "CAT5_032",
+    "CAT5_033",
+    "CAT5_034",
+    "CAT5_035",
+    "CAT5_036",
+    "CAT5_037",
+    "CAT5_038",
+    "CAT5_039",
+    "CAT5_040",
+    "CAT5_041",
+    "CAT5_042",
+    "CAT5_043",
+    "CAT5_044",
+    "CAT5_045",
+    "CAT5_046",
+    "CAT5_047",
+    "CAT5_048",
+    "CAT5_049",
+    "CAT5_050",
+    "CAT5_051",
+    "CAT5_052",
+    "CAT5_053",
+    "CAT5_054",
+    "CAT5_055",
+    "CAT5_056",
+    "CAT5_057",
+    "CAT5_058",
+    "CAT5_059",
+    "CAT5_060",
+    "CAT5_061",
+    "CAT5_062",
+    "CAT5_063",
+    "CAT5_064",
+    "CAT5_065",
+    "CAT5_066",
+    "CAT5_067",
+    "CAT5_068",
+    "CAT5_069",
+    "CAT5_070",
+    "CAT5_071",
+    "CAT5_072",
+    "CAT5_073",
+    "CAT5_074",
+    "CAT5_075",
+    "CAT5_076",
+    "CAT5_077",
+    "CAT5_078",
+    "CAT5_079",
+    "CAT5_080"
+  ],
+  "test_families": [
+    "algebraic_redundancy:family-04",
+    "algebraic_redundancy:family-05",
+    "constant_expressions:family-04",
+    "constant_expressions:family-05",
+    "dead_code:family-04",
+    "dead_code:family-05",
+    "loop_based:family-04",
+    "loop_based:family-05",
+    "repeated_expressions:family-04",
+    "repeated_expressions:family-05"
+  ],
+  "training_families": [
+    "algebraic_redundancy:family-00",
+    "algebraic_redundancy:family-01",
+    "algebraic_redundancy:family-02",
+    "algebraic_redundancy:family-03",
+    "algebraic_redundancy:legacy",
+    "constant_expressions:family-00",
+    "constant_expressions:family-01",
+    "constant_expressions:family-02",
+    "constant_expressions:family-03",
+    "constant_expressions:legacy",
+    "dead_code:family-00",
+    "dead_code:family-01",
+    "dead_code:family-02",
+    "dead_code:family-03",
+    "dead_code:legacy",
+    "loop_based:family-00",
+    "loop_based:family-01",
+    "loop_based:family-02",
+    "loop_based:family-03",
+    "loop_based:legacy",
+    "repeated_expressions:family-00",
+    "repeated_expressions:family-01",
+    "repeated_expressions:family-02",
+    "repeated_expressions:family-03",
+    "repeated_expressions:legacy"
+  ],
+  "training_test_id_overlap": [],
+  "training_test_family_overlap": [],
+  "overall_pass_recommendation_accuracy": 1.0,
+  "overall_precision_micro": 1.0,
+  "overall_recall_micro": 1.0,
+  "overall_f1_micro": 1.0,
+  "overall_precision_macro": 1.0,
+  "overall_recall_macro": 1.0,
+  "overall_f1_macro": 1.0,
+  "subset_accuracy": 1.0,
+  "hamming_loss": 0.0,
+  "aggregate_confusion_matrix": {
+    "true_negative": 330,
+    "false_positive": 0,
+    "false_negative": 0,
+    "true_positive": 270
+  },
+  "per_pass": {
+    "constant_folding": {
+      "confusion_matrix": {
+        "true_negative": 40,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_positive": 60
+      },
+      "support": 100,
+      "positive_support": 60,
+      "predicted_positive": 60,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "constant_propagation": {
+      "confusion_matrix": {
+        "true_negative": 0,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_positive": 100
+      },
+      "support": 100,
+      "positive_support": 100,
+      "predicted_positive": 100,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "algebraic_simplification": {
+      "confusion_matrix": {
+        "true_negative": 80,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_positive": 20
+      },
+      "support": 100,
+      "positive_support": 20,
+      "predicted_positive": 20,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "common_subexpression_elimination": {
+      "confusion_matrix": {
+        "true_negative": 80,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_positive": 20
+      },
+      "support": 100,
+      "positive_support": 20,
+      "predicted_positive": 20,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "dead_code_elimination": {
+      "confusion_matrix": {
+        "true_negative": 60,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_positive": 40
+      },
+      "support": 100,
+      "positive_support": 40,
+      "predicted_positive": 40,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "strength_reduction": {
+      "confusion_matrix": {
+        "true_negative": 70,
+        "false_positive": 0,
+        "false_negative": 0,
+        "true_positive": 30
+      },
+      "support": 100,
+      "positive_support": 30,
+      "predicted_positive": 30,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "per_category": {
+    "algebraic_redundancy": {
+      "program_count": 20,
+      "per_pass": {
+        "constant_folding": {
+          "confusion_matrix": {
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 20
+          },
+          "support": 20,
+          "positive_support": 20,
+          "predicted_positive": 20,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "constant_propagation": {
+          "confusion_matrix": {
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 20
+          },
+          "support": 20,
+          "positive_support": 20,
+          "predicted_positive": 20,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "algebraic_simplification": {
+          "confusion_matrix": {
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 20
+          },
+          "support": 20,
+          "positive_support": 20,
+          "predicted_positive": 20,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "common_subexpression_elimination": {
+          "confusion_matrix": {
+            "true_negative": 20,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 0
+          },
+          "support": 20,
+          "positive_support": 0,
+          "predicted_positive": 0,
+          "accuracy": 1.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "dead_code_elimination": {
+          "confusion_matrix": {
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 20
+          },
+          "support": 20,
+          "positive_support": 20,
+          "predicted_positive": 20,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "strength_reduction": {
+          "confusion_matrix": {
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 20
+          },
+          "support": 20,
+          "positive_support": 20,
+          "predicted_positive": 20,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "aggregate": {
+        "confusion_matrix": {
+          "true_negative": 20,
+          "false_positive": 0,
+          "false_negative": 0,
+          "true_positive": 100
+        },
+        "support": 120,
+        "positive_support": 100,
+        "predicted_positive": 100,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "subset_accuracy": 1.0
+    },
+    "constant_expressions": {
+      "program_count": 20,
+      "per_pass": {
+        "constant_folding": {
+          "confusion_matrix": {
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 20
+          },
+          "support": 20,
+          "positive_support": 20,
+          "predicted_positive": 20,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "constant_propagation": {
+          "confusion_matrix": {
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 20
+          },
+          "support": 20,
+          "positive_support": 20,
+          "predicted_positive": 20,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "algebraic_simplification": {
+          "confusion_matrix": {
+            "true_negative": 20,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 0
+          },
+          "support": 20,
+          "positive_support": 0,
+          "predicted_positive": 0,
+          "accuracy": 1.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "common_subexpression_elimination": {
+          "confusion_matrix": {
+            "true_negative": 20,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 0
+          },
+          "support": 20,
+          "positive_support": 0,
+          "predicted_positive": 0,
+          "accuracy": 1.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "dead_code_elimination": {
+          "confusion_matrix": {
+            "true_negative": 20,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 0
+          },
+          "support": 20,
+          "positive_support": 0,
+          "predicted_positive": 0,
+          "accuracy": 1.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "strength_reduction": {
+          "confusion_matrix": {
+            "true_negative": 20,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 0
+          },
+          "support": 20,
+          "positive_support": 0,
+          "predicted_positive": 0,
+          "accuracy": 1.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "aggregate": {
+        "confusion_matrix": {
+          "true_negative": 80,
+          "false_positive": 0,
+          "false_negative": 0,
+          "true_positive": 40
+        },
+        "support": 120,
+        "positive_support": 40,
+        "predicted_positive": 40,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "subset_accuracy": 1.0
+    },
+    "dead_code": {
+      "program_count": 20,
+      "per_pass": {
+        "constant_folding": {
+          "confusion_matrix": {
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 20
+          },
+          "support": 20,
+          "positive_support": 20,
+          "predicted_positive": 20,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "constant_propagation": {
+          "confusion_matrix": {
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 20
+          },
+          "support": 20,
+          "positive_support": 20,
+          "predicted_positive": 20,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "algebraic_simplification": {
+          "confusion_matrix": {
+            "true_negative": 20,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 0
+          },
+          "support": 20,
+          "positive_support": 0,
+          "predicted_positive": 0,
+          "accuracy": 1.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "common_subexpression_elimination": {
+          "confusion_matrix": {
+            "true_negative": 20,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 0
+          },
+          "support": 20,
+          "positive_support": 0,
+          "predicted_positive": 0,
+          "accuracy": 1.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "dead_code_elimination": {
+          "confusion_matrix": {
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 20
+          },
+          "support": 20,
+          "positive_support": 20,
+          "predicted_positive": 20,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "strength_reduction": {
+          "confusion_matrix": {
+            "true_negative": 20,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 0
+          },
+          "support": 20,
+          "positive_support": 0,
+          "predicted_positive": 0,
+          "accuracy": 1.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "aggregate": {
+        "confusion_matrix": {
+          "true_negative": 60,
+          "false_positive": 0,
+          "false_negative": 0,
+          "true_positive": 60
+        },
+        "support": 120,
+        "positive_support": 60,
+        "predicted_positive": 60,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "subset_accuracy": 1.0
+    },
+    "loop_based": {
+      "program_count": 20,
+      "per_pass": {
+        "constant_folding": {
+          "confusion_matrix": {
+            "true_negative": 20,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 0
+          },
+          "support": 20,
+          "positive_support": 0,
+          "predicted_positive": 0,
+          "accuracy": 1.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "constant_propagation": {
+          "confusion_matrix": {
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 20
+          },
+          "support": 20,
+          "positive_support": 20,
+          "predicted_positive": 20,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "algebraic_simplification": {
+          "confusion_matrix": {
+            "true_negative": 20,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 0
+          },
+          "support": 20,
+          "positive_support": 0,
+          "predicted_positive": 0,
+          "accuracy": 1.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "common_subexpression_elimination": {
+          "confusion_matrix": {
+            "true_negative": 20,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 0
+          },
+          "support": 20,
+          "positive_support": 0,
+          "predicted_positive": 0,
+          "accuracy": 1.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "dead_code_elimination": {
+          "confusion_matrix": {
+            "true_negative": 20,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 0
+          },
+          "support": 20,
+          "positive_support": 0,
+          "predicted_positive": 0,
+          "accuracy": 1.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "strength_reduction": {
+          "confusion_matrix": {
+            "true_negative": 10,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 10
+          },
+          "support": 20,
+          "positive_support": 10,
+          "predicted_positive": 10,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "aggregate": {
+        "confusion_matrix": {
+          "true_negative": 90,
+          "false_positive": 0,
+          "false_negative": 0,
+          "true_positive": 30
+        },
+        "support": 120,
+        "positive_support": 30,
+        "predicted_positive": 30,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "subset_accuracy": 1.0
+    },
+    "repeated_expressions": {
+      "program_count": 20,
+      "per_pass": {
+        "constant_folding": {
+          "confusion_matrix": {
+            "true_negative": 20,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 0
+          },
+          "support": 20,
+          "positive_support": 0,
+          "predicted_positive": 0,
+          "accuracy": 1.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "constant_propagation": {
+          "confusion_matrix": {
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 20
+          },
+          "support": 20,
+          "positive_support": 20,
+          "predicted_positive": 20,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "algebraic_simplification": {
+          "confusion_matrix": {
+            "true_negative": 20,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 0
+          },
+          "support": 20,
+          "positive_support": 0,
+          "predicted_positive": 0,
+          "accuracy": 1.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "common_subexpression_elimination": {
+          "confusion_matrix": {
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 20
+          },
+          "support": 20,
+          "positive_support": 20,
+          "predicted_positive": 20,
+          "accuracy": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "dead_code_elimination": {
+          "confusion_matrix": {
+            "true_negative": 20,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 0
+          },
+          "support": 20,
+          "positive_support": 0,
+          "predicted_positive": 0,
+          "accuracy": 1.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "strength_reduction": {
+          "confusion_matrix": {
+            "true_negative": 20,
+            "false_positive": 0,
+            "false_negative": 0,
+            "true_positive": 0
+          },
+          "support": 20,
+          "positive_support": 0,
+          "predicted_positive": 0,
+          "accuracy": 1.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "aggregate": {
+        "confusion_matrix": {
+          "true_negative": 80,
+          "false_positive": 0,
+          "false_negative": 0,
+          "true_positive": 40
+        },
+        "support": 120,
+        "positive_support": 40,
+        "predicted_positive": 40,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "subset_accuracy": 1.0
+    }
+  },
+  "predictions": [
+    {
+      "id": "CAT1_081",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_082",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_083",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_084",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_085",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_086",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_087",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_088",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_089",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_090",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_091",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_092",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_093",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_094",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_095",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_096",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_097",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_098",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_099",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT1_100",
+      "category": "constant_expressions",
+      "family_id": "constant_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.005461,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.001089,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT2_081",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.999527,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999871,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_082",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.999527,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999871,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_083",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.999527,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999871,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_084",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.999527,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999871,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_085",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.999527,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999871,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_086",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.999527,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999871,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_087",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.999527,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999871,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_088",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.999527,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999871,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_089",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.999527,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999871,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_090",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.999527,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999871,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_091",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.998982,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999238,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_092",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.998982,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999238,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_093",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.998982,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999238,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_094",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.998982,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999238,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_095",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.991936,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 0.931114,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999238,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_096",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.998982,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999238,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_097",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.998982,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999238,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_098",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.998982,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999238,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_099",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.998982,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999238,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT2_100",
+      "category": "algebraic_redundancy",
+      "family_id": "algebraic_redundancy:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": true,
+          "score": 0.998982,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 0.995833,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.999238,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 1,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT3_081",
+      "category": "dead_code",
+      "family_id": "dead_code:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_082",
+      "category": "dead_code",
+      "family_id": "dead_code:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_083",
+      "category": "dead_code",
+      "family_id": "dead_code:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_084",
+      "category": "dead_code",
+      "family_id": "dead_code:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_085",
+      "category": "dead_code",
+      "family_id": "dead_code:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_086",
+      "category": "dead_code",
+      "family_id": "dead_code:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_087",
+      "category": "dead_code",
+      "family_id": "dead_code:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_088",
+      "category": "dead_code",
+      "family_id": "dead_code:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_089",
+      "category": "dead_code",
+      "family_id": "dead_code:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_090",
+      "category": "dead_code",
+      "family_id": "dead_code:family-04",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_091",
+      "category": "dead_code",
+      "family_id": "dead_code:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_092",
+      "category": "dead_code",
+      "family_id": "dead_code:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_093",
+      "category": "dead_code",
+      "family_id": "dead_code:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_094",
+      "category": "dead_code",
+      "family_id": "dead_code:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_095",
+      "category": "dead_code",
+      "family_id": "dead_code:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_096",
+      "category": "dead_code",
+      "family_id": "dead_code:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_097",
+      "category": "dead_code",
+      "family_id": "dead_code:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_098",
+      "category": "dead_code",
+      "family_id": "dead_code:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_099",
+      "category": "dead_code",
+      "family_id": "dead_code:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT3_100",
+      "category": "dead_code",
+      "family_id": "dead_code:family-05",
+      "true_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 1,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 1,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_081",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.010497,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_082",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_083",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_084",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_085",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_086",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_087",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_088",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_089",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_090",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_091",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_092",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.015567,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_093",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.044065,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_094",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_095",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_096",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_097",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_098",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_099",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT4_100",
+      "category": "repeated_expressions",
+      "family_id": "repeated_expressions:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 1,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT5_081",
+      "category": "loop_based",
+      "family_id": "loop_based:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.001268,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.073896,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT5_082",
+      "category": "loop_based",
+      "family_id": "loop_based:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.001118,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT5_083",
+      "category": "loop_based",
+      "family_id": "loop_based:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.001118,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT5_084",
+      "category": "loop_based",
+      "family_id": "loop_based:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.001118,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT5_085",
+      "category": "loop_based",
+      "family_id": "loop_based:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.001118,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT5_086",
+      "category": "loop_based",
+      "family_id": "loop_based:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.001118,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT5_087",
+      "category": "loop_based",
+      "family_id": "loop_based:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.001118,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT5_088",
+      "category": "loop_based",
+      "family_id": "loop_based:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.001118,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT5_089",
+      "category": "loop_based",
+      "family_id": "loop_based:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.001118,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT5_090",
+      "category": "loop_based",
+      "family_id": "loop_based:family-04",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": false,
+          "score": 0.010787,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 0
+      }
+    },
+    {
+      "id": "CAT5_091",
+      "category": "loop_based",
+      "family_id": "loop_based:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.001268,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.948658,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT5_092",
+      "category": "loop_based",
+      "family_id": "loop_based:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.996615,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT5_093",
+      "category": "loop_based",
+      "family_id": "loop_based:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.996615,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT5_094",
+      "category": "loop_based",
+      "family_id": "loop_based:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.996615,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT5_095",
+      "category": "loop_based",
+      "family_id": "loop_based:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.996615,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT5_096",
+      "category": "loop_based",
+      "family_id": "loop_based:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.996615,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT5_097",
+      "category": "loop_based",
+      "family_id": "loop_based:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.996615,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT5_098",
+      "category": "loop_based",
+      "family_id": "loop_based:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.996615,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT5_099",
+      "category": "loop_based",
+      "family_id": "loop_based:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.996615,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      }
+    },
+    {
+      "id": "CAT5_100",
+      "category": "loop_based",
+      "family_id": "loop_based:family-05",
+      "true_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      },
+      "recommendations": {
+        "constant_folding": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "constant_propagation": {
+          "recommended": true,
+          "score": 1.0,
+          "threshold": 0.5
+        },
+        "algebraic_simplification": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "common_subexpression_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "dead_code_elimination": {
+          "recommended": false,
+          "score": 0.0,
+          "threshold": 0.5
+        },
+        "strength_reduction": {
+          "recommended": true,
+          "score": 0.993784,
+          "threshold": 0.5
+        }
+      },
+      "predicted_labels": {
+        "constant_folding": 0,
+        "constant_propagation": 1,
+        "algebraic_simplification": 0,
+        "common_subexpression_elimination": 0,
+        "dead_code_elimination": 0,
+        "strength_reduction": 1
+      }
+    }
+  ],
+  "evaluation_note": "All metrics in this report are computed exclusively on held-out programs whose full generation families are absent from training."
+}

@@ -1,0 +1,1 @@
+base2 = 12; x2 = base2 + 0; y2 = x2 * 1; print(y2);

@@ -1,0 +1,1 @@
+drop40 = 25 * 12; gone40 = drop40 + 8; live40 = 25 + 7; print(live40);

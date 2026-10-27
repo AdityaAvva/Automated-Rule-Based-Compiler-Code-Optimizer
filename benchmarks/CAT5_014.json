@@ -1,0 +1,10 @@
+{
+  "id": "CAT5_014",
+  "category": "loop_based",
+  "size": "small",
+  "source": "sum13 = 13; for(i13=0;i13<2;i13=i13+1){ sum13 = sum13 + i13 * 2; } print(sum13);",
+  "expected_output": "15\n",
+  "inputs": [
+    {}
+  ]
+}

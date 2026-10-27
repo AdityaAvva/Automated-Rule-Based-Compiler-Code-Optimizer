@@ -1,0 +1,920 @@
+{
+  "dataset": "Archived legacy common-subexpression programs",
+  "program_count": 100,
+  "training_count": 80,
+  "testing_count": 20,
+  "training_record_fields": [
+    "id",
+    "category",
+    "size",
+    "source",
+    "expected_output",
+    "inputs"
+  ],
+  "testing_record_fields": [
+    "source"
+  ],
+  "metadata": [
+    {
+      "id": "CS_F00_V00",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-00",
+      "split": "training",
+      "source_sha256": "63e23019e5d7c225b3ea6f9d9c56652a34ee4136b6c8e2815bfdd64def2e4772",
+      "expected_output": "45\n45\n47\n"
+    },
+    {
+      "id": "CS_F00_V01",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-00",
+      "split": "training",
+      "source_sha256": "99c05b1ace0f714f51d288b34da16649cb63cc91c91e8f402f2d219e70ca8fc9",
+      "expected_output": "43\n43\n48\n"
+    },
+    {
+      "id": "CS_F00_V02",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-00",
+      "split": "training",
+      "source_sha256": "1d38895428a846a5b9b9686671f3c7fc8e40658b5eca03af62892382ec864160",
+      "expected_output": "33\n33\n33\n33\n39\n"
+    },
+    {
+      "id": "CS_F00_V03",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-00",
+      "split": "training",
+      "source_sha256": "34994be5eda75fc132553128ebdbdf13e743870d887c407e7c8ac80093e57df8",
+      "expected_output": "24\n24\n24\n24\n29\n"
+    },
+    {
+      "id": "CS_F00_V04",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-00",
+      "split": "training",
+      "source_sha256": "3bd860a8a4b7a7d9c25c80c4928b824ddf415af92139c165e05455606e8228dd",
+      "expected_output": "36\n36\n36\n36\n39\n"
+    },
+    {
+      "id": "CS_F00_V05",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-00",
+      "split": "training",
+      "source_sha256": "4c82c6ac7305c475a39c1abf08b8a53017ca956f3abb28cb8a287c6f109e1f33",
+      "expected_output": "41\n41\n41\n41\n51\n"
+    },
+    {
+      "id": "CS_F00_V06",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-00",
+      "split": "training",
+      "source_sha256": "2bc14f251bd5326fadaf8dcd510acb86665880d110b4b5a1fbc1ba15f8b8a250",
+      "expected_output": "50\n50\n50\n50\n50\n50\n50\n60\n"
+    },
+    {
+      "id": "CS_F00_V07",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-00",
+      "split": "training",
+      "source_sha256": "544dea71126660cec53169ed648b63eb53350d81a3b1cba44e8174f0082e3392",
+      "expected_output": "28\n28\n28\n28\n28\n28\n28\n31\n"
+    },
+    {
+      "id": "CS_F00_V08",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-00",
+      "split": "training",
+      "source_sha256": "e88e7bfc6af69280270f446737299bb47104397e439fa6f80719d142291aafa4",
+      "expected_output": "36\n36\n36\n36\n36\n36\n36\n39\n"
+    },
+    {
+      "id": "CS_F00_V09",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-00",
+      "split": "training",
+      "source_sha256": "5cfd49c05ff1ef780399b369fadfa0150fa5729ed79faaa8ac77933bbfcaf91a",
+      "expected_output": "15\n15\n15\n15\n15\n15\n15\n20\n"
+    },
+    {
+      "id": "CS_F01_V00",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-01",
+      "split": "training",
+      "source_sha256": "3c39c85d4d4ccf7ace950c57b0d924855458d69e9c47208f349bf4bf395d7058",
+      "expected_output": "264\n264\n264\n264\n266\n"
+    },
+    {
+      "id": "CS_F01_V01",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-01",
+      "split": "training",
+      "source_sha256": "480704a49cd2e267c5be9b4f7ecd990882f212a8d99ccc6a209670a7207e4175",
+      "expected_output": "27\n27\n27\n27\n32\n"
+    },
+    {
+      "id": "CS_F01_V02",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-01",
+      "split": "training",
+      "source_sha256": "d9de133cad3c24970b54df4f62a4de9bb73ee6ab486d5afd6687bad433e2d167",
+      "expected_output": "92\n92\n92\n92\n95\n"
+    },
+    {
+      "id": "CS_F01_V03",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-01",
+      "split": "training",
+      "source_sha256": "036756d8db08d4366e1957acd33276095c1a2cac38d3d7b78323d8e9351ce728",
+      "expected_output": "160\n160\n160\n160\n160\n160\n160\n166\n"
+    },
+    {
+      "id": "CS_F01_V04",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-01",
+      "split": "training",
+      "source_sha256": "80f068dff1879148b87c585f673f6ca8178d9cb2bdfc28dea82d5172b4ac86ae",
+      "expected_output": "58\n58\n58\n58\n58\n58\n58\n60\n"
+    },
+    {
+      "id": "CS_F01_V05",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-01",
+      "split": "training",
+      "source_sha256": "fcd54fbb19d63df9e056a2a60981288a5b14a41701132bda2ce935a09ef3d1c4",
+      "expected_output": "195\n195\n195\n195\n195\n195\n195\n197\n"
+    },
+    {
+      "id": "CS_F01_V06",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-01",
+      "split": "training",
+      "source_sha256": "c8814ca7c886dbb0629151a77bdceb72a0ee0e6e82a7608d92b094c83cfcc0cb",
+      "expected_output": "312\n312\n312\n312\n312\n312\n312\n316\n"
+    },
+    {
+      "id": "CS_F01_V07",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-01",
+      "split": "training",
+      "source_sha256": "35cd54bdf9150d40475c032cf55116595482e2e9035572b134c71ddb5b05980d",
+      "expected_output": "460\n460\n470\n"
+    },
+    {
+      "id": "CS_F01_V08",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-01",
+      "split": "training",
+      "source_sha256": "8856aca0e7bf53c2c7ad0933e16aac98b633684a86ee9e6266bdfc523f5c3704",
+      "expected_output": "136\n136\n141\n"
+    },
+    {
+      "id": "CS_F01_V09",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-01",
+      "split": "training",
+      "source_sha256": "4113d5592f580a3a1656b132c5e670bbac47cd6c2231a136c7d9ccfb1dfc07d7",
+      "expected_output": "126\n126\n126\n126\n136\n"
+    },
+    {
+      "id": "CS_F02_V00",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-02",
+      "split": "training",
+      "source_sha256": "870c23c335f23fd6bee642865c21aa32e6827786bb1bfdef7ee61e45936c40aa",
+      "expected_output": "29\n29\n29\n29\n29\n29\n29\n37\n"
+    },
+    {
+      "id": "CS_F02_V01",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-02",
+      "split": "training",
+      "source_sha256": "8bbff544453b6be591658060fa72fa5a730a1fe37605cb36c52abb1d53fe5835",
+      "expected_output": "29\n29\n29\n29\n29\n29\n29\n39\n"
+    },
+    {
+      "id": "CS_F02_V02",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-02",
+      "split": "training",
+      "source_sha256": "db2a99edc9e9beba4789535dac97626798baa1728985cd4a06dfc31956a2c879",
+      "expected_output": "31\n31\n31\n31\n31\n31\n31\n35\n"
+    },
+    {
+      "id": "CS_F02_V03",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-02",
+      "split": "training",
+      "source_sha256": "0d30e5e1d24d04841b331d715b31c7565b4f1b4c65693e4e6d6783d61ee343ab",
+      "expected_output": "30\n30\n30\n30\n30\n30\n30\n35\n"
+    },
+    {
+      "id": "CS_F02_V04",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-02",
+      "split": "training",
+      "source_sha256": "0d0f6e44cc520e9dfd266cc6d33ca68cc9bef0f9e171ffb4830cce4f2269f23c",
+      "expected_output": "13\n13\n21\n"
+    },
+    {
+      "id": "CS_F02_V05",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-02",
+      "split": "training",
+      "source_sha256": "f281e6d070ac0776049a034f237eec8e9f82aa7604e54fd21fc36d52a71a8ce3",
+      "expected_output": "40\n40\n47\n"
+    },
+    {
+      "id": "CS_F02_V06",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-02",
+      "split": "training",
+      "source_sha256": "d9b4d64032a41371f61eb5350a9477b19b61e833715bc9c1d72ababf69bfc0dc",
+      "expected_output": "20\n20\n20\n20\n21\n"
+    },
+    {
+      "id": "CS_F02_V07",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-02",
+      "split": "training",
+      "source_sha256": "d077af726ca40e56cb0334c4ae82752aa836f3a93520d3a4eb037de2dc7c4ba0",
+      "expected_output": "49\n49\n49\n49\n50\n"
+    },
+    {
+      "id": "CS_F02_V08",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-02",
+      "split": "training",
+      "source_sha256": "f678170cc08b40b9eaafdfd23305daa406764fb555d92f5c4f0b5e65a9bd80d2",
+      "expected_output": "33\n33\n33\n33\n37\n"
+    },
+    {
+      "id": "CS_F02_V09",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-02",
+      "split": "training",
+      "source_sha256": "49d669265a1bba08688f9e5c8d4cd1aaacd78b241ecc3a17996e8e08152a3e17",
+      "expected_output": "24\n24\n24\n24\n30\n"
+    },
+    {
+      "id": "CS_F03_V00",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-03",
+      "split": "training",
+      "source_sha256": "ca60ec0b4167dade23cc469bcc9b14d16f022f92fcd4c9340b715efe1e73d8e9",
+      "expected_output": "88\n88\n88\n88\n88\n88\n88\n95\n"
+    },
+    {
+      "id": "CS_F03_V01",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-03",
+      "split": "training",
+      "source_sha256": "c0cdd3a9414d46702204bbb1bd183f78aef5f130d5e0ba651e19b0f83fa63ec8",
+      "expected_output": "48\n48\n51\n"
+    },
+    {
+      "id": "CS_F03_V02",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-03",
+      "split": "training",
+      "source_sha256": "5b7dc3f9fd3cc0eb603ce0be92109b8b715dc28aa6887019a2abc54054895a07",
+      "expected_output": "364\n364\n373\n"
+    },
+    {
+      "id": "CS_F03_V03",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-03",
+      "split": "training",
+      "source_sha256": "c76930e8fd0b2e3e93706129bf51616184997ecd7aca73aefcc0733c1df7dd31",
+      "expected_output": "299\n299\n299\n299\n303\n"
+    },
+    {
+      "id": "CS_F03_V04",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-03",
+      "split": "training",
+      "source_sha256": "a1ca8dcb9364ee7b86c8cc9f08a2b2b487c767e11d7711baec8491c2c61635fe",
+      "expected_output": "126\n126\n126\n126\n133\n"
+    },
+    {
+      "id": "CS_F03_V05",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-03",
+      "split": "training",
+      "source_sha256": "f7bfb100bf713404f2321dea087971867cc2b0feca6df689820b647ebc442f70",
+      "expected_output": "136\n136\n136\n136\n141\n"
+    },
+    {
+      "id": "CS_F03_V06",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-03",
+      "split": "training",
+      "source_sha256": "6f0c184e1aff74f67cbbae479310309d7572f10958324df5a51cade13f04958b",
+      "expected_output": "72\n72\n72\n72\n76\n"
+    },
+    {
+      "id": "CS_F03_V07",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-03",
+      "split": "training",
+      "source_sha256": "e9fbc9b336b264853ccc88010097d44227a93924738e9f408961b3f2a6ddd037",
+      "expected_output": "66\n66\n66\n66\n66\n66\n66\n74\n"
+    },
+    {
+      "id": "CS_F03_V08",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-03",
+      "split": "training",
+      "source_sha256": "f8bb1074b97ed56552d78f6803a67ebb725cba3d0ad78ce4a5d4a2149579f562",
+      "expected_output": "200\n200\n200\n200\n200\n200\n200\n207\n"
+    },
+    {
+      "id": "CS_F03_V09",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-03",
+      "split": "training",
+      "source_sha256": "63e0651b1014b57c2386890d9a826c64ec007643a8b2a3536e856b5ff10a8986",
+      "expected_output": "26\n26\n26\n26\n26\n26\n26\n32\n"
+    },
+    {
+      "id": "CS_F04_V00",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-04",
+      "split": "training",
+      "source_sha256": "a30864a1ce1ce352a8b01dd8f47b475b2bc473b3531f2e7ab1f13cf489cae3a9",
+      "expected_output": "31\n31\n31\n31\n35\n"
+    },
+    {
+      "id": "CS_F04_V01",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-04",
+      "split": "training",
+      "source_sha256": "a324711e1fd3321ed2b10a1fd7e8c2d5c9b51f10ac9d69ad2979591c6d7f1eb5",
+      "expected_output": "45\n45\n45\n45\n54\n"
+    },
+    {
+      "id": "CS_F04_V02",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-04",
+      "split": "training",
+      "source_sha256": "09d4a510a0fa1512838032a223a70b65082fdbc7311fb024afe41ace78fe64c9",
+      "expected_output": "23\n23\n23\n23\n34\n"
+    },
+    {
+      "id": "CS_F04_V03",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-04",
+      "split": "training",
+      "source_sha256": "284c8421315b0e8a231cdaf5b0e67d1609d61eafcd60190d85bed7ca32a5bd6e",
+      "expected_output": "8\n8\n8\n8\n17\n"
+    },
+    {
+      "id": "CS_F04_V04",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-04",
+      "split": "training",
+      "source_sha256": "54d1e3d0fef6afda18b76d0e7857e8467d2b2099471f9aede8360219f780a9ff",
+      "expected_output": "41\n41\n41\n41\n41\n41\n41\n49\n"
+    },
+    {
+      "id": "CS_F04_V05",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-04",
+      "split": "training",
+      "source_sha256": "8b7447921fc58bdf1e03834eaeb8d4ad784b31df2839141010a3c920b24f6231",
+      "expected_output": "41\n41\n41\n41\n41\n41\n41\n48\n"
+    },
+    {
+      "id": "CS_F04_V06",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-04",
+      "split": "training",
+      "source_sha256": "9a0479a07c83689c1ef1c32846715663f8836fb90ddd8efd1dc13505b02ea053",
+      "expected_output": "18\n18\n18\n18\n18\n18\n18\n20\n"
+    },
+    {
+      "id": "CS_F04_V07",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-04",
+      "split": "training",
+      "source_sha256": "6486aa044b34045fd4bf8eaccabf0b27d9a74762392ad5e28a3f930e736f2351",
+      "expected_output": "38\n38\n38\n38\n38\n38\n38\n43\n"
+    },
+    {
+      "id": "CS_F04_V08",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-04",
+      "split": "training",
+      "source_sha256": "24850f9e8e9b374f326009655927acfc33cb6022225312a1db38d4d2e6a621ce",
+      "expected_output": "38\n38\n39\n"
+    },
+    {
+      "id": "CS_F04_V09",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-04",
+      "split": "training",
+      "source_sha256": "a17016198466225309a511249f69a8207f11350c18915aa6c2182f6532686708",
+      "expected_output": "47\n47\n49\n"
+    },
+    {
+      "id": "CS_F05_V00",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-05",
+      "split": "training",
+      "source_sha256": "63e77506f65d4920cf369f8e410bdbd55001f5ee606bacdeaeabf07e4aecb8c8",
+      "expected_output": "210\n210\n210\n210\n214\n"
+    },
+    {
+      "id": "CS_F05_V01",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-05",
+      "split": "training",
+      "source_sha256": "f195cdc7d3b25b3ccb1dd3340273be35ddd26fa0cbd95880ebbc55bf713e7e99",
+      "expected_output": "156\n156\n156\n156\n156\n156\n156\n158\n"
+    },
+    {
+      "id": "CS_F05_V02",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-05",
+      "split": "training",
+      "source_sha256": "770db7dbe45ac7620cc2b3a77b62ea326a31d2d8be0f40745c9b8f13a5ddb7f8",
+      "expected_output": "300\n300\n300\n300\n300\n300\n300\n311\n"
+    },
+    {
+      "id": "CS_F05_V03",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-05",
+      "split": "training",
+      "source_sha256": "c86df8ac1ac2fee366ac75d97753a3565c9a833aaa9687ad7db0e047cb04695b",
+      "expected_output": "102\n102\n102\n102\n102\n102\n102\n109\n"
+    },
+    {
+      "id": "CS_F05_V04",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-05",
+      "split": "training",
+      "source_sha256": "514d055da16b2c968f2e2026421c21abe27d004181428df24965599757d346d6",
+      "expected_output": "35\n35\n35\n35\n35\n35\n35\n46\n"
+    },
+    {
+      "id": "CS_F05_V05",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-05",
+      "split": "training",
+      "source_sha256": "5c7dc2c7e9d2f7012b0abb953d3c669ee40f811cbc19bb0283a43c4a0df564d5",
+      "expected_output": "234\n234\n240\n"
+    },
+    {
+      "id": "CS_F05_V06",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-05",
+      "split": "training",
+      "source_sha256": "24f760191d29ff0daa9b915553e6fa149c2308fb4dff1bee618c952be7e8a5d1",
+      "expected_output": "120\n120\n122\n"
+    },
+    {
+      "id": "CS_F05_V07",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-05",
+      "split": "training",
+      "source_sha256": "52d1e4a4ff36da179ee6e43031dfdb54f7e4bdcfbc920012d4a881a1cacdc399",
+      "expected_output": "182\n182\n182\n182\n189\n"
+    },
+    {
+      "id": "CS_F05_V08",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-05",
+      "split": "training",
+      "source_sha256": "cf9bae4a9ff7e0fea9d58da32cb168801ff4156a7a14813c9e7bef04f1809fd5",
+      "expected_output": "40\n40\n40\n40\n41\n"
+    },
+    {
+      "id": "CS_F05_V09",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-05",
+      "split": "training",
+      "source_sha256": "e64cb2c5eb4b0fbbc2c4416f3b8a50e0a79846f9a89649607abd5070e8d2db0c",
+      "expected_output": "39\n39\n39\n39\n44\n"
+    },
+    {
+      "id": "CS_F06_V00",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-06",
+      "split": "training",
+      "source_sha256": "b88a57cd054a9c3dd23929b2657a9bbae3ffed0190b398b62c5140c600102146",
+      "expected_output": "23\n23\n23\n23\n23\n23\n23\n28\n"
+    },
+    {
+      "id": "CS_F06_V01",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-06",
+      "split": "training",
+      "source_sha256": "08ad63c98d690f020b1f0d1b463603e2937769c27a13927148ab75b84dbc19e2",
+      "expected_output": "33\n33\n33\n33\n33\n33\n33\n35\n"
+    },
+    {
+      "id": "CS_F06_V02",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-06",
+      "split": "training",
+      "source_sha256": "d1eba1b115df12302a793d0d5a495b93541c93e452eeb39fb5a774576fa74d51",
+      "expected_output": "33\n33\n39\n"
+    },
+    {
+      "id": "CS_F06_V03",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-06",
+      "split": "training",
+      "source_sha256": "5ed3a9b186e05d2b2e3d2a46d71a18241007719019867b5b2dacac0f873c450f",
+      "expected_output": "36\n36\n38\n"
+    },
+    {
+      "id": "CS_F06_V04",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-06",
+      "split": "training",
+      "source_sha256": "5be21692cff5fa691679c18a06d87a12079fd05fa8c6b0ebc09c740da82f29f8",
+      "expected_output": "16\n16\n16\n16\n22\n"
+    },
+    {
+      "id": "CS_F06_V05",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-06",
+      "split": "training",
+      "source_sha256": "b46906fa7f294a1cedac299a1d361594bfa4348a908d199ab6bf64effd2207f6",
+      "expected_output": "33\n33\n33\n33\n41\n"
+    },
+    {
+      "id": "CS_F06_V06",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-06",
+      "split": "training",
+      "source_sha256": "314a7757495a49566779f134f1f6b16803e17e5dd5b66a1352e01fedf4e498a9",
+      "expected_output": "21\n21\n21\n21\n32\n"
+    },
+    {
+      "id": "CS_F06_V07",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-06",
+      "split": "training",
+      "source_sha256": "6e3f649949864468ba1be9cf88798fc237d141a91356ae7529b7e7d8bdc3e2f0",
+      "expected_output": "33\n33\n33\n33\n37\n"
+    },
+    {
+      "id": "CS_F06_V08",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-06",
+      "split": "training",
+      "source_sha256": "83edb81336a41d2238c69fe93a8e33507d6882f1b4297b95d627ce8f493516d0",
+      "expected_output": "44\n44\n44\n44\n44\n44\n44\n47\n"
+    },
+    {
+      "id": "CS_F06_V09",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-06",
+      "split": "training",
+      "source_sha256": "00fec600dedc47bb2c9129aabd3da46fbecc86980358d2b5d1c2649ada1bf169",
+      "expected_output": "32\n32\n32\n32\n32\n32\n32\n43\n"
+    },
+    {
+      "id": "CS_F08_V00",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-08",
+      "split": "training",
+      "source_sha256": "dec09ed65510f6f9b199ca281c0b42399daee6d31f5ade2519fbabac95c18742",
+      "expected_output": "31\n31\n31\n31\n41\n"
+    },
+    {
+      "id": "CS_F08_V01",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-08",
+      "split": "training",
+      "source_sha256": "ed21965145ad21a4fb4838103203538a7118d68dadc3fc1985c9080f73358bc2",
+      "expected_output": "48\n48\n48\n48\n59\n"
+    },
+    {
+      "id": "CS_F08_V02",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-08",
+      "split": "training",
+      "source_sha256": "33cc8074eb45229fc232ebdf5ce8ebb2c01b6eae7fa768ff91208649dcc10a09",
+      "expected_output": "13\n13\n13\n13\n13\n13\n13\n15\n"
+    },
+    {
+      "id": "CS_F08_V03",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-08",
+      "split": "training",
+      "source_sha256": "d189171568e33f095bc0db118a3f0a6ffd5d51787c6861946c2114d54ce3cc9d",
+      "expected_output": "34\n34\n34\n34\n34\n34\n34\n40\n"
+    },
+    {
+      "id": "CS_F08_V04",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-08",
+      "split": "training",
+      "source_sha256": "48a84a205a40180a0dc47bc15d81c2bce080a4fbf0df6aa6dd4e2572bf908c2a",
+      "expected_output": "41\n41\n41\n41\n41\n41\n41\n47\n"
+    },
+    {
+      "id": "CS_F08_V05",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-08",
+      "split": "training",
+      "source_sha256": "8129d5f43c003f7e17e041423a69b800c5ed009006785ccb15a5b8aabee5a2a8",
+      "expected_output": "27\n27\n27\n27\n27\n27\n27\n28\n"
+    },
+    {
+      "id": "CS_F08_V06",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-08",
+      "split": "training",
+      "source_sha256": "b2e5429e9756e91e80a365c6de411bddb19f97f355a348eae2950a5da8b33129",
+      "expected_output": "35\n35\n40\n"
+    },
+    {
+      "id": "CS_F08_V07",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-08",
+      "split": "training",
+      "source_sha256": "8a4266cc516e69499efbaddf4d7e76775e550b2af06d4d0f015bd54ca0c069bd",
+      "expected_output": "28\n28\n33\n"
+    },
+    {
+      "id": "CS_F08_V08",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-08",
+      "split": "training",
+      "source_sha256": "63154202bd08f1e1a2a15a73abcd05b267c753d27e3f5e3e047e3dc86f4419f6",
+      "expected_output": "44\n44\n44\n44\n52\n"
+    },
+    {
+      "id": "CS_F08_V09",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-08",
+      "split": "training",
+      "source_sha256": "17843df8fb585c6947c417fd688e31a5a943e750bcba8f2faf1a8a916c6efe4c",
+      "expected_output": "11\n11\n11\n11\n15\n"
+    },
+    {
+      "id": "CS_F07_V00",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-07",
+      "split": "testing",
+      "source_sha256": "1b2abaa2aa9111456e73ffb850d5af58912ccb24e859cd65445b14a02f04fec6",
+      "expected_output": "234\n234\n236\n"
+    },
+    {
+      "id": "CS_F07_V01",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-07",
+      "split": "testing",
+      "source_sha256": "2dfca79cb6ff43be554ae747e7065fa964fac4d41c22ae7616f1372a085e0d19",
+      "expected_output": "55\n55\n55\n55\n60\n"
+    },
+    {
+      "id": "CS_F07_V02",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-07",
+      "split": "testing",
+      "source_sha256": "ebf2a2e1dce91ad0c22bf9dc6c4ca35c289575e2e5ddf3ff9e6e9681fb15322f",
+      "expected_output": "18\n18\n18\n18\n24\n"
+    },
+    {
+      "id": "CS_F07_V03",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-07",
+      "split": "testing",
+      "source_sha256": "f27cb0cc7ed632caf768b8ac507759ee91d5be586aef38cefd6d3196cb41d824",
+      "expected_output": "52\n52\n52\n52\n58\n"
+    },
+    {
+      "id": "CS_F07_V04",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-07",
+      "split": "testing",
+      "source_sha256": "e2d04525930e41c4d2d2a08efb0c014fae8d116e97aa68849f928e8fdcf8c2e5",
+      "expected_output": "500\n500\n500\n500\n507\n"
+    },
+    {
+      "id": "CS_F07_V05",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-07",
+      "split": "testing",
+      "source_sha256": "11f0658c3bae612c9abb88c5887d9fa5cd96823d61cf156224e2f6e56d1753c6",
+      "expected_output": "440\n440\n440\n440\n440\n440\n440\n443\n"
+    },
+    {
+      "id": "CS_F07_V06",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-07",
+      "split": "testing",
+      "source_sha256": "dd6f1a662e5e207301499914b90165555328d8bf080f170fb96e131ac654155d",
+      "expected_output": "238\n238\n238\n238\n238\n238\n238\n243\n"
+    },
+    {
+      "id": "CS_F07_V07",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-07",
+      "split": "testing",
+      "source_sha256": "1d80f90b3287b888b4effbc09efd9cac73b988ca11c5398e27eb0c95c7973422",
+      "expected_output": "133\n133\n133\n133\n133\n133\n133\n139\n"
+    },
+    {
+      "id": "CS_F07_V08",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-07",
+      "split": "testing",
+      "source_sha256": "c72ecc0fd58a6dfecc67cce772ab4bee2ae419141fa09ac49c03d23e4af25fa3",
+      "expected_output": "256\n256\n256\n256\n256\n256\n256\n258\n"
+    },
+    {
+      "id": "CS_F07_V09",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-07",
+      "split": "testing",
+      "source_sha256": "17fca9490bfa1a72cae492984963494bc697e082561d6c3b3d3946281547f773",
+      "expected_output": "290\n290\n300\n"
+    },
+    {
+      "id": "CS_F09_V00",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-09",
+      "split": "testing",
+      "source_sha256": "90f5fe43e5ab902d9ce125f5494f0310412c8a72e0b08aab12e2bbe67fdc053b",
+      "expected_output": "35\n35\n35\n35\n35\n35\n35\n37\n"
+    },
+    {
+      "id": "CS_F09_V01",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-09",
+      "split": "testing",
+      "source_sha256": "054b74019a98555eac3852f1abb4fc87082ea1b21000d6d294c298ea2246a7c5",
+      "expected_output": "357\n357\n357\n357\n357\n357\n357\n364\n"
+    },
+    {
+      "id": "CS_F09_V02",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-09",
+      "split": "testing",
+      "source_sha256": "2246ab4eff9aa1382986e5e789d2bfe698dbde80bffe220218c05308e31a15cf",
+      "expected_output": "52\n52\n52\n52\n52\n52\n52\n61\n"
+    },
+    {
+      "id": "CS_F09_V03",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-09",
+      "split": "testing",
+      "source_sha256": "69743102c161d66bc33bce53aa9a4ba170f70a184f01a8a260dbc7fc3fc685ee",
+      "expected_output": "120\n120\n127\n"
+    },
+    {
+      "id": "CS_F09_V04",
+      "category": "common_subexpressions",
+      "size": "small",
+      "family_id": "common_subexpressions:family-09",
+      "split": "testing",
+      "source_sha256": "208dff24dbf7e3038a6acaffe335040578a963d72063b9dd362dd56c4ba2ec9c",
+      "expected_output": "368\n368\n372\n"
+    },
+    {
+      "id": "CS_F09_V05",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-09",
+      "split": "testing",
+      "source_sha256": "4ea40829a0ae8685c478c7764c48ee3117c323932fb440497e1518a359826ae7",
+      "expected_output": "42\n42\n42\n42\n52\n"
+    },
+    {
+      "id": "CS_F09_V06",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-09",
+      "split": "testing",
+      "source_sha256": "de3fccc641baa76105cedb0a01647f520f3c0c6c1248a2f80b73c75fa05c052e",
+      "expected_output": "63\n63\n63\n63\n65\n"
+    },
+    {
+      "id": "CS_F09_V07",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-09",
+      "split": "testing",
+      "source_sha256": "73768367045ddff75663688e4b19dfcacfacd1abd2f76076ecc6a9c1d80f4d86",
+      "expected_output": "340\n340\n340\n340\n348\n"
+    },
+    {
+      "id": "CS_F09_V08",
+      "category": "common_subexpressions",
+      "size": "medium",
+      "family_id": "common_subexpressions:family-09",
+      "split": "testing",
+      "source_sha256": "cdb1a258ac00a7c198908ee4e5c297709e083ba67b8b620da3c9fde2fd5e61cf",
+      "expected_output": "45\n45\n45\n45\n54\n"
+    },
+    {
+      "id": "CS_F09_V09",
+      "category": "common_subexpressions",
+      "size": "large",
+      "family_id": "common_subexpressions:family-09",
+      "split": "testing",
+      "source_sha256": "bddc175eadf3b84a296caf516c698e37cf052db77efed2713232ff36b13e5c35",
+      "expected_output": "115\n115\n115\n115\n115\n115\n115\n117\n"
+    }
+  ],
+  "note": "Inactive archive preserving prior programs. It is not read by either active training pipeline."
+}

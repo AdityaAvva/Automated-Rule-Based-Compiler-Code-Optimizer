@@ -1,0 +1,10 @@
+{
+  "id": "CAT2_024",
+  "category": "algebraic_redundancy",
+  "size": "small",
+  "source": "base3 = 13; x3 = base3 + 0; y3 = x3 * 1; print(y3);",
+  "expected_output": "13\n",
+  "inputs": [
+    {}
+  ]
+}

@@ -1,0 +1,1 @@
+sum15 = 25; for(index15=0;index15<2;index15=index15+1){ sum15 = sum15 + index15 * 3; } print(sum15);

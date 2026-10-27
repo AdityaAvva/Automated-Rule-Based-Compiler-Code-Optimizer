@@ -1,0 +1,10 @@
+{
+  "id": "CAT1_010",
+  "category": "constant_expressions",
+  "size": "small",
+  "source": "x = 14 * 4; print(x); y = x + 7; print(y); z = y - 1; print(z);",
+  "expected_output": "56\n63\n62\n",
+  "inputs": [
+    {}
+  ]
+}

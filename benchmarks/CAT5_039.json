@@ -1,0 +1,10 @@
+{
+  "id": "CAT5_039",
+  "category": "loop_based",
+  "size": "small",
+  "source": "sum18 = 28; for(index18=0;index18<2;index18=index18+1){ sum18 = sum18 + index18 * 3; } print(sum18);",
+  "expected_output": "31\n",
+  "inputs": [
+    {}
+  ]
+}

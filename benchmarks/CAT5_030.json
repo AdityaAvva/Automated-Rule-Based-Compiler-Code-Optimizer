@@ -1,0 +1,10 @@
+{
+  "id": "CAT5_030",
+  "category": "loop_based",
+  "size": "small",
+  "source": "sum9 = 19; for(index9=0;index9<2;index9=index9+1){ sum9 = sum9 + index9 * 3; } print(sum9);",
+  "expected_output": "22\n",
+  "inputs": [
+    {}
+  ]
+}

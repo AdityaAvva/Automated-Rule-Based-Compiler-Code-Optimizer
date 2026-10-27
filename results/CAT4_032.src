@@ -1,0 +1,1 @@
+left11 = 18; right11 = 9; first11 = left11 * right11; again11 = left11 * right11; print(first11); print(again11);

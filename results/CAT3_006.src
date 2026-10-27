@@ -1,0 +1,1 @@
+unused5 = 16; also_unused5 = 25 * 3; answer = 12; print(answer);

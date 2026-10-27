@@ -1,0 +1,1 @@
+left7 = 14; right7 = 9; first7 = left7 * right7; again7 = left7 * right7; print(first7); print(again7);

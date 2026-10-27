@@ -1,0 +1,10 @@
+{
+  "id": "CAT5_055",
+  "category": "loop_based",
+  "size": "small",
+  "source": "s14 = 5; for(i14=0;i14<2;i14=i14+1){ s14 = s14 + i14 * 3; } print(s14);",
+  "expected_output": "8\n",
+  "inputs": [
+    {}
+  ]
+}

@@ -1,0 +1,1 @@
+unused11 = 22; also_unused11 = 31 * 3; answer = 18; print(answer);

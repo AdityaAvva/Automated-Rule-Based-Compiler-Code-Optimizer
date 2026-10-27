@@ -1,0 +1,13 @@
+[
+  "gcc-pr96392-plus-zero",
+  "gcc-pr96392-sub-zero",
+  "synthetic-fold-multiply",
+  "synthetic-propagation-chain",
+  "synthetic-algebraic-multiply-one",
+  "synthetic-fold-remainder",
+  "synthetic-strength-reduction",
+  "synthetic-loop-unroll",
+  "synthetic-unary-negation",
+  "synthetic-parenthesized-expression",
+  "synthetic-variable-reassignment"
+]

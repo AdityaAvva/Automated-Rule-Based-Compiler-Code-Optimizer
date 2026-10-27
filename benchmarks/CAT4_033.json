@@ -1,0 +1,10 @@
+{
+  "id": "CAT4_033",
+  "category": "repeated_expressions",
+  "size": "small",
+  "source": "left12 = 19; right12 = 9; first12 = left12 * right12; again12 = left12 * right12; print(first12); print(again12);",
+  "expected_output": "171\n171\n",
+  "inputs": [
+    {}
+  ]
+}

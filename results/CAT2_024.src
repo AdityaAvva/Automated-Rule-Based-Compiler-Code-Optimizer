@@ -1,0 +1,1 @@
+base3 = 13; x3 = base3 + 0; y3 = x3 * 1; print(y3);

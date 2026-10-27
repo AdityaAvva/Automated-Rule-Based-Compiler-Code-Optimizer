@@ -1,0 +1,1 @@
+a1 = 3; b1 = 5; x1 = a1 + b1; y1 = a1 + b1; print(x1); print(y1);

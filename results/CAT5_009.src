@@ -1,0 +1,1 @@
+sum8 = 8; for(i8=0;i8<2;i8=i8+1){ sum8 = sum8 + i8 * 2; } print(sum8);

@@ -1,0 +1,1 @@
+sum10 = 20; for(index10=0;index10<2;index10=index10+1){ sum10 = sum10 + index10 * 3; } print(sum10);

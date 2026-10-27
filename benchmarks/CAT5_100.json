@@ -1,0 +1,10 @@
+{
+  "id": "CAT5_100",
+  "category": "loop_based",
+  "size": "small",
+  "source": "s59 = 10; for(i59=0;i59<2;i59=i59+1){ s59 = s59 + i59 * 2; } print(s59);",
+  "expected_output": "12\n",
+  "inputs": [
+    {}
+  ]
+}
